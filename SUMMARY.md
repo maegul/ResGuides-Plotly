@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Online Account and Hosting
+* [Online Account and Hosting](online_account_and_hosting.md)
 * Plotting Locally and Offline
 * Hosting Plots on Your Own
 * [follow-this-guide](gitbooksintro.md)
