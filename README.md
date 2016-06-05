@@ -1,7 +1,11 @@
-# ResGuides: Lessons for next generation digital research tools
+# What you can do after this course
+* Use an online plotting tool.
+  * That generates attractive and interactive plots.
+  * As easily as with MS Excell or equivalent.
+* Host your plots (and their underlying data) on the web.
+* Generate the same attractive and interactive plots **offline** using either *Matlab*, *Python*, *R* or *Javascript*.
+* 
 
-ResBaz (the Research Bazaar) is a campaign, community and conference, falling under the ResPlat (Research Platforms) umbrella. ResPlat is the department within the University of Melbourne that helps researchers with the research-specific IT things they do. We offer data storage, cloud and high performance computing services and run workshops on the latest digital research skills.
 
-## Contribute
+# What is Plot.ly
 
-We love contributors! Please help us improve or fix the documentation by opening a Pull Request. The easiest way to contribute is to click on the `edit this page` button on the blue header bar.
