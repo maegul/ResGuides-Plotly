@@ -38,3 +38,4 @@ This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or
 
 
 # How to use this course/material
+
