@@ -51,5 +51,7 @@ This course is modular.  Each section is independent.  You can pick and choose f
 Plotly's online plotting tool and hosting service.
 
 ###Section 2 - Plotting Offline
-Plotly's offline plotting with *Matlab*, *Python* or *R*.
+Plotly's offline plotting with *Matlab*, *Python* or *R*.  Also includes using these languages to interact with Plotly's online services.
+
+###
 
