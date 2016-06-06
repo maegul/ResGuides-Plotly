@@ -53,5 +53,6 @@ Plotly's online plotting tool and hosting service.
 ###Section 2 - Plotting Offline
 Plotly's offline plotting with *Matlab*, *Python* or *R*.  Also includes using these languages to interact with Plotly's online services.
 
-###
+###Section 3 - Advanced interactivity and hosting yourself
+More powerful interactivity and hosting plots on your own webpage or blog.  Involves learning fundamental website building tools.
 
