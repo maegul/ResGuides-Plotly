@@ -23,7 +23,6 @@ It is a plotting library that is written to work on the web (and inside web brow
 ##Plotly is universal
 Plotly is designed so that every plot can be described with a simple text file that defines all of the data and characteristics of the plot.  An example is below.
 
-
 ```JSON
 layout:
 {
