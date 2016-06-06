@@ -15,6 +15,9 @@
 
 # What is Plot.ly
 ##Plotly is web based  
+
+-> example gif of using it
+
 It is a plotting library that is written to work on the web (and inside web browsers).  Using it is much like using any other plotting tool, such as MS Excel or the standard plotting tools in *Matlab*, *Python* or *R*.  The main difference is that Plotly is web based.  The plot that is generated is built to work on the web, using *javascript*, the programming language of the web.  As you would have noticed, web sites are almost always interactive in some way - the web is designed to be interactive - and so plotting using a web based tool gives all of the possibilities of the interactivity and dynamics you have seen on the internet.
 
 ##Plotly is universal
@@ -33,5 +36,6 @@ width:1040
 *You don't write these descriptions* — plotly does that for you.  But, because it is easy for computers to write these text descriptions, it is easy for other software packages to use plotly too.  Essentially, plotly speaks a universal language.  
 
 This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The essentially functionality of plotly will not be affected by your choice of tool.  The plots will look the same no matter which language you are using.  The way you make the plots will be the same.  And you can easily convert your code for using plotly in one lanugage to another.  **It is the same plotly engine underneath.**
+
 
 # How to use this course/material
