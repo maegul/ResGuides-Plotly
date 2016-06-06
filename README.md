@@ -7,7 +7,9 @@
 * Easy interactive **offline** plotting
   * Generate the same attractive and interactive plots offline using either *Matlab*, *Python*, *R* or *Javascript*.
   * Easily host your offline generated plots online
-* **Enhance** the interactivity of your plots, and host them on your own websites or blogs, using.
+* Learn and use **fundamental website building tools** to -
+  * Enhance the interactivity of your plots.
+  * Host them on your own websites or blogs.
 
 
 
