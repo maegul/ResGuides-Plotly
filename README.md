@@ -45,8 +45,11 @@ Additional advanced features are available through a paid subscription.
 
 # How to use this course
 
-This course is modular.  Each section is independent.
+This course is modular.  Each section is independent.  You can pick and choose from them. 
 
-**Section 1 — Plotting Online**
+###Section 1 — Plotting Online
 Details plotly's online plotting tool and hosting service.
+
+###Section 2 - Plotting Offline
+
 
