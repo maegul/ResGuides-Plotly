@@ -30,6 +30,8 @@ height:532,
 width:1040
 }
 ```
-*You don't write these descriptions* — plotly does that for you.  But, because it is easy for computers to write these text descriptions, it is easy for other software packages to use plotly too.  Essentially, plotly speaks a universal language.  This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The plots will look the same no matter which language you are using.  And the 
+*You don't write these descriptions* — plotly does that for you.  But, because it is easy for computers to write these text descriptions, it is easy for other software packages to use plotly too.  Essentially, plotly speaks a universal language.  
+
+This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The essentially functionality of plotly will not be affected by your choice of tool.  The plots will look the same no matter which language you are using.  The way you make the plots will be the same.  And you can easily convert your code for using plotly in one lanugage to another.  **It is the same plotly engine underneath.**
 
 # How to use this course/material
