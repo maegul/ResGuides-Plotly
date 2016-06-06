@@ -48,8 +48,8 @@ Additional advanced features are available through a paid subscription.
 This course is modular.  Each section is independent.  You can pick and choose from them. 
 
 ###Section 1 — Plotting Online
-Details plotly's online plotting tool and hosting service.
+Plotly's online plotting tool and hosting service.
 
 ###Section 2 - Plotting Offline
-
+Plotly's offline plotting with *Matlab*, *Python* or *R*.
 
