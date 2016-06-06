@@ -37,5 +37,5 @@ width:1040
 This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The essentially functionality of plotly will not be affected by your choice of tool.  The plots will look the same no matter which language you are using.  The way you make the plots will be the same.  And you can easily convert your code for using plotly in one lanugage to another.  **It is the same plotly engine underneath.**
 
 
-# How to use this course/material
+# How to use this course
 
