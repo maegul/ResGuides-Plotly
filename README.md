@@ -36,6 +36,17 @@ width:1040
 
 This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The essentially functionality of plotly will not be affected by your choice of tool.  The plots will look the same no matter which language you are using.  The way you make the plots will be the same.  And you can easily convert your code for using plotly in one lanugage to another.  **It is the same plotly engine underneath.**
 
+## Plotly is free and open
+All of the functions and services described above are free.  The source code of the plotly library and its implementations in *Matlab*, *Python* and *R* are open and available on GitHub.
+
+Additional advanced features are available through a paid subscription.
+
+
 
 # How to use this course
+
+This course is modular.  Each section is independent.
+
+**Section 1 — Plotting Online**
+Details plotly's online plotting tool and hosting service.
 
