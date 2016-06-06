@@ -56,3 +56,5 @@ Plotly's offline plotting with *Matlab*, *Python* or *R*.  Also includes using t
 ###Section 3 - Advanced interactivity and hosting yourself
 More powerful interactivity and hosting plots on your own webpage or blog.  Involves learning fundamental website building tools.
 
+–> Venn Diagram of all possible functionalities.
+
