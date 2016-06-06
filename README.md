@@ -17,7 +17,19 @@
 ##Plotly is web based.  
 It is a plotting library that is written to work on the web (and inside web browsers).  Using it is much like using any other plotting tool, such as MS Excel or the standard plotting tools in *Matlab*, *Python* or *R*.  The main difference is that Plotly is web based.  The plot that is generated is built to work on the web, using *javascript*, the programming language of the web.  As you would have noticed, web sites are almost always interactive in some way - the web is designed to be interactive - and so plotting using a web based tool gives all of the possibilities of the interactivity and dynamics you have seen on the internet.
 
-##Plotly 
+##Plotly is universal
+Plotly is designed so that every plot can be described with a simple text file that defines all of the data and characteristics of the plot.  An example is below.
 
+
+```JSON
+layout:
+{
+  yaxis:{type:"linear", range:[-1.415939217588103,38.415939217588104]},
+  xaxis:{type:"linear",range:[0.695666029318037,6.304333970681963]},
+height:532,
+width:1040
+}
+```
+*You don't write these descriptions* — plotly does that for you.  But, because it is easy for computers to write these text descriptions, it is easy for other software packages to use plotly too.  Essentially, plotly speaks a universal language.  This means that you can use plotly with *Matlab*, *Python*, *R*, *javascript* or with their *web editor*.  The plots will look the same no matter which language you are using.  And the 
 
 # How to use this course/material
