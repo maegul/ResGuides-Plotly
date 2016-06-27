@@ -22,6 +22,16 @@ There are two main ways you can code your plotly graphs, the **hard way** and th
 The main difference between the two, though, is that the hard way involves editing the features of the plot directly, whilst the easy way involves using user-friendly python functions that speed up your coding and provide more helpful errors when you've done something wrong.
 
 The code above, specifically the ```go.Scatter()``` function, is an example of this user-friendly method.
+
+The code below is an example of this
+
+
+The main point here, though, is that by having a sense of how to edit the features of the plot directly, you get a sense of the fundamental structure of a plot.ly plot.  This structure is not complex - there just happens to be an easier way to code up a plot.ly graph by using the helpful functions in the python library.  
+
+But, it is a comprehensive description of the graph.  It is rather like it's **DNA**.  So, when you want to do anything a bit more customised or non-trivial with a plot, you will need to be able to edit this description, or **DNA**.  For this reason, we will often do something in plot.ly the hard way first, so we can understand what's going on and avoid any difficulties later on.  In reality though, the hard way is not that hard at all.
+
+Below is an example of a plot's DNA.  One would not write all of this from scratch.  Python will do much of that for us.  But being able to edit it makes us more powerful plot.ly users.  As you can see, it is literally a list of self-described parameters and the settings one would want that feature to take.
+
 ```JSON
 {
 data:[
@@ -62,10 +72,5 @@ layout:{
   }
 }
 ```
-
-The main point here, though, is that by having a sense of how to edit the features of the plot directly, you get a sense of the fundamental structure of a plot.ly plot.  This structure is not complex - there just happens to be an easier way to code up a plot.ly graph by using the helpful functions in the python library.  
-
-But, it is a comprehensive description of the graph.  It is rather like it's **DNA**.  So, when you want to do anything a bit more customised or non-trivial with a plot, you will need to be able to edit this description, or **DNA**.  For this reason, we will often do something in plot.ly the hard way first, so we can understand what's going on and avoid any difficulties later on.  In reality though, the hard way is not that hard at all.
-
 
 
