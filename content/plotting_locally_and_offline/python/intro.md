@@ -17,7 +17,7 @@ iplot([go.Scatter(x=[1,2,3], y=[1,4,9])])
   * Viewed online through the free plot.ly hosting service
 
 ## Fundamental Workings
-There are two main ways you can code you plotly graphs, the **hard way** and the **easy way**.  The hard way gives you more power and options but takes longer;  the easy way is the opposite.  We'll cover both in this course.
+There are two main ways you can code your plotly graphs, the **hard way** and the **easy way**.  The hard way gives you more power and options but takes longer;  the easy way is the opposite.  We'll cover both in this course.
 
 The main difference between the two, though, is that the hard way involves editing the features of the plot directly, whilst the easy way involves using user-friendly python functions that speed up your coding and provide more helpful errors when you've done something wrong.
 
