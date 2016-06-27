@@ -53,7 +53,23 @@ Lists remember the order in which elements are put into them.  So, when I call o
 ```python
 myDetails[0]
 ```
-Returns
+returns ...
 ```
 180.31
 ```
+
+If you were to go through the elements of the list in a for loop, you would go through them in this same order.
+
+```python
+for detail in myDetails:
+  print(detail)
+```
+returns ...
+```python
+180.31
+Errol
+30
+male
+```
+
+
