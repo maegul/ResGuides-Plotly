@@ -33,7 +33,7 @@ Apart from the offline v online distinction, there are no other differences betw
 Later in the course, on-line integration will be dealt with.
 
 
-### Off-line usage
+### Offline usage
 
 * The main library
 ```python
@@ -49,7 +49,7 @@ from plotly.offline import init_notebook_mode
 init_notebook_mode()
 ```
 
-### On-line integration
+### Online integration
 
 * The main library
 ```python
