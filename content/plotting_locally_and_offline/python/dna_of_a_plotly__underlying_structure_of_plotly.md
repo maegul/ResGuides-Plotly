@@ -34,7 +34,7 @@ age = 30
 gender = 'male'
 ```
 
-As we often many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
+As we often have many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
 
 ### Lists are ordered
 
