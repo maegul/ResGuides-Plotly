@@ -19,4 +19,8 @@ Here, we will —
 
 ---
 
+## Dicts and Lists - named and ordered containers
+
+** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, you may skip to the next section**
+
 
