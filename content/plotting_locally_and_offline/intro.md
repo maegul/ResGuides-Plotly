@@ -10,6 +10,6 @@ This engine can be driven by any of the four main scripting languages used for d
 
 For each of these languages, there is a library that provides all of the necessary functions.  These enable you to generate everything that plot.ly is capable of generating, using your native programming language, without any connection to the internet or any online service, and with complete privacy.
 
-The plot.ly tools for each of the languages are dealt with separately in this course.  Take items in the list above are linked to the relevant sections. 
+The plot.ly tools for each of the languages are dealt with separately in this course.  The items in the list above are linked to the relevant sections. 
 
 
