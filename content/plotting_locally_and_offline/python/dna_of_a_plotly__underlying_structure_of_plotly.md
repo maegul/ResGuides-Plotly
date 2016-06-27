@@ -38,10 +38,22 @@ As we often have many such variables, there fortunately exist varaibles that are
 
 ### Lists — ordered containers
 
+#### Creating Lists
 Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
 
 The elements of a list - that is, the other variables *contained* within it - are placed in the list by being between the square brackets and separated by a comma:
 
 ```python
 myDetails = [height, name, age, gender]
+```
+
+#### Ordering
+Lists remember the order in which elements are put into them.  So, when I call on the first element in the list, with the index zero, I will get my height, ```180.31```, back.
+
+```python
+myDetails[0]
+```
+Returns
+```
+180.31
 ```
