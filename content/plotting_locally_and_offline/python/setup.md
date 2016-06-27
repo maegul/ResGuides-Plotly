@@ -3,6 +3,7 @@
 ## Installation
 
 * If you haven't already, install python and all the useful libraries you will need from [Anaconda](https://www.continuum.io/downloads).
+  * Either version 2.7 or 3.4 are fine for this course.
 * Then, from your command line, run:
 ```
 > pip install plotly 
