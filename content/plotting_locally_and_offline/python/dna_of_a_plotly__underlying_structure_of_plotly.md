@@ -72,4 +72,15 @@ Errol
 male
 ```
 
+### Dictionaries - named containers
+
+#### Names, not orders
+
+Dictionaries contain other variables just like lists.  But they don't care about or keep track of the order in which they are added.
+
+Instead, each variable added to a dictionary must have a unique name, known as a ```key```.  That variable is then retrievable by using the name or ```key``` given to it.
+
+
+#### Creating a dictionary
+
 
