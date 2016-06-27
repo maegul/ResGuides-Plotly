@@ -103,4 +103,4 @@ When using the function ```dict()```, the ```keys``` don't need to be strings, y
 myDetailsDict = dict(height=180.31, name='Errol', age=30, gender='male')
 ```
 
-Both methods create the same thing.
+Both methods create the same thing.  Generally though, using ```dict()``` is easier to identify amongst a block of code. 
