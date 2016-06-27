@@ -63,3 +63,5 @@ from plotly.plotly import iplot, plot
 import plotly.tools as tls
 tls.set_credentials_file(username='My_User_Name', api_key='My_API_Key')
 ```
+
+You will find your api_key in the settings page of your on-line account.  [This link should take you there](https://plot.ly/settings/api).  Otherwise, when logged in, you will find it accessible from the top left of your screen.
