@@ -4,6 +4,12 @@
 * [Online Account and Hosting](online_account_and_hosting.md)
 * [Plotting Locally and Offline](content/plotting_locally_and_offline/intro.md)
    * [Python](content/plotting_locally_and_offline/python/intro.md)
+     * Setup
+     * DNA of a plot.ly — underlying structure of plot.ly
+     * Using predefined graph objects
+     * Integration with the free plot.ly online service
+     * Matplotlib conversion
+     * Further Styling
    * Matlab
    * R
 * Hosting Plots on Your Own
