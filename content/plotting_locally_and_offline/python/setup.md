@@ -28,7 +28,7 @@ The plot.ly python library allows for both completely offline and private work a
 
 For this course, the offline mode will be used.  
 
-Apart from the offline v online distinction, there are no other differences between the modes, everything in this course is interchangeable.
+Apart from the offline v online distinction, there are no other differences between the modes; everything in this course is interchangeable.
 
 Later in the course, on-line integration will be dealt with.
 
