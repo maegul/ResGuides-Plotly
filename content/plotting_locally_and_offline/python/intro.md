@@ -20,7 +20,7 @@ There are two main ways you can code you plotly graphs, the **hard way** and the
 
 The main difference between the two, though, is that the hard way involves editing the features of the plot directly, whilst the easy way involves using user-friendly python functions that speed up your coding and provide more helpful errors when you've done something wrong.
 
-The main point here, though, is that by having a sense of how to edit the features of the plot directly, you get a sense of the fundamental structure of a plot.ly plot.
+The main point here, though, is that by having a sense of how to edit the features of the plot directly, you get a sense of the fundamental structure of a plot.ly plot.  This structure is not complex - there just happens to be an easier way to code up a plot.ly graph.  But, it is a comprehensive description of the graph.  It is rather like it's **DNA**.  So, when you want to do anything a bit more customised or non-trivial with a plot, you will need to be able to edit this description, or **DNA**. 
 
 
 
