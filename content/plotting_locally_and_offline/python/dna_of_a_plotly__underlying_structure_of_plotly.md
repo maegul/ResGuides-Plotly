@@ -1,2 +1,2 @@
-# DNA of a plot.ly — underlying structure of plot.ly
+# DNA of plot.ly — underlying structure of a plot.ly graph
 
