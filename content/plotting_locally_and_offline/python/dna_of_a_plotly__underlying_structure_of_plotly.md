@@ -28,10 +28,14 @@ Here, we will —
 The most common kind of variable, or *thing* in python is either a number or string variable.
 
 ```python
-myHeight = 180.31
-myName = 'Errol'
-myAge = 30
-myGender = 'male'
+height = 180.31
+name = 'Errol'
+age = 30
+gender = 'male'
 ```
+
+As we often many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
+
+### Lists are ordered
 
 
