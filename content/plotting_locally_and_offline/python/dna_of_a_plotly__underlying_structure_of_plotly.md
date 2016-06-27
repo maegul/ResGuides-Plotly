@@ -36,6 +36,12 @@ gender = 'male'
 
 As we often have many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
 
-### Lists are ordered
+### Lists — ordered containers
 
+Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
 
+The elements of a list - that is, the other variables *contained* within it - are placed in the list by being between the square brackets and separated by a comma:
+
+```python
+myDetails = [height, name, age, gender]
+```
