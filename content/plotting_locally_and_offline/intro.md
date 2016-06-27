@@ -10,4 +10,4 @@ This engine can be driven any of the four main scripting languages used for data
 
 For each of these languages, there is a library that provides all of the necessary functions
 
-[test](./plotting_locally_and_offline/python/Setup.md)
+[test](content/plotting_locally_and_offline/python/Setup.md)
