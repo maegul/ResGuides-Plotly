@@ -104,3 +104,14 @@ myDetailsDict = dict(height=180.31, name='Errol', age=30, gender='male')
 ```
 
 Both methods create the same thing.  Generally though, using ```dict()``` is easier to identify amongst a block of code. 
+
+#### Accessing elements of a dictionary
+
+Much like an element of a list is accessed by placing its position in square brackets after the name of the list (eg ```myList[0]```), a dictionary element is placed by placing not its position but its ```key```:
+```python
+myDetailsDict['name']
+```
+*returns ...*
+```
+'Errol'
+```
