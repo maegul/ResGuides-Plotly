@@ -21,7 +21,47 @@ There are two main ways you can code your plotly graphs, the **hard way** and th
 
 The main difference between the two, though, is that the hard way involves editing the features of the plot directly, whilst the easy way involves using user-friendly python functions that speed up your coding and provide more helpful errors when you've done something wrong.
 
-The code above, specifically the ```python go.Scatter()``` is an example of these functions.
+The code above, specifically the ```go.Scatter()``` function, is an example of this user-friendly method.
+```JSON
+{
+data:[
+  {
+  name:"Col2",
+  xsrc:"research.bazaar:12:708060",
+    xbins:{
+    start:-0.5,
+    end:10.5,
+    size:1
+    },
+  type:"histogram",
+  uid:"05ed2d"
+  }
+],
+
+layout:{
+  width:1040,
+  autosize:true,
+  height:572,
+  xaxis:{
+    range:[
+      0,
+      10
+    ],
+    type:"linear",
+    tickmode:"linear",
+    dtick:1,
+    autorange:false
+  },
+  yaxis:{
+    range:[
+      0,
+      36.8421052631579
+      ],
+    autorange:true
+    }
+  }
+}
+```
 
 The main point here, though, is that by having a sense of how to edit the features of the plot directly, you get a sense of the fundamental structure of a plot.ly plot.  This structure is not complex - there just happens to be an easier way to code up a plot.ly graph by using the helpful functions in the python library.  
 
