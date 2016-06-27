@@ -24,7 +24,7 @@ You should have a version that is 1.12.0 or higher.
 
 
 ## What to Import
-The plot.ly python library allows for both completely offline and private work as well as integration with an the online plot.ly account.
+The plot.ly python library allows for both completely offline and private work as well as integration with an online plot.ly account.
 
 For this course, the offline mode will be used.  
 
