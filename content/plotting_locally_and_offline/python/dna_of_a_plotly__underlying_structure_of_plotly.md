@@ -19,8 +19,19 @@ Here, we will —
 
 ---
 
-## Dicts and Lists - named and ordered containers
+## Dicts and Lists
 
 ** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, you may skip to the next section**
+
+### Dictionaries and lists are containers.
+
+The most common kind of variable, or *thing* in python is either a number or string variable.
+
+```python
+myHeight = 180.31
+myName = 'Errol'
+myAge = 30
+myGender = 'male'
+```
 
 
