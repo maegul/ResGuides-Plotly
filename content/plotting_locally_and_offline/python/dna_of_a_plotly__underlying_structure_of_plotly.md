@@ -78,9 +78,25 @@ male
 
 Dictionaries contain other variables just like lists.  But they don't care about or keep track of the order in which they are added.
 
-Instead, each variable added to a dictionary must have a unique name, known as a ```key```.  That variable is then retrievable by using the name or ```key``` given to it.
+Instead, each variable added to a dictionary must have a unique name, known as a ```key```.  That variable is then retrievable by using the name or ```key``` given to it.  It is *not* retrievable by the order in which it was put into the dictionary.
 
 
 #### Creating a dictionary
 
+Dictionaries are defined by using curly brackets: ```myDict = {}```.
 
+The elements of a dictionary are given a ```key```, that is a string, such as ```'height'```, which is followed by a colon and then the variable that will be this particular element.  Each element is separated by a comma as with lists.
+
+So, the dictionary equivalent of the ```myDetails``` list above would be made as follows:
+
+```python
+myDetailsDict = {'height':180.31, 'name':'Errol', 'age':30, 'gender':'male'}
+```
+
+**However**, making each ```key``` a string, and typing all of the quotation marks, can be cumbersome.  An **alternative** that will be used in this course is to use the function ```dict()```, which helps in making the creation of dictionaries easier.
+
+When using the function ```dict()```, the ```keys``` don't need to be strings, you can simply type in what you want the key to be and the function will convert it to a string automatically.  Also, instead of using a colon, the equals sign is used.
+
+```python
+myDetailsDict = 
+```
