@@ -43,7 +43,7 @@ import plotly
 ```python
 from plotly.offline import iplot, plot
 ```
-* A function to allow embedding plots into notebooks, 
+* A function to allow embedding plots into notebooks. 
 ```python
 from plotly.offline import init_notebook_mode
 init_notebook_mode()
