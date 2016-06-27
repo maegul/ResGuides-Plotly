@@ -93,6 +93,8 @@ So, the dictionary equivalent of the ```myDetails``` list above would be made as
 myDetailsDict = {'height':180.31, 'name':'Errol', 'age':30, 'gender':'male'}
 ```
 
+#### A more user-friendly way
+
 **However**, making each ```key``` a string, and typing all of the quotation marks, can be cumbersome.  An **alternative** that will be used in this course is to use the function ```dict()```, which helps in making the creation of dictionaries easier.
 
 When using the function ```dict()```, the ```keys``` don't need to be strings, you can simply type in what you want the key to be and the function will convert it to a string automatically.  Also, instead of using a colon, the equals sign is used.
@@ -100,3 +102,5 @@ When using the function ```dict()```, the ```keys``` don't need to be strings, y
 ```python
 myDetailsDict = dict(height=180.31, name='Errol', age=30, gender='male')
 ```
+
+Both methods create the same thing.
