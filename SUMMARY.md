@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Online Account and Hosting](online_account_and_hosting.md)
 * [Plotting Locally and Offline](content/plotting_locally_and_offline/intro.md)
-   * Python
+   * [Python](content/plotting_locally_and_offline/python/intro.md)
    * Matlab
    * R
 * Hosting Plots on Your Own
