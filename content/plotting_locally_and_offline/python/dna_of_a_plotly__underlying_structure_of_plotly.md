@@ -97,6 +97,6 @@ myDetailsDict = {'height':180.31, 'name':'Errol', 'age':30, 'gender':'male'}
 
 When using the function ```dict()```, the ```keys``` don't need to be strings, you can simply type in what you want the key to be and the function will convert it to a string automatically.  Also, instead of using a colon, the equals sign is used.
 
-```{python}
+```python
 myDetailsDict = dict(height=180.31, name='Errol', age=30, gender='male')
 ```
