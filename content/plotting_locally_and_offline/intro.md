@@ -7,3 +7,7 @@ This engine can be driven any of the four main scripting languages used for data
 * Matlab
 * R
 * Javascript
+
+For each of these languages, there is a library that provides all of the necessary functions
+
+[test](./Setup.md)
