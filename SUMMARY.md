@@ -3,6 +3,9 @@
 * [Introduction](README.md)
 * [Online Account and Hosting](online_account_and_hosting.md)
 * Plotting Locally and Offline
+  * Python
+  * Matlab
+  * R
 * Hosting Plots on Your Own
 * [follow-this-guide](gitbooksintro.md)
 * [section1](content/section1.md)
