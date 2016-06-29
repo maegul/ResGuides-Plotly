@@ -138,5 +138,14 @@ myDetailsDict.keys()
 ['gender', 'age', 'name', 'height']
 ```
 
+To get all of the elements into a list, where the keys and their corresponding variables are paired together ...
+
+```python
+myDetailsDict.items()
+```
+*returns ...*
+```python
+[('gender', 'male'), ('age', 30), ('name', 'Errol'), ('height', 180.31)]
+```
 
 
