@@ -5,7 +5,7 @@
 * [Plotting Locally and Offline](content/plotting_locally_and_offline/intro.md)
    * [Python](content/plotting_locally_and_offline/python/intro.md)
        * [Setup](content/plotting_locally_and_offline/python/setup.md)
-       * [DNA of a plot.ly — underlying structure of plot.ly](content/plotting_locally_and_offline/python/dna_of_a_plotly__underlying_structure_of_plotly.md)
+       * [Dicts and lists — a crash course](content/plotting_locally_and_offline/python/dna_of_a_plotly__underlying_structure_of_plotly.md)
        * Using predefined graph objects
        * Integration with the free plot.ly online service
        * Matplotlib conversion
