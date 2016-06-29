@@ -238,14 +238,14 @@ dataSet = dict(   # opens the dict function
 )  # closes the dict function
 ```
 
-Now we can string the data set however we want to ...
+... now we can string the data set however we want to ...
 
 ```python
 # we have five team members (this can be calculated as: len(dataSet['names']))
 for i in range(5):
   # for each team member, pull out the name from 'names' and the age from 'ages'
   # notice how the use of keys makes it more obvious what's going on in the code
-  print('%s is %i years old' %(dataSet['names'][i], dataSet['ages'][i]))
+  print((dataSet['names'][i], dataSet['ages'][i]))
 ```
 *returns ...*
 ```python
