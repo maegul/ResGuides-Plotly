@@ -118,6 +118,7 @@ myDetailsDict['name']
 
 #### Looping
 
+##### Introduction
 Dictionaries are not ordered.  And so looping through all of the elements of a dictionary is not usually the reason we use them, at least in dealing with plotly.  
 
 Usually, you will manipulate particular elements of a dictionary according to what its ```key``` is.  
@@ -126,6 +127,7 @@ Nonetheless, looping can be done and can be useful or powerful.
 
 Because each element in a dictionary is made up of two 'bits' — a ```key``` and the variable we've attached to it, there are more options for the way in which you loop through the dictionary.
 
+##### Setting up a Dictionary for loops
 Either way, though, the way you loop through a dictionary is by creating a *list* of all of the elements of the dictionary.
 
 Soooo ... if you wanted to get all the keys of the dictionary, with out their corresponding variables, you would do the following:
@@ -147,5 +149,6 @@ myDetailsDict.items()
 ```python
 [('gender', 'male'), ('age', 30), ('name', 'Errol'), ('height', 180.31)]
 ```
+
 
 
