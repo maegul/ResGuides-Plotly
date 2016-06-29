@@ -256,10 +256,12 @@ Name, Age
 ('Nikki', 12)
 ```
 
+---
+---
 
 ## Exercises
 
-### Ex 1
+
 1. Make a list called ```x``` that contains a set of numbers of your own making
   * Make a similar list called ```y```.
 2. Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```.
