@@ -152,7 +152,7 @@ myDetailsDict.items()
 
 ##### Using a Dictionary in a loop
 
-Using conditiona statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
+Using conditional statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
 
 Let's say that we want to get out of our dictionary only the variables that are strings.  We would use the ```type()``` function, built into python, which returns what type of variable a variable is.  For a string, this is ```str```.
 
@@ -163,7 +163,19 @@ type('hello world')
 ```python
 str
 ```
+We can use this filter out the elements of the dictionary that are strings.
 
+```python
+for k in myDetailsDict.keys():    # this will cycle through each key, encoded as 'k'
+    if type(myDetailsDict[k]) == str: # check if string
+        print myDetailsDict[k] # if it's a string, print!
 
+```
+*returns ...*
+
+```python
+male
+Errol
+```
 
 
