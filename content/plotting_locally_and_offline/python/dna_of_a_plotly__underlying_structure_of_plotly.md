@@ -150,5 +150,20 @@ myDetailsDict.items()
 [('gender', 'male'), ('age', 30), ('name', 'Errol'), ('height', 180.31)]
 ```
 
+##### Using a Dictionary in a loop
+
+Using conditiona statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
+
+Let's say that we want to get out of our dictionary only the variables that are strings.  We would use the ```type()``` function, built into python, which returns what type of variable a variable is.  For a string, this is ```str```.
+
+```python
+type('hello world')
+```
+*returns ...*
+```python
+str
+```
+
+
 
 
