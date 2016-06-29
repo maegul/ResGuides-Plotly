@@ -245,7 +245,7 @@ dataSet = dict(   # opens the dict function
 for i in range(5):
   # for each team member, pull out the name from 'names' and the age from 'ages'
   # notice how the use of keys makes it more obvious what's going on in the code
-  print((dataSet['names'][i], dataSet['ages'][i]))
+  print( dataSet['names'][i], dataSet['ages'][i] )
 ```
 *returns ...*
 ```python
