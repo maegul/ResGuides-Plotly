@@ -201,6 +201,27 @@ Containers, that is both lists and dictionaries, as you've seen from the example
 
 Very usefully, both lists and dictionaries can contain any kind of variable, **including other containers**.  **Containers can be nested in other containers**.
 
+---
+
+A list can contain have lists as its elements:
+
+```python
+data = [ # opens the main list
+  [1, 2, 3, 4, 5], # one to five
+  [1, 4, 9, 16, 5] # the squares of one to five
+
+] # closes the main list
+```
+
+Indexing for the second element will return the second list ...
+```python
+print(data[1])
+```
+*returns ...*
+
+```python
+[1, 4, 9, 16, 5]
+```
 
 
 
