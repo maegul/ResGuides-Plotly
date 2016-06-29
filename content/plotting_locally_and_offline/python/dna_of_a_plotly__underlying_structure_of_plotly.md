@@ -163,6 +163,10 @@ type('hello world')
 ```python
 str
 ```
+
+---
+
+
 We can use this to filter out the elements of the dictionary that are strings.
 
 ```python
