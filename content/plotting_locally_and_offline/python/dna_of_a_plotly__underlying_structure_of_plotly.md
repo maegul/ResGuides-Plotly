@@ -196,5 +196,9 @@ We can do this by using the fact that strings in python are ordered and behave l
 text = 'python'
 print([text[-1], text[-2], text[-3], text[-4], text[-5], text[-6]])
 ```
+*returns ...*
+```python
+['n', 'o', 'h', 't', 'y', 'p']
+```
 
 
