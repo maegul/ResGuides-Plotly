@@ -186,3 +186,18 @@ Errol
 ```
 
 
+---
+
+Or, because python is awesome with strings, we could get out every variable that has a key that ends in 'e'.
+
+We can do this by using the fact that strings in python are ordered and behave like lists when given indices in square brackets.  Also very useful, is that negative indices start at the end, not the beginning.
+
+```python
+text = 'python'
+text[0]
+text[1]
+text[-1]
+text[-2]
+```
+
+
