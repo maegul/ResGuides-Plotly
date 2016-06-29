@@ -107,7 +107,7 @@ Both methods create the same thing.  Generally though, using ```dict()``` is eas
 
 #### Accessing elements of a dictionary
 
-Much like an element of a list is accessed by placing its position in square brackets after the name of the list (eg ```myList[0]```), a dictionary element is placed by placing not its position but its ```key```:
+Much like an element of a list is accessed by placing its position in square brackets after the name of the list (eg ```myList[0]```), a dictionary element is placed by placing not its position but its ```key``` in the square brackets:
 ```python
 myDetailsDict['name']
 ```
