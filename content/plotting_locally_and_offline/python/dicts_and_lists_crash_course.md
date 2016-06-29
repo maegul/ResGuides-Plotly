@@ -264,7 +264,8 @@ Name, Age
   * Make a similar list called ```y```.
 * Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```.
 * Presume that the ```xdata``` and ```ydata``` are paired, such that the first element of each form a pair, and the second element of each form another pair; ie ```[[x1,y1], [x2, y2], ...]```.  Now print out all of these pairs.
-* 
+* Now add another element to your dictionary.  This element should be a string that gives your dictionary a title.  Give it the name/key 'title'.
+* Come up with new ```x``` and ```y``` lists.  Now replace the ```xdata``` and ```ydata``` elements of your dictionary with these new lists.
 
 
 
