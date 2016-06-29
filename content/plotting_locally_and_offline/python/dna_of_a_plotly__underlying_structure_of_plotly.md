@@ -212,7 +212,8 @@ for k in myDetailsDict.keys():
 ```
 *returns ...*
 ```python
-
+age 30
+name Errol
 ```
 
 
