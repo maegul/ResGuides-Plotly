@@ -238,6 +238,8 @@ dataSet = dict(   # opens the dict function
 )  # closes the dict function
 ```
 
+Now we can string the data set however we want to ...
+
 ```python
 # we have five team members (this can be calculated as: len(dataSet['names']))
 for i in range(5):
