@@ -130,6 +130,12 @@ Either way, though, the way you loop through a dictionary is by creating a *list
 
 Soooo ... if you wanted to get all the keys of the dictionary, with out their corresponding variables, you would do the following:
 
-
+```python
+myDetailsDict.keys()
+```
+*returns ...*
+```python
+['gender', 'age', 'name', 'height']
+```
 
 
