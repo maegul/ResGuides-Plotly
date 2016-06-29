@@ -200,7 +200,18 @@ print([text[-1], text[-2], text[-3], text[-4], text[-5], text[-6]])
 ```python
 ['n', 'o', 'h', 't', 'y', 'p']
 ```
+Soooo ... modifying our loop from above:
 
+```python
+# this will cycle through each key, encoded as 'k'
+for k in myDetailsDict.keys(): 
+    # check if last letter of key is 'e'
+    if k[-1] == 'e': 
+        # if the key ends in 'e', print the key and its variable
+        print k, myDetailsDict[k] 
+
+
+```
 
 
 
