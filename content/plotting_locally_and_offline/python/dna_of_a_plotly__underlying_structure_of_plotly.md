@@ -209,8 +209,6 @@ for k in myDetailsDict.keys():
     if k[-1] == 'e': 
         # if the key ends in 'e', print the key and its variable
         print k, myDetailsDict[k] 
-
-
 ```
 
 
