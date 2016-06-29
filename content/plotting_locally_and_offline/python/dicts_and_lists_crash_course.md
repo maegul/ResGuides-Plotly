@@ -263,6 +263,7 @@ Name, Age
 * Make a list called ```x``` that contains a set of numbers of your own making
   * Make a similar list called ```y```.
 * Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```.
+* Presume that the ```xdata``` and ```ydata``` are paired, such that the first element of each form a pair, and the second element of each form another pair; ie ```[[x1,y1], [x2, y2], ...]```.  Now print out all of these pairs.
 * 
 
 
