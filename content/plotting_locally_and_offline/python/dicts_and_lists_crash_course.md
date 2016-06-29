@@ -225,6 +225,16 @@ print(data[1])
 [1, 4, 9, 16, 5]
 ```
 
+---
+
+Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an infomrative and unique name.
+
+```python
+dataSet = dict(   # opens the dict function
+  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],
+  ages = [30, 143, 18, 63, 12]
+)  # closes the dict function
+```
 
 
 ## Exercises
