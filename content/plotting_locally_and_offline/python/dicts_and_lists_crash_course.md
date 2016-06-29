@@ -196,7 +196,19 @@ for k in myDetailsDict.keys():
 age 30
 name Errol
 ```
+## What can containers contain
+Containers, that is both lists and dictionaries, as you've seen from the examples above, can contain strings and numbers.
+
+Very usefully, both lists and dictionaries can contain any kind of variable, **including other containers**.  **Containers can be nested in other containers**.
+
+
+
 
 ## Exercises
+
+### Ex 1
+* Make a list called ```x``` that contains a set of numbers
+
+
 
 
