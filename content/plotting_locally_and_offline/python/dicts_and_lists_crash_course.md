@@ -227,13 +227,18 @@ print(data[1])
 
 ---
 
-Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an infomrative and unique name.
+Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an informative and unique name.
 
 ```python
 dataSet = dict(   # opens the dict function
-  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],
-  ages = [30, 143, 18, 63, 12]
+  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],  # names of the team members
+  ages = [30, 143, 18, 63, 12]    # ages of the team members
 )  # closes the dict function
+```
+
+```python
+
+
 ```
 
 
