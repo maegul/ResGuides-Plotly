@@ -249,11 +249,12 @@ for i in range(5):
 ```
 *returns ...*
 ```python
-Errol is 30 years old
-Flanders is 143 years old
-Dan is 18 years old
-Alistair is 63 years old
-Nikki is 12 years old
+Name, Age
+('Errol', 30)
+('Flanders', 143)
+('Dan', 18)
+('Alistair', 63)
+('Nikki', 12)
 ```
 
 
