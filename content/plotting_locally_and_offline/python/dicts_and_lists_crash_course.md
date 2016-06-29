@@ -231,14 +231,19 @@ Dictionaries can have lists too.  Generally, and especially with plot.ly, this i
 
 ```python
 dataSet = dict(   # opens the dict function
-  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],  # names of the team members
-  ages = [30, 143, 18, 63, 12]    # ages of the team members
+  # names of the team members
+  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],  
+  # ages of the team members
+  ages = [30, 143, 18, 63, 12]    
 )  # closes the dict function
 ```
 
 ```python
-
-
+# we have five team members (this can be calculated as: len(dataSet['names']))
+for i in range(5):
+  # for each team member, pull out the name from 'names' and the age from 'ages'
+  # notice how the use of keys makes it more obvious what's going on in the code
+  print('%s is %i years old' %(dataSet['names'][i], dataSet['ages'][i]))
 ```
 
 
