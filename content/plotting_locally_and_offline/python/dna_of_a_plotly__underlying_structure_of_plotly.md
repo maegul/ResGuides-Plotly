@@ -163,12 +163,15 @@ type('hello world')
 ```python
 str
 ```
-We can use this filter out the elements of the dictionary that are strings.
+We can use this to filter out the elements of the dictionary that are strings.
 
 ```python
-for k in myDetailsDict.keys():    # this will cycle through each key, encoded as 'k'
-    if type(myDetailsDict[k]) == str: # check if string
-        print myDetailsDict[k] # if it's a string, print!
+# this will cycle through each key, encoded as 'k'
+for k in myDetailsDict.keys(): 
+    # check if variable is a string
+    if type(myDetailsDict[k]) == str: 
+        # if it's a string, print!
+        print myDetailsDict[k] 
 
 ```
 *returns ...*
