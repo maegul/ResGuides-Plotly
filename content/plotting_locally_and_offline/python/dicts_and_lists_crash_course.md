@@ -220,7 +220,6 @@ Indexing for the second element will return the second list ...
 print(data[1])
 ```
 *returns ...*
-
 ```python
 [1, 4, 9, 16, 5]
 ```
@@ -261,7 +260,9 @@ Name, Age
 ## Exercises
 
 ### Ex 1
-* Make a list called ```x``` that contains a set of numbers
+* Make a list called ```x``` that contains a set of numbers of your own making
+  * Make a similar list called ```y```
+* Make a dictionary containing both of the above lists, with the names ```xdata``` and ```ydata```
 
 
 
