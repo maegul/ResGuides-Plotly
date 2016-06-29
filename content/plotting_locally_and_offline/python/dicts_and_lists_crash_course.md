@@ -262,7 +262,7 @@ Name, Age
 ### Ex 1
 * Make a list called ```x``` that contains a set of numbers of your own making
   * Make a similar list called ```y```
-* Make a dictionary containing both of the above lists, with the names ```xdata``` and ```ydata```
+* Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```
 
 
 
