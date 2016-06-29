@@ -260,12 +260,12 @@ Name, Age
 ## Exercises
 
 ### Ex 1
-* Make a list called ```x``` that contains a set of numbers of your own making
+1. Make a list called ```x``` that contains a set of numbers of your own making
   * Make a similar list called ```y```.
-* Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```.
-* Presume that the ```xdata``` and ```ydata``` are paired, such that the first element of each form a pair, and the second element of each form another pair; ie ```[[x1,y1], [x2, y2], ...]```.  Now print out all of these pairs.
-* Now add another element to your dictionary.  This element should be a string that gives your dictionary a title.  Give it the name/key 'title'.
-* Come up with new ```x``` and ```y``` lists.  Now replace the ```xdata``` and ```ydata``` elements of your dictionary with these new lists.
+2. Make a dictionary containing both of the above lists, with the names/keys ```xdata``` and ```ydata```.
+3. Presume that the ```xdata``` and ```ydata``` are paired, such that the first element of each form a pair, and the second element of each form another pair; ie ```[[x1,y1], [x2, y2], ...]```.  Now print out all of these pairs.
+4. Now add another element to your dictionary.  This element should be a string that gives your dictionary a title.  Give it the name/key 'title'.
+5. Come up with new ```x``` and ```y``` lists.  Now replace the ```xdata``` and ```ydata``` elements of your dictionary with these new lists.
 
 
 
