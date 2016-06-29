@@ -245,6 +245,14 @@ for i in range(5):
   # notice how the use of keys makes it more obvious what's going on in the code
   print('%s is %i years old' %(dataSet['names'][i], dataSet['ages'][i]))
 ```
+*returns ...*
+```python
+Errol is 30 years old
+Flanders is 143 years old
+Dan is 18 years old
+Alistair is 63 years old
+Nikki is 12 years old
+```
 
 
 ## Exercises
