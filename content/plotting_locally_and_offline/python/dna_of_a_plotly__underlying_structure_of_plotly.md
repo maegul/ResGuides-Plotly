@@ -194,10 +194,7 @@ We can do this by using the fact that strings in python are ordered and behave l
 
 ```python
 text = 'python'
-text[0]
-text[1]
-text[-1]
-text[-2]
+print([text[-1], text[-2], text[-3], text[-4], text[-5], text[-6]])
 ```
 
 
