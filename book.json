@@ -23,6 +23,9 @@
         "edit-link": {
             "base": "https://github.com/resbaz/ResGuides-Gitbook/edit/master",
             "label": "Edit This Page"
+        },
+        "page-toc": {
+            "position": "top"
         }
     },
     "styles": {
