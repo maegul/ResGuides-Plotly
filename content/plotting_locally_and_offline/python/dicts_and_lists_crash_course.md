@@ -277,6 +277,7 @@ Name, Age
 
 ---
 
+<!--sec data-title="Demo: Lists in Dictionaries" data-id="nestdicts" data-show=true data-collapse=false ces-->
 # Exercises
 
 
@@ -287,6 +288,6 @@ Name, Age
 4. Now add another element to your dictionary.  This element should be a string that gives your dictionary a title.  Give it the name/key 'title'.
 5. Come up with new ```x``` and ```y``` lists.  Now replace the ```xdata``` and ```ydata``` elements of your dictionary with these new lists.
 
-
+<!--endsec-->
 
 
