@@ -58,7 +58,7 @@ male
 
 <br><br>
 ## Dictionaries are named containers
-<br>
+
 ### Names, not orders
 
 Dictionaries contain other variables just like lists.  But they don't care about or keep track of the order in which they are added.
