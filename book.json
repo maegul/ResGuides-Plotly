@@ -14,7 +14,8 @@
         "sectionx",
         "youtubex",
         "edit-link",
-        "-page-toc"
+        "-page-toc",
+        "atoc"
     ],
     "pluginsConfig": {
         "ga": {
