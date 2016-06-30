@@ -4,7 +4,7 @@
 
 # Dicts and Lists, a crash course
 
-** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, you may skip to the next section [DNA of a plot.ly graph](./dna_of_a_plotly_graph.md)**
+** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, please, help your fellow participants out, check out the exercises or skip to the next section [DNA of a plot.ly graph](./dna_of_a_plotly_graph.md)**
 
 ## Dictionaries and lists are containers.
 
