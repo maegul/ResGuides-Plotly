@@ -10,4 +10,6 @@ Plotly is universal.  Your plot will be exactly the same in python, on the web, 
 ## Importance
 
 Though there are user friendly python functions that generate plotly graphs for us, sometimes it will be necessary to interact with these figure dictionaries in order to make adjustments.  So, it is useful for us to know our way around them.
+
+
 This dictionary has two elements, one with the key ```data```, the other with the key ```layout```.  
