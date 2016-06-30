@@ -6,6 +6,7 @@
 
 ** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, please, help your fellow participants out, check out the exercises or skip to the next section [DNA of a plot.ly graph](./dna_of_a_plotly_graph.md)**
 
+<br>
 ## Dictionaries and lists are containers.
 
 The most common kind of variable, or *thing* in python is either a number or string variable.
