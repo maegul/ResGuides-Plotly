@@ -21,7 +21,7 @@ As we often have many such variables, there fortunately exist varaibles that are
 
 <br><br>
 ## Lists are ordered containers
-<br>
+
 ### Creating Lists
 Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
 
