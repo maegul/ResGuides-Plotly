@@ -141,7 +141,7 @@ myDetailsDict.items()
 
 Using conditional statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
 
-<!--sec data-title="Demo: Looping Dicts" data-id="section0" data-show=true ces-->
+<!--sec data-title="Demo: Looping Dicts" data-id="section0" data-show=true data-collapse=true ces-->
 
 Let's say that we want to get out of our dictionary only the variables that are strings.  We would use the ```type()``` function, built into python, which returns what type of variable a variable is.  For a string, this is ```str```.
 
@@ -217,7 +217,7 @@ Very usefully, both lists and dictionaries can contain any kind of variable, **i
 
 ---
 
-<!--sec data-title="Demo: Lists in lists" data-id="listnests" data-show=true ces-->
+<!--sec data-title="Demo: Lists in lists" data-id="listnests" data-show=true data-collapse=true ces-->
 A list can contain have lists as its elements:
 
 ```python
@@ -238,7 +238,7 @@ print(data[1])
 ```
 <!--endsec-->
 ---
-<!--sec data-title="Demo: Lists in Dictionaries" data-id="nestdicts" data-show=true ces-->
+<!--sec data-title="Demo: Lists in Dictionaries" data-id="nestdicts" data-show=true data-collapse=true ces-->
 Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an informative and unique name.
 
 ```python
