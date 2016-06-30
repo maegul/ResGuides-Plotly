@@ -19,9 +19,9 @@ gender = 'male'
 
 As we often have many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
 
-## Lists are ordered containers
+## Lists
 
-<!--sec data-title="Lists" data-id="section0" data-show=true ces-->
+<!--sec data-title="Lists are ordered containers" data-id="section0" data-show=true ces-->
 
 
 
