@@ -1,6 +1,6 @@
 
 <!-- toc -->
-# Dicts and Lists — a crash course
+# Dicts and Lists, a crash course
 
 ** This is a quick introduction to lists and dictionaries in python.  If you are familiar with these python objects, you may skip to the next section [DNA of a plot.ly graph](./)**
 
@@ -17,7 +17,7 @@ gender = 'male'
 
 As we often have many such variables, there fortunately exist varaibles that are capable of containing other variables within them.  We can call these *containers*.  Dictionaries and lists are *containers*.
 
-## Lists — ordered containers
+## Lists are ordered containers
 
 ### Creating Lists
 Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
@@ -53,7 +53,7 @@ Errol
 male
 ```
 
-## Dictionaries - named containers
+## Dictionaries are named containers
 
 ### Names, not orders
 
@@ -74,7 +74,7 @@ So, the dictionary equivalent of the ```myDetails``` list above would be made as
 myDetailsDict = {'height':180.31, 'name':'Errol', 'age':30, 'gender':'male'}
 ```
 
-### A more user-friendly way
+### A more user friendly way
 
 **However**, making each ```key``` a string, and typing all of the quotation marks, can be cumbersome.  An **alternative** that will be used in this course is to use the function ```dict()```, which helps in making the creation of dictionaries easier.
 
@@ -263,7 +263,7 @@ Name, Age
 
 ---
 
-## Exercises
+# Exercises
 
 
 1. Make a list called ```x``` that contains a set of numbers of your own making
