@@ -276,7 +276,7 @@ Name, Age
 
 ---
 
-<!--sec data-title="Demo: Lists in Dictionaries" data-id="ex" data-show=true data-collapse=false ces-->
+<!--sec data-title="Exercises" data-id="ex" data-show=true data-collapse=false ces-->
 # Exercises
 
 
