@@ -14,7 +14,7 @@
         "sectionx",
         "youtubex",
         "edit-link",
-        "page-toc"
+        "-page-toc"
     ],
     "pluginsConfig": {
         "ga": {
@@ -24,7 +24,7 @@
             "base": "https://github.com/resbaz/ResGuides-Gitbook/edit/master",
             "label": "Edit This Page"
         },
-        "page-toc": {
+        "-page-toc": {
             "position": "top"
         }
     },
