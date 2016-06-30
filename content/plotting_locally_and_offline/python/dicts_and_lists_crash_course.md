@@ -237,7 +237,7 @@ print(data[1])
 ```
 <!--endsec-->
 ---
-
+<!--sec data-title="Demo: Lists in Dictionaries" data-id="nestdicts" data-show=true ces-->
 Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an informative and unique name.
 
 ```python
@@ -270,6 +270,7 @@ Name, Age
 ('Alistair', 63)
 ('Nikki', 12)
 ```
+<!--endsec-->
 
 ---
 
