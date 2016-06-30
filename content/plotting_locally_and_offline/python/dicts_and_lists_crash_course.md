@@ -240,6 +240,9 @@ dataSet = dict(   # opens the dict function
 ... now we can string the data set however we want to ...
 
 ```python
+# print appropriate headings for the data we're about to spit out
+print( 'Name, Age')
+
 # we have five team members (this can be calculated as: len(dataSet['names']))
 for i in range(5):
   # for each team member, pull out the name from 'names' and the age from 'ages'
