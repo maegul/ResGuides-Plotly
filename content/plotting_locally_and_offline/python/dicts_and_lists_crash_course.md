@@ -216,6 +216,7 @@ Very usefully, both lists and dictionaries can contain any kind of variable, **i
 
 ---
 
+<!--sec data-title="Demo: Lists in lists" data-id="listnests" data-show=true ces-->
 A list can contain have lists as its elements:
 
 ```python
@@ -234,7 +235,7 @@ print(data[1])
 ```python
 [1, 4, 9, 16, 5]
 ```
-
+<!--endsec-->
 ---
 
 Dictionaries can have lists too.  Generally, and especially with plot.ly, this is what is very useful about dictionaries: the ability to bundle up different sets of data into a single object, the dictionary, with each bit of the data having an informative and unique name.
