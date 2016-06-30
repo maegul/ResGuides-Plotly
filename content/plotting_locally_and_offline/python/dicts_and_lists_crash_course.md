@@ -8,6 +8,7 @@
 
 ## Dictionaries and lists are containers.
 
+
 The most common kind of variable, or *thing* in python is either a number or string variable.
 
 ```python
