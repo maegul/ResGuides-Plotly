@@ -23,10 +23,6 @@
         "edit-link": {
             "base": "https://github.com/resbaz/ResGuides-Gitbook/edit/master",
             "label": "Edit This Page"
-        },
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
         }
     },
     "styles": {
