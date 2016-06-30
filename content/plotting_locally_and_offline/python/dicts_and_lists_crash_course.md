@@ -103,7 +103,7 @@ myDetailsDict['name']
 ```
 <br><br>
 ### Looping Dictionaries
-<br>
+
 #### Introduction
 Dictionaries are not ordered.  And so looping through all of the elements of a dictionary is not usually the reason we use them, at least in dealing with plotly.  
 
