@@ -4,4 +4,6 @@
 
 The two container type of variables in python, lists and dictionaries, can have within them other variables, including more lists and/or dictionaries.  For review, see [the crash course in this material](./dicts_and_lists_crash_course.md).
 
+Plotly's is universal.  Your plot will be exactly the same in python, on the web, in javascript or R.  This is because each plot is defined by a single dictionary.  And this dictionary, which contains further lists and dictionaries, contains all the information needed to make that plot.  The dictionary you were asked to make in the [exercises in the lists and dicts crash course]()
 
+This dictionary has two elements, one with the key ```data```, the other with the key ```layout```.  
