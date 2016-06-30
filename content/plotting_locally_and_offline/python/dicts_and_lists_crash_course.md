@@ -244,7 +244,7 @@ Dictionaries can have lists too.  Generally, and especially with plot.ly, this i
 ```python
 dataSet = dict(   # opens the dict function
   # names of the team members
-  names = ['Errol', 'Flanders', 'Dan', 'Alistair', 'Nikki'],  
+  names = ['Errol', 'The Queen', 'Dan', 'Alistair', 'Nikki'],  
   # ages of the team members
   ages = [30, 143, 18, 63, 12]    
 )  # closes the dict function
@@ -266,7 +266,7 @@ for i in range(5):
 ```python
 Name, Age
 ('Errol', 30)
-('Flanders', 143)
+('The Queen', 143)
 ('Dan', 18)
 ('Alistair', 63)
 ('Nikki', 12)
