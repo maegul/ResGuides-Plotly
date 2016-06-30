@@ -210,6 +210,7 @@ name Errol
 ---
 <br><br>
 ## What can containers contain
+
 Containers, that is both lists and dictionaries, as you've seen from the examples above, can contain strings and numbers.
 
 Very usefully, both lists and dictionaries can contain any kind of variable, **including other containers**.  **Containers can be nested in other containers**.
