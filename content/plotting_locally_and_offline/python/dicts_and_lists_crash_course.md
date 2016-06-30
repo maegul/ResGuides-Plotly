@@ -21,9 +21,6 @@ As we often have many such variables, there fortunately exist varaibles that are
 
 ## Lists
 
-<!--sec data-title="Lists are ordered containers" data-id="section0" data-show=true ces-->
-
-
 
 ### Creating Lists
 Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
@@ -58,8 +55,9 @@ Errol
 30
 male
 ```
-<!--endsec-->
-## Dictionaries are named containers
+
+## Dictionaries
+
 
 ### Names, not orders
 
@@ -103,9 +101,10 @@ myDetailsDict['name']
 'Errol'
 ```
 
-### Looping
 
-#### Introduction
+## Looping Dictionaries
+
+### Introduction
 Dictionaries are not ordered.  And so looping through all of the elements of a dictionary is not usually the reason we use them, at least in dealing with plotly.  
 
 Usually, you will manipulate particular elements of a dictionary according to what its ```key``` is.  
@@ -114,7 +113,7 @@ Nonetheless, looping can be done and can be useful or powerful.
 
 Because each element in a dictionary is made up of two 'bits' — a ```key``` and the variable we've attached to it, there are more options for the way in which you loop through the dictionary.
 
-#### Setting up a Dictionary for loops
+### Setting up a Dictionary for loops
 Either way, though, the way you loop through a dictionary is by creating a *list* of all of the elements of the dictionary.
 
 Soooo ... if you wanted to get all the keys of the dictionary, with out their corresponding variables, you would do the following:
@@ -137,9 +136,11 @@ myDetailsDict.items()
 [('gender', 'male'), ('age', 30), ('name', 'Errol'), ('height', 180.31)]
 ```
 
-#### Using a Dictionary in a loop
+### Using a Dictionary in a loop
 
 Using conditional statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
+
+<!--sec data-title="Demo: Looping Dicts" data-id="section0" data-show=true ces-->
 
 Let's say that we want to get out of our dictionary only the variables that are strings.  We would use the ```type()``` function, built into python, which returns what type of variable a variable is.  For a string, this is ```str```.
 
@@ -203,6 +204,9 @@ age 30
 name Errol
 ```
 
+<!--endsec-->
+
+---
 
 ## What can containers contain
 Containers, that is both lists and dictionaries, as you've seen from the examples above, can contain strings and numbers.
