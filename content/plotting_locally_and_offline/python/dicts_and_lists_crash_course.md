@@ -21,6 +21,10 @@ As we often have many such variables, there fortunately exist varaibles that are
 
 ## Lists are ordered containers
 
+<!--sec data-title="Lists are ordered containers"ces-->
+
+
+
 ### Creating Lists
 Lists are defined using square brackets: ```myList = []```.  This would be an empty list.
 
@@ -54,7 +58,7 @@ Errol
 30
 male
 ```
-
+<!--endsec-->
 ## Dictionaries are named containers
 
 ### Names, not orders
