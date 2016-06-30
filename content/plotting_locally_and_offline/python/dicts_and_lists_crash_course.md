@@ -21,7 +21,7 @@ As we often have many such variables, there fortunately exist varaibles that are
 
 ## Lists are ordered containers
 
-<!--sec data-title="Lists are ordered containers" data-id="section0" data-show=true ces-->
+<!--sec data-title="" data-id="section0" data-show=true ces-->
 
 
 
