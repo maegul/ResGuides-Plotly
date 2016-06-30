@@ -83,7 +83,9 @@ color: #00779c;
 
 .gitbook-link { display: none !important; }
 
-
+.atoc {
+  list-style-type: none;
+}
 
 
 .panel-default>.panel-heading {
