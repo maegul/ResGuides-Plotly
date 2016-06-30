@@ -8,7 +8,6 @@
 
 ## Dictionaries and lists are containers.
 
-
 The most common kind of variable, or *thing* in python is either a number or string variable.
 
 ```python
@@ -103,7 +102,7 @@ myDetailsDict['name']
 'Errol'
 ```
 <br><br>
-### Looping
+### Looping Dictionaries
 <br>
 #### Introduction
 Dictionaries are not ordered.  And so looping through all of the elements of a dictionary is not usually the reason we use them, at least in dealing with plotly.  
@@ -141,6 +140,8 @@ myDetailsDict.items()
 #### Using a Dictionary in a loop
 
 Using conditional statements about the nature or content of a key or its corresponding variable, we can start to intelligently manipulate our dictionary.
+
+<!--sec data-title="Demo: Looping Dicts" data-id="section0" data-show=true ces-->
 
 Let's say that we want to get out of our dictionary only the variables that are strings.  We would use the ```type()``` function, built into python, which returns what type of variable a variable is.  For a string, this is ```str```.
 
@@ -204,6 +205,9 @@ age 30
 name Errol
 ```
 
+<!--endsec-->
+
+---
 
 ## What can containers contain
 Containers, that is both lists and dictionaries, as you've seen from the examples above, can contain strings and numbers.
