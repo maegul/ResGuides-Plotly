@@ -15,7 +15,6 @@
        * Further styling
    * Matlab
    * R
-   * [notebookmdtest](content/plotting_locally_and_offline/python/Color+and+3D-Copy1.md)
 * Hosting Plots on Your Own
 * [follow-this-guide](gitbooksintro.md)
 * [section1](content/section1.md)
