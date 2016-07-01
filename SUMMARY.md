@@ -12,7 +12,6 @@
        * Using predefined graph objects
        * Integration with the free plot.ly online service
        * Matplotlib conversion
-       * [notebooktestMD_test](content/plotting_locally_and_offline/python/Color+and+3D-Copy1.md)
        * Further styling
    * Matlab
    * R
