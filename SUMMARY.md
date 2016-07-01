@@ -11,7 +11,7 @@
        * Integration with the free plot.ly online service
        * Matplotlib conversion
        * Further Styling
-       * notebookmd_test
+       * [notebookmd_test](Color+and+3D-Copy1.md)
    * Matlab
    * R
 * Hosting Plots on Your Own
