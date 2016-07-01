@@ -11,6 +11,7 @@
        * Integration with the free plot.ly online service
        * Matplotlib conversion
        * Further Styling
+       * notebookmd_test
    * Matlab
    * R
 * Hosting Plots on Your Own
