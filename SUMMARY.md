@@ -14,7 +14,6 @@
        * Matplotlib conversion
        * [notebooktestMD_test](content/plotting_locally_and_offline/python/Color+and+3D-Copy1.md)
        * Further styling
-           * [notebooktestMD_test](content/plotting_locally_and_offline/python/Color+and+3D-Copy1.md)
    * Matlab
    * R
 * Hosting Plots on Your Own
