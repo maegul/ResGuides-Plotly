@@ -18,5 +18,5 @@ from plotly.offline import iplot, plot, init_notebook_mode
 init_notebook_mode()
 ```
 
-## Our first plot
+## Our first plots
 
