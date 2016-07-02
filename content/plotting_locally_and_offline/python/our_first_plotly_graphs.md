@@ -25,3 +25,16 @@ import numpy as np
 
 ### Lines and Scatters
 
+```python
+# data points along the x axis
+x = np.linspace(0, 5, 50)
+
+# data points along the y axis
+y = x**2
+
+# define a single plot
+trace1 = go.Scatter(x=x, y=y)
+
+# graph all plots in the IPython notebook
+iplot([trace1])
+```
