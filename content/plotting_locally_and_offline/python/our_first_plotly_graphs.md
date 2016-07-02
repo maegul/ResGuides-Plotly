@@ -49,7 +49,7 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 ### Lines and Scatters
 
 #### The usual process
-* Use ```graph_objs``` to put your data into a plot
+* Use a ```graph object``` from ```graph_objs``` to put your data into a plot
 * Each single plot is called a ```trace``` in plotly.  Usually you give it its own variable name.
 * Put your trace, or multiple traces if you have more than one, into a list.
 * Pass your list to the ```iplot``` or ```plot``` function. 
@@ -71,6 +71,32 @@ iplot([trace1]) # NOTE ... traces go inside a list
 <iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/33.embed"></iframe>
 
 <!--endsec-->
+
+#### Lines or points
+
+Most common stylistic choice — whether to plot your data points as lines or points.
+
+Despite its name, ```go.Scatter``` does both.  It is really the '*go-to*' plotting function.
+
+To go between lines and dots, you must use your first option in a ```graph object```.
+
+The option is ```mode```.  It has the following options:
+
+* 'markers' ... renders data points as points or symbol; the symbol can be customised 
+* 'lines' ... renders as simple lines
+* 'text' ... renders only the text associated with the data point.  We don't have any yet, but will later.
+
+your trace looks like this:
+```python
+...
+# define a single plot ... now with a mode option
+trace1 = go.Scatter(x=xdata, y=ydata, mode='markers')
+...
+```
+
+To combine either of the modes simultaneously, connect them into a single string with a '+' symbol: ```markers+lines``` or ```lines+text``` or ```lines+markers+text```.
+
+Usually we will only use ```lines```, ```markers``` or ```lines+markers```.
 
 
 
