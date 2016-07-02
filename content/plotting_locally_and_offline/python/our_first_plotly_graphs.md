@@ -86,7 +86,8 @@ The option is ```mode```.  It has the following options:
 * 'lines' ... renders as simple lines
 * 'text' ... renders only the text associated with the data point.  We don't have any yet, but will later.
 
-your trace looks like this:
+<br>
+your trace will now look like this:
 ```python
 ...
 # define a single plot ... now with a mode option
@@ -95,8 +96,6 @@ trace1 = go.Scatter(x=xdata, y=ydata, mode='markers')
 ```
 
 To combine either of the modes simultaneously, connect them into a single string with a '+' symbol: ```markers+lines``` or ```lines+text``` or ```lines+markers+text```.
-
-Usually we will only use ```lines```, ```markers``` or ```lines+markers```.
 
 
 
