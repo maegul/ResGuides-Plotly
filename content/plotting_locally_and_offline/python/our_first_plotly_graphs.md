@@ -116,15 +116,18 @@ To give each trace a unique name for a legend, use the option ```name``` for eac
 ---
 ```python
 x = np.linspace(0, 5, 50)
+
+# Three sets of y-axis data
 y1 = x**2
 y2 = 15*np.sin(x)
 y3 = 10*np.log(x)
 
+# Three traces, each with a unique data set, mode and name
 trace1 = go.Scatter(x=x, y=x**2, mode='markers', name='Markers')
 trace2 = go.Scatter(x=x, y=y2, mode='lines', name='Lines')
 trace3 = go.Scatter(x=x, y=y3, mode='lines+markers', name='Lines and Markers')
 
-
+# put each trace into a single list, and plot all at once.
 iplot([trace1, trace2, trace3])
 ```
 <!--sec data-title="Multiple traces with legend" data-id="d2" data-show=true data-collapse=false ces-->
