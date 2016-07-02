@@ -16,6 +16,9 @@ from plotly.offline import iplot, plot, init_notebook_mode
 
 # prepare the notebook to embed plotly graphs
 init_notebook_mode()
+
+# import numpy for convenience
+import numpy as np
 ```
 
 ## Our first plots
