@@ -23,7 +23,8 @@ import numpy as np
 
 ## Our first plots
 
-### Graph Objects
+### Basic Functions
+#### Graph Objects
 ```
 plotly.graph_objs
 ``` 
@@ -38,6 +39,9 @@ Importantly though, they do provide a number of options for customising your plo
 First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter()``` to make **Line and Scatter Plots**.
 
 <br>
+
+#### FINALLY Plotting
+
 ### Lines and Scatters
 
 ```python
