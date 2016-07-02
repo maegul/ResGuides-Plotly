@@ -97,7 +97,7 @@ trace1 = go.Scatter(x=xdata, y=ydata, mode='markers')
 
 To combine either of the modes simultaneously, connect them into a single string with a '+' symbol: ```markers+lines``` or ```lines+text``` or ```lines+markers+text```.
 
-
+### Multiple plots on a single figure
 
 
 
