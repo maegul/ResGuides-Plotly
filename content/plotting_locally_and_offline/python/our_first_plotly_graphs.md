@@ -20,3 +20,5 @@ init_notebook_mode()
 
 ## Our first plots
 
+### Lines and Scatters
+
