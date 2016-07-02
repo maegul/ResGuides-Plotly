@@ -42,6 +42,8 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 
 #### FINALLY Plotting
 
+```iplot``` will embed plots into the notebook.  The 'i' in '**i**plot' stands for the 'i' in '**i**Python Notebook', which is what the tool used to be called before it becaume the Jupyter Notebook.
+
 ### Lines and Scatters
 
 ```python
