@@ -2,6 +2,8 @@
 
 ## Imports
 
+* **This is for offline usage and presumes plotly for python has been installed**
+
 ```python
 # Import base library
 import plotly
