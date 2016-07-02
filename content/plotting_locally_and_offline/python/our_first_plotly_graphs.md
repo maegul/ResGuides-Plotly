@@ -62,10 +62,10 @@ xdata = np.linspace(0, 5, 50)
 ydata = x**2
 
 # define a single plot
-trace1 = go.Scatter(x=xdata, y=ydata)
+trace = go.Scatter(x=xdata, y=ydata)
 
 # graph all plots in the IPython notebook
-iplot([trace1]) # NOTE ... traces go inside a list
+iplot([trace]) # NOTE ... traces go inside a list
 ```
 <!--sec data-title="Hello World" data-id="d1" data-show=true data-collapse=false ces-->
 <iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/33.embed"></iframe>
@@ -99,6 +99,11 @@ To combine either of the modes simultaneously, connect them into a single string
 
 ### Multiple plots on a single figure
 
+When we define our plots using ```go.Scatter()``` or another ```graph object```, which plotly calls '*traces*', we put them into a list and pass that list to ```iplot``` or ```plot```.
 
+Eg ```python iplot([trace])```
+
+
+To make multiple plots on a single figure, 
 
 
