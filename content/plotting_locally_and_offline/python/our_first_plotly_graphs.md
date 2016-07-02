@@ -33,7 +33,7 @@ xdata = np.linspace(0, 5, 50)
 ydata = x**2
 
 # define a single plot
-trace1 = go.Scatter(x=x, y=y)
+trace1 = go.Scatter(x=xdata, y=ydata)
 
 # graph all plots in the IPython notebook
 iplot([trace1])
