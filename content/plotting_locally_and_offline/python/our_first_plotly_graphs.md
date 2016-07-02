@@ -23,6 +23,21 @@ import numpy as np
 
 ## Our first plots
 
+### Graph Objects
+```
+plotly.graph_objs
+``` 
+ ... imported here as ```go```, gives us functions that provide predefined plot types.
+
+There are many of these.  The most common is ```go.Scatter()```.  Other common ones are ```go.Bar()```, ```go.Histogram``` and ```go.Heatmap()```.
+
+These functions require only the bare information for your plot, usually just the data, and take care of the styling themselves.
+
+Importantly though, they do provide a number of options for customising your plot, should you desire to do so.
+
+First, we'll focus on the most fundamental kind of plots ... **Line and Scatter Plots**.
+
+<br>
 ### Lines and Scatters
 
 ```python
@@ -43,15 +58,7 @@ iplot([trace1])
 
 <!--endsec-->
 
-#### Graph Objects
-```
-plotly.graph_objs
-``` 
- ... imported here as ```go```, gives us functions that provide predefined plot types.
 
-There are many of these.  The most common is ```go.Scatter()```.  Other common ones are ```go.Bar()```, ```go.Histogram``` and ```go.Heatmap()```.
-
-These functions
 
 
 
