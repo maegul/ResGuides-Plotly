@@ -54,6 +54,8 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 * Put your trace, or multiple traces if you have more than one, into a list.
 * Pass your list to the ```iplot``` or ```plot``` function. 
 
+---
+
 ```python
 # data points along the x axis
 xdata = np.linspace(0, 5, 50)
@@ -99,11 +101,26 @@ To combine either of the modes simultaneously, connect them into a single string
 
 ### Multiple plots on a single figure
 
-When we define our plots using ```go.Scatter()``` or another ```graph object```, which plotly calls '*traces*', we put them into a list and pass that list to ```iplot``` or ```plot```.
-
-Eg ```python iplot([trace])```
+When we define our plots using ```go.Scatter()``` or another ```graph object```, which plotly calls '*traces*', we put them into a list and pass that list to ```iplot``` or ```plot```.  Eg ```iplot([trace])```
 
 
-To make multiple plots on a single figure, 
+To make multiple plots on a single figure, create multiple traces using the ```graph object``` functions, and put each one into the list that you give to ```iplot```.  Each one will be plotted independently.
 
+---
+```python
+x = np.linspace(0, 5, 50)
+y1 = x**2
+y2 = 15*np.sin(x)
+y3 = 10*np.log(x)
+
+trace1 = go.Scatter(x=x, y=x**2, mode='markers')
+trace2 = go.Scatter(x=x, y=y2, mode='lines')
+trace3 = go.Scatter(x=x, y=y3, mode='lines+markers')
+
+
+iplot([trace1, trace2, trace3])
+```
+<!--sec data-title="Multiple Traces" data-id="d2" data-show=true data-collapse=false ces-->
+<iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe><iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe>
+<!--endsec-->
 
