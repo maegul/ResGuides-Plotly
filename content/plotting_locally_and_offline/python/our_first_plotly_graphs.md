@@ -1,9 +1,8 @@
 **Table of Contents**
 <!-- toc -->
 
-# Our first plot.ly graphs
 
-## Imports
+# Imports
 
 **This is for offline usage and presumes plotly for python has been installed**
 
@@ -24,10 +23,10 @@ init_notebook_mode()
 import numpy as np
 ```
 
-## Our first plots
+# Our first plots
 
-### Basic Functions
-#### Graph Objects
+## Basic Functions
+### Graph Objects
 ```
 plotly.graph_objs
 ``` 
@@ -43,15 +42,15 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 
 <br>
 
-#### FINALLY Plotting
+### FINALLY Plotting
 
 ```iplot``` will embed plots into the notebook.  The 'i' in '**i**plot' stands for the 'i' in '**i**Python Notebook', which is what the tool used to be called before it becaume the Jupyter Notebook.
 
 ```plot``` will save the plot to an independent html file in the local directory.  This file can be opened by any browser, and will be opened automatically.  There is the option for giving the file your own filename.
 
-### Lines and Scatters
+## Lines and Scatters
 
-#### The usual process
+### The usual process
 * Use a ```graph object``` from ```graph_objs``` to put your data into a plot
 * Each single plot is called a ```trace``` in plotly.  Usually you give it its own variable name.
 * Put your trace, or multiple traces if you have more than one, into a list.
@@ -77,7 +76,7 @@ iplot([trace]) # NOTE ... traces go inside a list
 
 <!--endsec-->
 
-#### Lines or points
+### Lines or points
 
 Most common stylistic choice — whether to plot your data points as lines or points.
 
@@ -103,14 +102,14 @@ trace1 = go.Scatter(x=xdata, y=ydata, mode='markers')
 To combine either of the modes simultaneously, connect them into a single string with a '+' symbol: ```markers+lines``` or ```lines+text``` or ```lines+markers+text```.
 
 <br>
-### Multiple plots on a single figure
+## Multiple plots on a single figure
 
 When we define our plots using ```go.Scatter()``` or another ```graph object```, which plotly calls '*traces*', we put them into a list and pass that list to ```iplot``` or ```plot```.  Eg ```iplot([trace])```
 
 
 To make multiple plots on a single figure, create multiple traces using the ```graph object``` functions, and put each one into the list that you give to ```iplot```.  Each one will be plotted independently.
 
-#### Legends
+### Legends
 
 To give each trace a unique name for a legend, use the option ```name``` for each trace, providing a string.  That name will appear automatically in a legend formatted by plotly.
 
