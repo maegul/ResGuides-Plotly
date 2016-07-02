@@ -139,4 +139,4 @@ iplot([trace1, trace2, trace3])
 
 # Exercise
 
-There is a random number generator in numpy, ```np.random.normal
+scatter of data plus line of best pearson correlation
