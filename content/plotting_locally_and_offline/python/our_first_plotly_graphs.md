@@ -1,3 +1,6 @@
+**Table of Contents**
+<!-- toc -->
+
 # Our first plot.ly graphs
 
 ## Imports
