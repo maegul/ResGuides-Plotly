@@ -47,7 +47,7 @@ iplot([trace1])
 ```
 plotly.graph_objs
 ``` 
-imported here as ```go```, gives us functions that provide predefined plot types.
+ ... imported here as ```go```, gives us functions that provide predefined plot types.
 
 There are many of these.  The most common is ```go.Scatter()```.  Other common ones are ```go.Bar()```, ```go.Histogram``` and ```go.Heatmap()```.
 
