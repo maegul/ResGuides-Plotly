@@ -44,6 +44,8 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 
 ```iplot``` will embed plots into the notebook.  The 'i' in '**i**plot' stands for the 'i' in '**i**Python Notebook', which is what the tool used to be called before it becaume the Jupyter Notebook.
 
+```plot``` will save the plot to an independent html file in the local directory.  This file can be opened by any browser, and will be opened automatically.  There is the option for giving the file your own filename.
+
 ### Lines and Scatters
 
 ```python
