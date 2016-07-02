@@ -17,3 +17,6 @@ from plotly.offline import iplot, plot, init_notebook_mode
 # prepare the notebook to embed plotly graphs
 init_notebook_mode()
 ```
+
+## Our first plot
+
