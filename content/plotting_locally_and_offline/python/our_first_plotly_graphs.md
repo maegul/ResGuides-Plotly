@@ -78,7 +78,7 @@ Most common stylistic choice — whether to plot your data points as lines or po
 
 Despite its name, ```go.Scatter``` does both.  It is really the '*go-to*' plotting function.
 
-To go between lines and dots, you must use your first option in a ```graph object```.
+To go between lines and dots, you must use our first option in a ```graph object```.
 
 The option is ```mode```.  It has the following options:
 
