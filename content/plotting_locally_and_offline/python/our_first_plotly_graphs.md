@@ -106,6 +106,12 @@ When we define our plots using ```go.Scatter()``` or another ```graph object```,
 
 To make multiple plots on a single figure, create multiple traces using the ```graph object``` functions, and put each one into the list that you give to ```iplot```.  Each one will be plotted independently.
 
+#### Legends
+
+To give each trace a unique name for a legend, use the option ```name``` for each trace, providing a string.  That name will appear automatically in a legend formatted by plotly.
+
+**Note** The automatically generated legend is also interactive.  Clicking each trace name toggles whether that trace appears in the plot or not.
+
 ---
 ```python
 x = np.linspace(0, 5, 50)
@@ -113,14 +119,14 @@ y1 = x**2
 y2 = 15*np.sin(x)
 y3 = 10*np.log(x)
 
-trace1 = go.Scatter(x=x, y=x**2, mode='markers')
-trace2 = go.Scatter(x=x, y=y2, mode='lines')
-trace3 = go.Scatter(x=x, y=y3, mode='lines+markers')
+trace1 = go.Scatter(x=x, y=x**2, mode='markers', name='Markers')
+trace2 = go.Scatter(x=x, y=y2, mode='lines', name='Lines')
+trace3 = go.Scatter(x=x, y=y3, mode='lines+markers', name='Lines and Markers')
 
 
 iplot([trace1, trace2, trace3])
 ```
-<!--sec data-title="Multiple Traces" data-id="d2" data-show=true data-collapse=false ces-->
-<iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe><iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe>
+<!--sec data-title="Multiple traces with legend" data-id="d2" data-show=true data-collapse=false ces-->
+<iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe>
 <!--endsec-->
 
