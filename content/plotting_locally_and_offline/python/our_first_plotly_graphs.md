@@ -1,6 +1,6 @@
 # Our first plot.ly graphs
 
-## Setup
+## Imports
 
 ```python
 # Import base library
