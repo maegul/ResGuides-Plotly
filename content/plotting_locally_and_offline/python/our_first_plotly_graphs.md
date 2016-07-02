@@ -41,5 +41,5 @@ iplot([trace1])
 
 
 <div>
-  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~maegul/149.embed"></iframe>
+  <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~maegul/149.embed"></iframe>
 </div>
