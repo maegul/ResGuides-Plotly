@@ -48,6 +48,12 @@ First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter
 
 ### Lines and Scatters
 
+#### The usual process
+* Use ```graph_objs``` to put your data into a plot
+* Each single plot us called a ```trace``` in plotly.  Usually you give it its own variable name.
+* Put your trace, or multiple traces if you have more than one, into a list.
+* Pass your list to the ```iplot``` or ```plot``` function. 
+
 ```python
 # data points along the x axis
 xdata = np.linspace(0, 5, 50)
