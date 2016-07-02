@@ -39,8 +39,7 @@ trace1 = go.Scatter(x=xdata, y=ydata)
 iplot([trace1])
 ```
 <!--sec data-title="Hello Worls" data-id="d1" data-show=true data-collapse=false ces-->
-<div>
 <iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/33.embed"></iframe>
-</div>
+
 <!--endsec-->
 
