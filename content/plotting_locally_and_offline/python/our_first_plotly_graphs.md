@@ -43,3 +43,7 @@ iplot([trace1])
 
 <!--endsec-->
 
+#### Graph Objects
+```plotly.graph_objs``` imported here as ```go```.
+
+
