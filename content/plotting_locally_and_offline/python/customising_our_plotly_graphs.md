@@ -51,5 +51,9 @@ It creates the same thing, doesn't require strings as keys, and uses more conven
 
 ---
 
+### Styling markers
 
+Let us style our scatter or marker plots first.
+
+In the ```graph object``` we add the attribute ```marker```
 
