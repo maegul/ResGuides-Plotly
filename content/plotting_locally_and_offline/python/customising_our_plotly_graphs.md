@@ -67,6 +67,31 @@ The styling attributes we will be editing are:
 
 You can find a complete reference of all of these attributes [on the plot.ly web page here](https://plot.ly/python/reference/).
 
+---
+
+Let us alter the color and size of the raw data scatter plot in our graph from the previous exercise.
+
+```python
+
+# define the traces in directly the list
+data = [
+    # our scatter trace
+    go.Scatter(x=x, y=y2, mode='markers', name='Raw Data',
+        marker=dict(    # marker takes a dictionary of more attributes
+            color='Plum', # colors can be defined in a number of ways, here, with HTML names
+            size=22
+        )
+    ),
+    
+    
+    # curve fit traces ... not being altered here
+    go.Scatter(x=x, y=ylin, mode='line', name='Linear Fit'),
+    go.Scatter(x=x, y=yquad, mode='line', name='Quadratic Fit')
+]
+
+# plot the traces
+iplot(data)
+```
 
 
 
