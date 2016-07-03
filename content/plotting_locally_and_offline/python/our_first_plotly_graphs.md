@@ -164,6 +164,11 @@ linfit = [ 5.54992634, -4.35896843]
 quadfit = [ 0.81263065,  0.67414246,  0.46756511]
 ```
 
+Use these curve fit results as follows:
+
+lin_curve = 
+
+
 
 ```python
 
