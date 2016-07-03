@@ -44,5 +44,9 @@ myDict = {'name':'Errol', 'age':30}
 A more convenient method for us, employed in this material, is to use the function ```dict()```:
 
 ```python
-
+myDict = dict(name='Errol, age=30)
 ```
+
+It creates the same thing, doesn't require strings as keys, and uses more conventional equals signs rather than colons.  It is also more clearly identifiable in blocks of code.
+
+
