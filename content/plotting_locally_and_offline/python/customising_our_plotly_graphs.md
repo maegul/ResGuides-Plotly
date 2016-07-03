@@ -25,5 +25,24 @@ Two things to note:
   3. ```marker``` for point or scatter traces
 4. These attributes do not take single string options, but dictionaries with potentially a number of ```attributes``` defined within them.
 
+---
 
+**If you are not completely comfortable creating and manipulating dictionaries in python, take a refresher with the crash course in these materials**
 
+---
+
+#### A quick note on making dictionaries  
+
+***NB*** *If you have come straight from the crash course, you will have already covered this*
+
+Ordinarily, dictionaries are crated in python using curly brackets, where the keys are usually strings:
+
+```python
+myDict = {'name':'Errol', 'age':30}
+```
+
+A more convenient method for us, employed in this material, is to use the function ```dict()```:
+
+```python
+
+```
