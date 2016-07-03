@@ -10,3 +10,10 @@ By the end of the exercise in the previous section, you should have ended up wit
 
 <iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/38.embed"></iframe>
 
+Here, we shall alter the styling of the lines and symbols.
+
+---
+
+### Styling Options
+
+
