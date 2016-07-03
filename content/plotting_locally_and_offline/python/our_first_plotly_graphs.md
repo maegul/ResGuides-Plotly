@@ -140,15 +140,30 @@ iplot([trace1, trace2, trace3])
 # Exercise
 
 * In the section *Exercise Data* below, three bits of data have been provided.  Some raw data and the results of trying to fit two curves to that data.  The first curve fit was for a linear curve, and the second for a quadratic or parabola curve.
-* Plot the raw data as well as the two curves
+* Plot the raw data as well as the two curves.
+* Give each of the trace appropriate names for the legend.
+* Select an appropriate '*mode*' (ie ```markers``` or ```lines```) for each of the traces.
 
 <!--sec data-title="Exercise Data" data-id="d3" data-show=true data-collapse=true ces-->
 
-Convert to numpy arrays by:
+**Notes:**
+
+* Below are the data sets to be plotted.
+* They are provided as lists that can copy and pasted to your notebook or terminal or IDE.
+* They may be converted to numpy arrays by performing the following: 
+
 ```python
-x = np.array(x)
-y = np.array(y)
+x = np.array(x) # x is now an array
+y = np.array(y) # y is now an array
 ```
+
+**Curve Fit Results**
+```python
+linfit = [ 5.54992634, -4.35896843]
+
+quadfit = [ 0.81263065,  0.67414246,  0.46756511]
+```
+
 
 ```python
 
