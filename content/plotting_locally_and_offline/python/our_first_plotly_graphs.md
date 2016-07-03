@@ -139,7 +139,7 @@ iplot([trace1, trace2, trace3])
 
 # Exercise
 
-* In the section *Exercise Data* below, three bits of data have been provided.  Some raw data and the results of trying to fit two curves to that data.  The first curve fit was for a linear curve, and the second for a quadratic or parabola curve.
+* In the section *Exercise Data* below, three bits of data have been provided — Some raw data and the results of trying to fit two curves to that data.  The first curve fit was for a linear curve, and the second for a quadratic or parabola curve.
 * Plot the raw data as well as the two curves.
 * Give each of the trace appropriate names for the legend.
 * Select an appropriate '*mode*' (ie ```markers``` or ```lines```) for each of the traces.
@@ -164,10 +164,19 @@ linfit = [ 5.54992634, -4.35896843]
 quadfit = [ 0.81263065,  0.67414246,  0.46756511]
 ```
 
+The ordering of these numbers corresponds to *a, b, c* where ...
+
+{% math %}
+  y_{lin} = ax + b
+  y_{quad} = ax^2 + bx + c
+{% endmath %}
+
+
 Use these curve fit results as follows:
-
-lin_curve = 
-
+```python
+lin_curve = linfit[0]*x + linfit[1]
+quad_curve = quadfit[0] * x**2 + quadfit[1]*x + quadfit[2]
+```
 
 
 ```python
@@ -228,3 +237,4 @@ y = [ -3.09233291e+00,   1.90717526e+00,  -5.69336351e-01,
           2.11768805e+01,   2.95325072e+01,   3.84354289e+01,
           3.22521014e+01]
 ```
+<!--endsec-->
