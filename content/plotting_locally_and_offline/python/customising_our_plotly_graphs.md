@@ -102,4 +102,9 @@ iplot(data)
 There are three ways to define colours in plotly.  
 
 1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:Plum">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
+2. Use **RGB** or **RGBA** values.  These define the amount of **R**ed, **G**reen and **B**lue in the color.  The values range from ```0``` to ```255```.  If **RGBA** values are used, the **A** stands for **A**lpha, and ranges from ```0``` to ```1```.  High values mean the color is opaque (not see-through); low values mean the color is transparent (see-through).
+  3. In plotly, use rgb or rgba values as follows:
+     ```python
+     color = 'rgba(190, 45, 110, 0.75)'  # red, green, blue, alpha
+     ```
 
