@@ -111,5 +111,5 @@ There are three ways to define colours in plotly, listed here in increasing orde
     ```python
     color = '#be2d6e'
     ```
-It is more efficient but more difficult also to use.
+It is more efficient but also more difficult to use.
 
