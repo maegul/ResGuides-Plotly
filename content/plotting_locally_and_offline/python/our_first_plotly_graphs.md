@@ -158,7 +158,8 @@ x = np.array(x) # x is now an array
 y = np.array(y) # y is now an array
 ```
 
-**Curve Fit Results**
+<br>
+**Curve Fit Results:**
 ```python
 linfit = [ 5.54992634, -4.35896843]
 
@@ -169,6 +170,7 @@ The ordering of these numbers corresponds to *a, b, c* where ...
 
 {% math %}
   y_{lin} = ax + b
+  
   y_{quad} = ax^2 + bx + c
 {% endmath %}
 
