@@ -136,6 +136,7 @@ iplot([trace1, trace2, trace3])
 <iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/35.embed"></iframe>
 <!--endsec-->
 
+---
 
 # Exercise
 
