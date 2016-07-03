@@ -170,7 +170,9 @@ The ordering of these numbers corresponds to *a, b, c* where ...
 
 {% math %}
   y_{lin} = ax + b
-  
+{% endmath %}
+
+{% math %}
   y_{quad} = ax^2 + bx + c
 {% endmath %}
 
