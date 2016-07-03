@@ -65,7 +65,7 @@ The styling attributes we will be editing are:
 * opacity
 * line
 
-You can find a complete reference of all of these attributes [on the plot.ly web page here](https://plot.ly/python/reference/).
+You can find a complete reference of all of these attributes [on the plot.ly web page here](https://plot.ly/python/reference/).  It is not the most attractive or user friendly reference page, but all the attributes are listed there.
 
 ---
 
