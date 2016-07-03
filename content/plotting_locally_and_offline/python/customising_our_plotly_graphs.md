@@ -55,5 +55,18 @@ It creates the same thing, doesn't require strings as keys, and uses more conven
 
 Let us style our scatter or marker plots first.
 
-In the ```graph object``` we add the attribute ```marker```
+In the ```graph object``` we add the attribute ```marker```.  To this attribute we give a dictionary with all the styling attributes we want to edit for this particular trace.
+
+The styling attributes we will be editing are:
+
+* size
+* color
+* symbol
+* opacity
+* line
+
+You can find a complete reference of all of these attributes [on the plot.ly web page here](https://plot.ly/python/reference/).
+
+
+
 
