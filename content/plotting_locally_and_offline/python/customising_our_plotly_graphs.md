@@ -113,3 +113,6 @@ There are three ways to define colours in plotly, listed here in increasing orde
     ```
 It is more efficient but also more difficult to use.
 
+# Exercise
+1. Alter the color and size of the markers in your plot from last exercise.
+2. Use the reference page to alter the symbol and opacity of the same trace.
