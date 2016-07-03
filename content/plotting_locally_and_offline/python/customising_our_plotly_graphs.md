@@ -105,6 +105,11 @@ There are three ways to define colours in plotly.
 2. Use **RGB** or **RGBA** values.  These define the amount of **R**ed, **G**reen and **B**lue in the color.  The values range from ```0``` to ```255```.  If **RGBA** values are used, the **A** stands for **A**lpha, and ranges from ```0``` to ```1```.  High values mean the color is opaque (not see-through); low values mean the color is transparent (see-through).
   3. In plotly, use rgb or rgba values as follows:
      ```python
-     color = 'rgba(190, 45, 110, 0.75)'  # red, green, blue, alpha
+     color = 'rgba(190, 45, 110, 0.75)'  # red, green, blue, alpha - shoud be purpleish
      ```
+3. Use hex values.  These are like rgb values in that you provide the amount of red, green and blue.  But, instead of values from 0 to 255, you use hexadecimal numbers.  In hexadecimal, 0 to 255 becomes 00 to FF.  If you aren't familiar with hexadecimal, and don't especially want to be, just stick with rgb.  If you would like to use hexadecimal, the rgb color above would be coded as follows:
+    ```python
+    color = '#be2d6e'
+    ```
+It is more efficient but more difficult also to use.
 
