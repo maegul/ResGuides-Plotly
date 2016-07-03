@@ -82,16 +82,16 @@ Most common stylistic choice — whether to plot your data points as lines or po
 
 Despite its name, ```go.Scatter``` does both.  It is really the '*go-to*' plotting function.
 
-To go between lines and dots, you must use our first option in a ```graph object```.
+To go between lines and dots, you must use our first attribute in a ```graph object```.
 
-The option is ```mode```.  It has the following options:
+The attribute is ```mode```.  It has the following options:
 
 * 'markers' ... renders data points as points or symbol; the symbol can be customised 
 * 'lines' ... renders as simple lines
 * 'text' ... renders only the text associated with the data point.  We don't have any yet, but will later.
 
 <br>
-your trace will now look like this:
+your trace code will now look like this:
 ```python
 ...
 # define a single plot ... now with a mode option
