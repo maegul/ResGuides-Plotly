@@ -38,6 +38,8 @@ These functions require only the bare information for your plot, usually just th
 
 Importantly though, they do provide a number of options for customising your plot, should you desire to do so.
 
+They accept key word arguments.
+
 First, we'll focus on the most fundamental kind of plots ... using ```go.Scatter()``` to make **Line and Scatter Plots**.
 
 <br>
