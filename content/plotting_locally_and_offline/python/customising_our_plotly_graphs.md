@@ -4,7 +4,7 @@
 
 # Customising our plot.ly graphs
 
-## Colors, lines and symbols
+## Colors, lines and markers
 
 By the end of the exercise in the previous section, you should have ended up with a graph looking like this:
 
