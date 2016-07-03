@@ -101,5 +101,5 @@ iplot(data)
 
 There are three ways to define colours in plotly.  
 
-1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:Plum">Plum</span>, used above, or
+1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:Plum">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
 
