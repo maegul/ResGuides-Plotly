@@ -93,9 +93,13 @@ data = [
 iplot(data)
 ```
 
-<!--sec data-title="Hello World" data-id="d1" data-show=true data-collapse=false ces-->
+<!--sec data-title="New Markers" data-id="d1" data-show=true data-collapse=false ces-->
 
 <!--endsec-->
 
+#### Defining colors
 
+There are three ways to define colours in plotly.  
+
+1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:Plum">Plum</span>, used above, or
 
