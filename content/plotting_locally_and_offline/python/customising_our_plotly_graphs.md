@@ -73,6 +73,17 @@ The styling attributes we will be editing are:
 * opacity
 * line
 
+Code for our trace will look like this:
+```python
+trace1 = go.Scatter(x=x, y=y, mode='markers',
+                    marker = dict(
+                                color='RadColor',
+                                symbol='RocknRoll',
+                                ...
+                              )
+                    )
+```
+
 You can find a complete reference of all of these attributes [on the plot.ly web page here](https://plot.ly/python/reference/).  It is not the most attractive or user friendly reference page, but all the attributes are listed there.
 
 ---
