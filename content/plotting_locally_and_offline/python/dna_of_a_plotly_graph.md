@@ -99,7 +99,7 @@ Figure           {}
 ```
 
 
-As an example, here is the full figure description of the last example 
+As an example, here is the full figure description of the last example in [Customising our plotly graphs](./customising_our_plotly_graphs.md), with the actual data omitted.
 
 ```python
                     # First trace, starting with the marker styling dictionary
