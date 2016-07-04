@@ -93,4 +93,12 @@ fig.data = [trace1, trace2, trace3]
 
 # Title
 
+gap minder data
 
+life expectancy over time for a few countries
+
+titles, axis titles too
+
+manipulate axes ... logarithmic, reduce number of years, angle the labels.
+
+change the range of years (focus on world war)
