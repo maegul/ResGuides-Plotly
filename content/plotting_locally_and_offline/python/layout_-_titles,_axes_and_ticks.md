@@ -46,5 +46,6 @@ Essentially, there is a graph object function for every kind of attribute needed
 Using these functions rather than simply constructing lists and dictionaries, which is completely fine, has a few advantages:
 
 1. The function names are explicit and clear and makes it easier to identify what's going on in a bit of code.
-2. The functions know what attributes that they can and cannot accept, so any 
+2. The functions know what attributes that they can and cannot accept, so any error reports will be more specific.
+3. Knowing what attributes they can accept, their help documentation lists them for easy reference 
 
