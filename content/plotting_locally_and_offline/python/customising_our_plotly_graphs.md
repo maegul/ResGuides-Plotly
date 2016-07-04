@@ -267,9 +267,7 @@ iplot(data)
 <!--endsec-->
 
 
-<h1 style="color: White;
-  background-color:#532176;
-  border: 2px solid #303; margin:0px">Exercise 2</h1>
+<h1>Exercise 2</h1>
 
 
 1. Go back to your curve fit and scatter plot.  Make your two curves wider and more transparent and have two new colors of your choice.
