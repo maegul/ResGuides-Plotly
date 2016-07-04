@@ -222,6 +222,13 @@ The main attributes of the ```line``` dictionary are the same as for the boundar
 * ```width``` - width of the line
 * ```dash``` - whether the line is ```solid```, ```dot``` or ```dash```.  Alternatively, the length of the dashes and gaps between them can be given as a number, in pixels
 
+
+#### Opacity
+
+For lines, ```opacity``` is not an attribute of the line styling attribute or dictionary.  Trying to do so will give an error.  Rather, ```opacity``` is an attribute of the graph object.  That is, it goes directly into the ```go.Scatter()```.  This is (presumably) because it is an attribute of the whole line, not, as in the case of markers, each circle or marker individually.
+
+**Question** - what happens when you give a marker trace (ie a ```go.Scatter()``` graph object with ```mode='markers'```) an opacity attribute directly rather than within the ```marker``` attribute.  It turns out to be a subtle but perhaps useful difference.
+
 ---
 
 ** A quick example: **
@@ -239,7 +246,7 @@ data = [
                line=dict(width=6, color='Orange', dash='dash')),
     
     go.Scatter(x=x, y=np.sin(x-1.5*np.pi), opacity=0.7, 
-               line=dict(width=6, color='Green', dash=3))
+               line=dict(width=6, color='Green', dash=3))  # the dashes and gaps will each be 3 pxs in length.
 ]
 
 iplot(data)
@@ -251,5 +258,9 @@ iplot(data)
 
 <!--endsec-->
 
+
+# Exercise 2
+1. Go back to your curve fit and scatter plot.  Make your two curves wider and more transparent and have two new colors of your choice.
+2. Give them some dash patterns
 
 
