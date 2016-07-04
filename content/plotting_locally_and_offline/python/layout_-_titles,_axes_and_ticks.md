@@ -81,7 +81,7 @@ fig = go.Figure(data=[trace1, trace2], layout=dict(...))  # Figure objects are d
 ```
 ... the underlying data or layout can be accessed by ...
 ```python
-#conventional
+# conventional
 fig['data'] = [trace1, trace2, trace3]
 
 # more direct plotly graph object access
