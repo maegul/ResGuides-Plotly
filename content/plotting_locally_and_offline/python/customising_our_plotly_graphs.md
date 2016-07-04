@@ -168,6 +168,8 @@ As ```line``` takes its own dictionary, we will have a dictionary inside a dicti
 
 For more readability, it often helps to define the styling in a separate variable outside of the trace definition.
 
+---
+
 ```python
 
 # Define our boundary line attributes for the raw_data trace
