@@ -144,13 +144,8 @@ Recommendations:
 
 * [Color Brewer](http://colorbrewer2.org/) - Produces color scales, all mostly made up of nice colors, with support for accommodating color blindness.  
 
-<!--sec data-title="Eg - Human Friendly Color Space" data-id="d1" data-show=true data-collapse=false ces-->
 
-<iframe scrolling="no" style="border:none;" frameborder='0' src="http://www.husl-colors.org/" height="450" width="100%"></iframe>
-
-<!--endsec-->
-
-
+---
 
 # Exercise
 1. Alter the color and size of the markers in your plot from last exercise.
