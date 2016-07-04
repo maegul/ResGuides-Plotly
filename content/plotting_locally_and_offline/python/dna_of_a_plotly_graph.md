@@ -146,3 +146,12 @@ As an example, here is the full figure description of the last example in [Custo
 
 ```
 <!--endsec-->
+
+
+# Using the Full Description
+
+## Copying and Pasting
+
+## Update Function
+
+
