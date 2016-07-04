@@ -155,3 +155,8 @@ Recommendations:
 # Exercise
 1. Alter the color and size of the markers in your plot from last exercise.
 2. Use the reference page to alter the symbol and opacity of the same trace.
+
+
+## Styling markers II - lines
+
+Markers come default without any border or boundary lines
