@@ -109,7 +109,7 @@ iplot(data)
 
 <!--endsec-->
 
-## Defining colors
+# Colors
 
 There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  The first and second ways are recommended.  The third way is if you want to show off hexadecimal. 
 
@@ -151,6 +151,7 @@ Recommendations:
 2. Use the reference page to alter the symbol and opacity of the same trace.
 
 <br>
+
 ---
 
 # Styling markers 2 - boundary lines
@@ -207,3 +208,34 @@ iplot(data)
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/42.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
+
+
+# Styling lines
+
+Styling lines is just like styling the boundary lines of markers.
+
+When the ```mode``` of a Scatter trace is set to ```line```, then there is not a ```marker``` attribute, but a ```line``` attribute.  Give to this attribute a dictionary, just as we did for ```marker```.  
+
+The main attributes of the ```line``` dictionary are the same as for the boundary lines of markers:
+
+* color
+* width
+
+---
+
+** A quick example: **
+```python
+
+line_style = dict(
+                color = 'Purple',
+                width = 9
+            )
+
+line_trace = go.Scatter(x=x, y=y, opacity = 0.7, 
+                        line=line_style
+                        )
+
+iplot([line_trace])
+```
+
+
