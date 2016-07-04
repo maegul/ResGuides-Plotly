@@ -51,6 +51,7 @@ iplot(fig)
 
 **Note** Up to now, we have been passing only a ```data``` container, that is, a list of traces, into ```iplot()```, without it being in a dictionary along with any layout variable.  This is because ```iplot()``` is happy to do that and presume default settings for the layout of the plot.  The moment any layout parameters are to be changed, then the structure above will need to be used.
 
-
+<br>
 ## Going Deeper
 
+Here most of the entire hierarchy of possible attributes and containers will be outlined.  Not everything will be outlined, and in the lowest container, there may be many attributes that you would want to customise.    
