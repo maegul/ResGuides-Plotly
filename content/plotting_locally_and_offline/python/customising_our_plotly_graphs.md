@@ -106,23 +106,45 @@ iplot(data)
 
 <!--sec data-title="New Markers" data-id="d1" data-show=true data-collapse=false ces-->
 
+<iframe scrolling="no" style="border:none;" frameborder='0' src="https://plot.ly/~research.bazaar/40.embed" height="450" width="100%"></iframe>
+
 <!--endsec-->
 
 ### Defining colors
 
-There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  
+There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  The first and second ways are recommended.  The third way is if you want to show off hexadecimal. 
 
 1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:LightSteelBlue">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
+
+
 2. Use **RGB** or **RGBA** values.  These define the amount of **R**ed, **G**reen and **B**lue in the color.  The values range from ```0``` to ```255```.  If **RGBA** values are used, the **A** stands for **A**lpha, and ranges from ```0``` to ```1```.  High values mean the color is opaque (not see-through); low values mean the color is transparent (see-through).
   3. In plotly, use rgb or rgba values as follows:
+     
      ```python
      color = 'rgba(190, 45, 110, 0.75)'  # red, green, blue, alpha - shoud be purpleish
      ```
+     
+
 3. Use hex values.  These are like rgb values in that you provide the amount of red, green and blue.  But, instead of values from 0 to 255, you use hexadecimal numbers.  In hexadecimal, 0 to 255 becomes 00 to FF.  If you aren't familiar with hexadecimal, and don't especially want to be, just stick with rgb.  If you would like to use hexadecimal, the rgb color above would be coded as follows:
     ```python
     color = '#be2d6e'
     ```
 It is more efficient but also more difficult to use.
+
+<br>
+### Using color picking tools.
+
+Using a visual tool that provides the necessary color code for you is the easiest and best way to use colors effectively.  
+
+Recommendations:
+
+* [HTML Color Picker](http://www.w3schools.com/colors/colors_picker.asp) - provides everything you need to see a particular color, and generate the required ```RGB``` or ```hex``` color code.  **NB** No color blindness assistance.
+
+* [Human Friendly Color Space](http://www.husl-colors.org/) - Similar to the Color Picker above, but works hard to keep all colors equally bright.  This makes nice colors, and allows color blindness to be accommodated somewhat.
+
+* [Color Brewer](http://colorbrewer2.org/) - Produces color scales, all mostly made up of nice colors, with support for accommodating color blindness.  
+
+
 
 # Exercise
 1. Alter the color and size of the markers in your plot from last exercise.
