@@ -4,7 +4,9 @@
 
 # Customising our plot.ly graphs
 
-* Adjusting the style and look of traces
+* Adjusting the symbols, colors and opacity of markers
+* Adjusting the width and color of lines
+* Introducing the way plotly specifies all details of the plot.
 
 <!--sec data-title="Summary" data-id="s1" data-show=true data-collapse=false ces-->
 
@@ -87,7 +89,7 @@ data = [
     
         # marker takes a dictionary of more attributes
         marker=dict(   # open dictionary function
-            color='Plum', # colors can be defined in a number of ways, here, with HTML names
+            color='LightBlue', # colors can be defined in a number of ways, here, with HTML names
             size=22       # size in pixels
         )  # close ditionary function
     ),     # close graph_obj.Scatter function
@@ -110,7 +112,7 @@ iplot(data)
 
 There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  
 
-1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:Plum">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
+1. Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:LightBlue">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
 2. Use **RGB** or **RGBA** values.  These define the amount of **R**ed, **G**reen and **B**lue in the color.  The values range from ```0``` to ```255```.  If **RGBA** values are used, the **A** stands for **A**lpha, and ranges from ```0``` to ```1```.  High values mean the color is opaque (not see-through); low values mean the color is transparent (see-through).
   3. In plotly, use rgb or rgba values as follows:
      ```python
