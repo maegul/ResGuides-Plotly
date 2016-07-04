@@ -9,7 +9,7 @@
        * [Our first plot.ly graphs](content/plotting_locally_and_offline/python/our_first_plotly_graphs.md)
        * [Customising our plot.ly graphs](content/plotting_locally_and_offline/python/customising_our_plotly_graphs.md)
        * [DNA of a plot.ly graph](content/plotting_locally_and_offline/python/dna_of_a_plotly_graph.md)
-       * Methods for updating the figure or graph objects
+       * [Methods for updating the figure or graph objects](content/plotting_locally_and_offline/python/methods_for_updating_the_figure_or_graph_objects.md)
        * Using predefined graph objects
        * Integration with the free plot.ly online service
        * Matplotlib conversion
