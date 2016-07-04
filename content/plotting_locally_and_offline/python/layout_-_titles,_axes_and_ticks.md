@@ -52,5 +52,16 @@ Using these functions rather than simply constructing lists and dictionaries, wh
 
 **For example**
 
+```python
+go.Figure().help()
+```
+*returns ...*
+```python
+Valid attributes for 'figure' at path [] under parents []:
 
+    ['layout', 'data']
+
+Run `<figure-object>.help('attribute')` on any of the above.
+'<figure-object>' is the object at []
+```
 
