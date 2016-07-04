@@ -272,3 +272,15 @@ iplot(data)
 2. Give them some dash patterns
 
 
+<!--sec data-title="Exercise Example" data-id="ex2" data-show=true data-collapse=false ces-->
+
+**Before**
+
+<iframe width="100%" height="450" frameborder="0" scrolling="no" src="https://plot.ly/~research.bazaar/38.embed"></iframe>
+
+**After**
+
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/46.embed" height="450" width="100%"></iframe>
+
+<!--endsec-->
+
