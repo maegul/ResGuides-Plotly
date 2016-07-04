@@ -200,4 +200,7 @@ data = [
 iplot(data)
 ```
 
+<!--sec data-title="Markers with Boundaries" data-id="eg1" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/42.embed" height="450" width="100%"></iframe>
 
+<!--endsec-->
