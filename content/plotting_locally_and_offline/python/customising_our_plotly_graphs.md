@@ -35,7 +35,7 @@ Two things to note:
 
 ---
 
-**If you are not completely comfortable creating and manipulating dictionaries in python, take a refresher with the crash course in these materials**
+**If you are not completely comfortable creating and manipulating dictionaries in python, take a refresher with the [crash course in these materials](./dicts_and_lists_crash_course.md)**
 
 ---
 
