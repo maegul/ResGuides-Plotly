@@ -58,11 +58,11 @@ Here most of the entire hierarchy of possible attributes and containers will be 
 
 ```python
 
-Figure    {}
-  data    []
-    trace {}
-      x, y, z    []
-      color      []
+Figure           {}
+  data           []
+    trace        {}
+      x, y, z    []   # these lists are the data
+      color      []   # and these three are styling for each data point
       size       []
       text       []
       
@@ -80,6 +80,20 @@ Figure    {}
         dash     12/'s'
       
       opacity    12
+      
+      
+  layout         {}
+    title        's'
+    xaxis        {}
+      title      's'
+      tickvals   []
+      ticktext   []
+      type       's'  # eg, logarithmic or linear
+      ...
+    yaxis        {}
+      title      's'
+      ...
+
       
 
 ```
