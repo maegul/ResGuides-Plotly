@@ -1,4 +1,4 @@
-
+<!--toc-->
 
 **If you are not completely comfortable creating and manipulating dictionaries and lists in python, take a refresher with the [crash course in these materials](./dicts_and_lists_crash_course.md)**
 
@@ -19,7 +19,7 @@ You would have noticed this when placing a line dictionary inside a marker dicti
 
 Though there are user friendly python functions that generate plotly graphs for us, sometimes it will be necessary to interact with these figure dictionaries in order to make adjustments.  Doing so may be more powerful or quicker or necessary.  So, it is useful for us to know our way around them.
 
-
+<br>
 # Structure
 
 ## Basic Rules
@@ -29,7 +29,7 @@ Though there are user friendly python functions that generate plotly graphs for 
 3. If a bunch of variables are unique and/or require a unique identifier, they go together into a **dictionary** with a name or a key.  
   4. Eg - styling variables like ```width``` and ```color``` go into a dictionary.
 
-
+<br>
 ## Basic Structure
 
 * The top most container is the ```Figure``` container.  It is a dictionary.
@@ -50,4 +50,7 @@ iplot(fig)
 ```
 
 **Note** Up to now, we have been passing only a ```data``` container, that is, a list of traces, into ```iplot()```, without it being in a dictionary along with any layout variable.  This is because ```iplot()``` is happy to do that and presume default settings for the layout of the plot.  The moment any layout parameters are to be changed, then the structure above will need to be used.
+
+
+## Going Deeper
 
