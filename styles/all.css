@@ -89,8 +89,14 @@ color: #00779c;
 
 
 .panel-default>.panel-heading {
-background-color: #FF6700;
+background-color: #2aabe2;
 color: white;
 }
 
-
+.ex {
+  color: White;
+  background-color:#532176;
+  border: 2px solid #303;
+  border-radius: 10px;
+  text-align: center
+}
