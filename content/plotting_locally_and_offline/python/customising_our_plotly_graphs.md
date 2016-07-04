@@ -4,7 +4,14 @@
 
 # Customising our plot.ly graphs
 
-## Colors, lines and markers
+* Adjusting the style and look of traces
+
+<!--sec data-title="Summary" data-id="s1" data-show=true data-collapse=false ces-->
+
+<!--endsec-->
+
+
+# Colors, lines and markers
 
 By the end of the exercise in the previous section, you should have ended up with a graph looking like this:
 
@@ -14,7 +21,7 @@ Here, we shall alter the styling of the lines and symbols.
 
 ---
 
-### Styling Options
+## Styling Options
 
 Before, we used the ```mode``` attribute to alter the appearence of the traces.  To take our options further, we will use two more attributes that are a little more complex.
 
@@ -31,7 +38,7 @@ Two things to note:
 
 ---
 
-#### A quick note on making dictionaries  
+### A quick note on making dictionaries  
 
 ***NB*** *If you have come straight from the crash course, you will have already covered this*
 
@@ -51,7 +58,7 @@ It creates the same thing, doesn't require strings as keys, and uses more conven
 
 ---
 
-### Styling markers
+## Styling markers
 
 Let us style our scatter or marker plots first.
 
@@ -77,11 +84,13 @@ Let us alter the color and size of the raw data scatter plot in our graph from t
 data = [
     # our scatter trace
     go.Scatter(x=x, y=y2, mode='markers', name='Raw Data',
-        marker=dict(    # marker takes a dictionary of more attributes
+    
+        # marker takes a dictionary of more attributes
+        marker=dict(   # open dictionary function
             color='Plum', # colors can be defined in a number of ways, here, with HTML names
-            size=22
-        )
-    ),
+            size=22       # size in pixels
+        )  # close ditionary function
+    ),     # close graph_obj.Scatter function
     
     
     # curve fit traces ... not being altered here
@@ -97,7 +106,7 @@ iplot(data)
 
 <!--endsec-->
 
-#### Defining colors
+### Defining colors
 
 There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  
 
