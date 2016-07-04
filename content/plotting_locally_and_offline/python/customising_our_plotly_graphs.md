@@ -218,24 +218,38 @@ When the ```mode``` of a Scatter trace is set to ```line```, then there is not a
 
 The main attributes of the ```line``` dictionary are the same as for the boundary lines of markers:
 
-* color
-* width
+* ```color``` - color of the line
+* ```width``` - width of the line
+* ```dash``` - whether the line is ```solid```, ```dot``` or ```dash```.  Alternatively, the length of the dashes and gaps between them can be given as a number, in pixels
 
 ---
 
 ** A quick example: **
 ```python
+x = np.linspace(0, 3*np.pi, 100)
 
-line_style = dict(
-                color = 'Purple',
-                width = 9
-            )
+data = [
+    go.Scatter(x=x, y=np.sin(x), opacity=0.7, 
+               line=dict(width=6, color='Purple', dash='solid')),
+    
+    go.Scatter(x=x, y=np.sin(x-0.5*np.pi), opacity=0.7, 
+               line=dict(width=6, color='Red', dash='dot')),
+    
+    go.Scatter(x=x, y=np.sin(x-1*np.pi), opacity=0.7, 
+               line=dict(width=6, color='Orange', dash='dash')),
+    
+    go.Scatter(x=x, y=np.sin(x-1.5*np.pi), opacity=0.7, 
+               line=dict(width=6, color='Green', dash=3))
+]
 
-line_trace = go.Scatter(x=x, y=y, opacity = 0.7, 
-                        line=line_style
-                        )
-
-iplot([line_trace])
+iplot(data)
 ```
+
+
+<!--sec data-title="Line Styles" data-id="eg2" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/44.embed" height="450" width="100%"></iframe>
+
+<!--endsec-->
+
 
 
