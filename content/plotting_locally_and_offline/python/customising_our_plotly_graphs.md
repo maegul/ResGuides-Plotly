@@ -152,7 +152,7 @@ Recommendations:
 2. Use the reference page to alter the symbol and opacity of the same trace.
 
 
-## Styling markers 2 - lines
+## Styling markers 2 - boundary lines
 
 Markers come default without any border or boundary lines.  We can add boundary line styling using the attribute ```line```.  
 
