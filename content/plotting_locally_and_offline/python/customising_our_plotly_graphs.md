@@ -12,8 +12,7 @@
 
 <!--endsec-->
 
-
-# Colors, lines and markers
+<br>
 
 By the end of the exercise in the previous section, you should have ended up with a graph looking like this:
 
@@ -23,7 +22,7 @@ Here, we shall alter the styling of the lines and symbols.
 
 ---
 
-## Styling Options
+# Styling Options
 
 Before, we used the ```mode``` attribute to alter the appearence of the traces.  To take our options further, we will use two more attributes that are a little more complex.
 
@@ -40,7 +39,7 @@ Two things to note:
 
 ---
 
-### A quick note on making dictionaries  
+## A quick note on making dictionaries  
 
 ***NB*** *If you have come straight from the crash course, you will have already covered this*
 
@@ -60,7 +59,7 @@ It creates the same thing, doesn't require strings as keys, and uses more conven
 
 ---
 
-## Styling markers
+# Styling markers
 
 Let us style our scatter or marker plots first.
 
@@ -110,7 +109,7 @@ iplot(data)
 
 <!--endsec-->
 
-### Defining colors
+## Defining colors
 
 There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  The first and second ways are recommended.  The third way is if you want to show off hexadecimal. 
 
@@ -132,7 +131,7 @@ There are three ways to define colours in plotly, listed here in increasing orde
 It is more efficient but also more difficult to use.
 
 <br>
-### Using color picking tools.
+## Using color picking tools.
 
 Using a visual tool that provides the necessary color code for you is the easiest and best way to use colors effectively.  
 
@@ -151,8 +150,10 @@ Recommendations:
 1. Alter the color and size of the markers in your plot from last exercise.
 2. Use the reference page to alter the symbol and opacity of the same trace.
 
+<br>
+---
 
-## Styling markers 2 - boundary lines
+# Styling markers 2 - boundary lines
 
 Markers come default without any border or boundary lines.  We can add boundary line styling using the attribute ```line```.  
 
