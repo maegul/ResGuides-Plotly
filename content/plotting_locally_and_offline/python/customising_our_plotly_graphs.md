@@ -223,7 +223,7 @@ The main attributes of the ```line``` dictionary are the same as for the boundar
 * ```dash``` - whether the line is ```solid```, ```dot``` or ```dash```.  Alternatively, the length of the dashes and gaps between them can be given as a number, in pixels
 
 
-#### Opacity
+## Opacity
 
 For lines, ```opacity``` is not an attribute of the line styling attribute or dictionary.  Trying to do so will give an error.  Rather, ```opacity``` is an attribute of the graph object.  That is, it goes directly into the ```go.Scatter()```.  This is (presumably) because it is an attribute of the whole line, not, as in the case of markers, each circle or marker individually.
 
