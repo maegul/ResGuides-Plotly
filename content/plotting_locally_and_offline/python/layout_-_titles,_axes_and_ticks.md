@@ -11,3 +11,8 @@
 <!--sec data-title="Summary" data-id="s1" data-show=true data-collapse=false ces-->
 
 <!--endsec-->
+
+
+# Layout
+
+As described in the section on the [DNA of a plot.ly graph]()
