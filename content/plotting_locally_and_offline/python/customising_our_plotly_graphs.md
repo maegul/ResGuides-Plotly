@@ -152,6 +152,52 @@ Recommendations:
 2. Use the reference page to alter the symbol and opacity of the same trace.
 
 
-## Styling markers II - lines
+## Styling markers 2 - lines
 
-Markers come default without any border or boundary lines
+Markers come default without any border or boundary lines.  We can add boundary line styling using the attribute ```line```.  
+
+Like the attribute ```marker```, ```line``` takes its own dictionary. 
+
+The two key attributes of ```line``` are:
+
+* ```color``` - the color of the line
+* ```width``` - the width of the line (in pixels)
+
+
+As ```line``` takes its own dictionary, we will have a dictionary inside a dictionary.  
+
+For more readability, it often helps to define the styling in a separate variable outside of the trace definition.
+
+```python
+
+# Define our boundary line attributes for the raw_data trace
+raw_line = dict(
+            color='Black',   # using an HTML named color
+            width=1.5
+        )
+
+# Define the marker attributes, this time in a separate variable
+raw_mark = dict(
+            color='White',    # Changed marker color to look cleaner with a boundary
+            size=22,
+            symbol='circle',
+            opacity=0.4,      # Brought down the opacity and boundaries often allow for this
+            line = raw_line   # We give the pre-defined dictionary to this attribute.
+    )
+
+
+data = [
+    go.Scatter(x=x, y=y2, mode='markers', name='Raw Data',
+    
+                  # Instead of all the code we had before, just the pre-defined dictionary
+                  marker=raw_mark),
+
+    # Still unaltered
+    go.Scatter(x=x, y=ylin, mode='line', name='Linear Fit'),
+    go.Scatter(x=x, y=yquad, mode='line', name='Quadratic Fit')   
+]
+
+iplot(data)
+```
+
+
