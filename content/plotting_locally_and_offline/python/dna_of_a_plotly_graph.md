@@ -58,6 +58,11 @@ Here most of the entire hierarchy of possible attributes and containers will be 
 
 Note how the particular type of container used makes sense depending on whether the variables within are unique (dict) or not (list)
 
+
+<!--sec data-title="Figure Description Structure" data-id="eg1" data-show=true data-collapse=false ces-->
+
+
+
 ```python
 Plot element      Variable/Container type
 
@@ -97,8 +102,10 @@ Figure           {}
             title      's'
             ...
 ```
+<!--endsec-->
 
 
+<!--sec data-title="Figure Description Example" data-id="eg2" data-show=true data-collapse=false ces-->
 As an example, here is the full figure description of the last example in [Customising our plotly graphs](./customising_our_plotly_graphs.md), with the actual data omitted.
 
 ```python
@@ -139,4 +146,4 @@ As an example, here is the full figure description of the last example in [Custo
 
 
 ```
-
+<!--endsec-->
