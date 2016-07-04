@@ -104,7 +104,7 @@ data = [
 iplot(data)
 ```
 
-<!--sec data-title="New Markers" data-id="d1" data-show=true data-collapse=false ces-->
+<!--sec data-title="New Markers" data-id="eg" data-show=true data-collapse=false ces-->
 
 <iframe scrolling="no" style="border:none;" frameborder='0' src="https://plot.ly/~research.bazaar/40.embed" height="450" width="100%"></iframe>
 
