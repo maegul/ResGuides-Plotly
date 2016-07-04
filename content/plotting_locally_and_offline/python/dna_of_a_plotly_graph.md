@@ -98,6 +98,9 @@ Figure           {}
             ...
 ```
 
+
+As an example, here is the full figure description of the last example 
+
 ```python
                     # First trace, starting with the marker styling dictionary
 {   'data': [   {   'marker': {   'color': 'White',
@@ -131,8 +134,8 @@ Figure           {}
                     'x': array( [...] ),
                     'y': array( [...] )
                 }
-            ]
-}
+            ]     # Closing off the data list
+}  # closing off the figure dictionary
 
 
 ```
