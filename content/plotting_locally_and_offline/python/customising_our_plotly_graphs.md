@@ -267,7 +267,7 @@ iplot(data)
 <!--endsec-->
 
 
-<span
+<h1 classs='ex'>Exercise 2</h1>
 1. Go back to your curve fit and scatter plot.  Make your two curves wider and more transparent and have two new colors of your choice.
 2. Give them some dash patterns
 
