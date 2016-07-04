@@ -56,45 +56,84 @@ iplot(fig)
 
 Here most of the entire hierarchy of possible attributes and containers will be outlined.  Not everything will be outlined, and in the lowest container, there may be many attributes that you would want to customise, which can be seen [on the plot.ly web page here](https://plot.ly/python/reference/).  But this gives a good picture of where everything that you *could* customise would be in the 'DNA'.
 
+Note how the particular type of container used makes sense depending on whether the variables within are unique (dict) or not (list)
+
 ```python
+Plot element      Variable/Container type
 
 Figure           {}
-  data           []
-    trace        {}
-      x, y, z    []   # these lists are the data
-      color      []   # and these three are styling for each data point
-      size       []
-      text       []
-      
-      marker     {}
-        color    's'
-        symbol   's'
-        line     {}
-          width  12
-          ...
-        ...
-        
-      line       {}
-        color    's'
-        width    12
-        dash     12/'s'
-      
-      opacity    12
-      
-      
-  layout         {}
-    title        's'
-    xaxis        {}
-      title      's'
-      tickvals   []
-      ticktext   []
-      type       's'  # eg, logarithmic or linear
-      ...
-    yaxis        {}
-      title      's'
-      ...
+    data           []
+        trace        {}
+            x, y, z    []   # these lists are the data
+            color      []   # and these three provide styling attributes for each data point
+            size       []
+            text       []
 
+            marker     {}
+                color    's'
+                symbol   's'
+                line     {}
+                  width  12
+                  ...
+                ...
+
+            line       {}
+                color    's'
+                width    12
+                dash     12/'s'
+
+            opacity    12
       
+      
+    layout         {}
+        title        's'
+        xaxis        {}
+            title      's'
+            tickvals   []
+            ticktext   []
+            type       's'  # eg, logarithmic or linear
+            ...
+        yaxis        {}
+            title      's'
+            ...
+```
+
+```python
+                    # First trace, starting with the marker styling dictionary
+{   'data': [   {   'marker': {   'color': 'White',
+                                  'line': {   'color': 'Black', 'width': 1.5},
+                                  'opacity': 0.4,
+                                  'size': 22,
+                                  'symbol': 'circle'},
+                    'mode': 'markers',
+                    'name': 'Raw Data',
+                    'type': 'scatter',
+                    'x': array( [...] ),  # omitted data
+                    'y': array( [...] )}, # omitted data
+                    
+                # Second trace, with line styling dictionary
+                {   'line': {   'color': 'FireBrick', 'dash': 2, 'width': 4},
+                    'mode': 'line',
+                    'name': 'Linear Fit',
+                    'opacity': 0.75,
+                    'type': 'scatter',
+                    'x': array( [...] ),
+                    'y': array( [...] )},
+                
+                # Third trace
+                {   'line': {   'color': 'DarkCyan',
+                                'dash': 'solid',
+                                'width': 8},
+                    'mode': 'line',
+                    'name': 'Quadratic Fit',
+                    'opacity': 0.75,
+                    'type': 'scatter',
+                    'x': array( [...] ),
+                    'y': array( [...] )
+                }
+            ]
+}
+
 
 ```
 
