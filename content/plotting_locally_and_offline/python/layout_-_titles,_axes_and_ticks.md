@@ -41,6 +41,7 @@ So far, we've really only used one graph object - ```go.Scatter()```.  Typing ``
 
 Essentially, there is a graph object function for every kind of attribute needed to make a plotly graph, including ```go.Trace()```, ```go.Layout()``` and ```go.Figure()```.  You can compare back to the general structure in [DNA of a plot.ly graph](./dna_of_a_plotly_graph.md) to check this.
 
+<br>
 ## What are graph objects good for ... again?
 
 Using these functions rather than simply constructing lists and dictionaries, which is completely fine, has a few advantages:
