@@ -87,3 +87,10 @@ fig['data'] = [trace1, trace2, trace3]
 # more direct plotly graph object access
 fig.data = [trace1, trace2, trace3]
 ```
+
+
+---
+
+# Title
+
+
