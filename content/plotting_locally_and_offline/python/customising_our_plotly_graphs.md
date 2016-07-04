@@ -114,7 +114,7 @@ iplot(data)
 
 There are three ways to define colours in plotly, listed here in increasing order of difficulty to use.  The first and second ways are recommended.  The third way is if you want to show off hexadecimal. 
 
-* Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:LightSteelBlue">Plum</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
+* Use the [HTML Color Names](http://www.w3schools.com/colors/colors_names.asp).  A handy list of predefined colors with easy to remember names, such as <span style="color:LightSteelBlue">LightSteelBlue</span>, used above, or <span style="color:Teal">Teal</span> or <span style="color:SlateBlue">SlateBlue</span>.
 
 
 * Use **RGB** or **RGBA** values.  These define the amount of **R**ed, **G**reen and **B**lue in the color.  The values range from ```0``` to ```255```.  If **RGBA** values are used, the **A** stands for **A**lpha, and ranges from ```0``` to ```1```.  High values mean the color is opaque (not see-through); low values mean the color is transparent (see-through).
