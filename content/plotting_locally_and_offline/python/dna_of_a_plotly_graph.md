@@ -54,4 +54,33 @@ iplot(fig)
 <br>
 ## Going Deeper
 
-Here most of the entire hierarchy of possible attributes and containers will be outlined.  Not everything will be outlined, and in the lowest container, there may be many attributes that you would want to customise.    
+Here most of the entire hierarchy of possible attributes and containers will be outlined.  Not everything will be outlined, and in the lowest container, there may be many attributes that you would want to customise, which can be seen [on the plot.ly web page here](https://plot.ly/python/reference/).  But this gives a good picture of where everything that you *could* customise would be in the 'DNA'.
+
+```python
+
+Figure    {}
+  data    []
+    trace {}
+      x, y, z    []
+      color      []
+      size       []
+      text       []
+      
+      marker     {}
+        color    's'
+        symbol   's'
+        line     {}
+          width  12
+          ...
+        ...
+        
+      line       {}
+        color    's'
+        width    12
+        dash     12/'s'
+      
+      opacity    12
+      
+
+```
+
