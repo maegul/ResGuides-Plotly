@@ -35,6 +35,7 @@ All of the styling in this section will be done through attributes in this ```la
 Moreover, from here on in, we will be adding our ```data``` and ```layout``` variables to a figure dictionary, and then passing this dictionary to our ```iplot``` function.
 
 
+<br>
 # More graph objects
 
 So far, we've really only used one graph object - ```go.Scatter()```.  Typing ```go.``` and hitting the ```tab``` key to see the autocomplete options will show you that there are many more handy graph objects.
