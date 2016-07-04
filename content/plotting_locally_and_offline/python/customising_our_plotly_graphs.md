@@ -146,7 +146,7 @@ Recommendations:
 
 ---
 
-# Exercise
+# Exercise 1
 1. Alter the color and size of the markers in your plot from last exercise.
 2. Use the reference page to alter the symbol and opacity of the same trace.
 
