@@ -144,6 +144,5 @@ As an example, here is the full figure description of the last example in [Custo
             ]     # Closing off the data list
 }  # closing off the figure dictionary
 
-
 ```
 <!--endsec-->
