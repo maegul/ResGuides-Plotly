@@ -237,16 +237,24 @@ x = np.linspace(0, 3*np.pi, 100)
 
 data = [
     go.Scatter(x=x, y=np.sin(x), opacity=0.7, 
-               line=dict(width=6, color='Purple', dash='solid')),
+               line=dict(width=6,  #line styling
+                       color='Purple', 
+                       dash='solid')),
     
     go.Scatter(x=x, y=np.sin(x-0.5*np.pi), opacity=0.7, 
-               line=dict(width=6, color='Red', dash='dot')),
+               line=dict(width=6, 
+                       color='Red', 
+                       dash='dot')),
     
     go.Scatter(x=x, y=np.sin(x-1*np.pi), opacity=0.7, 
-               line=dict(width=6, color='Orange', dash='dash')),
+               line=dict(width=6, 
+                       color='Orange', 
+                       dash='dash')),
     
     go.Scatter(x=x, y=np.sin(x-1.5*np.pi), opacity=0.7, 
-               line=dict(width=6, color='Green', dash=3))  # the dashes and gaps will each be 3 pxs in length.
+               line=dict(width=6, 
+                       color='Green', 
+                       dash=3))  # the dashes and gaps will each be 3 pxs in length.
 ]
 
 iplot(data)
