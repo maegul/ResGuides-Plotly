@@ -24,5 +24,7 @@ Though there are user friendly python functions that generate plotly graphs for 
 
 ## Basic Rules
 1. Everything in is a container, either a dictionary or a list
-2. If a bunch variables are of the same kind and not generally unique, they go together into a **list**.  Eg - multiple traces for a single plot go into a list
-3. If a bunch of variables are unique and/or require a unique identifier, they go together into a **dictionary** with a name or a key.  Eg - styling variables like ```width``` and ```color``` go into a dictionary.
+2. If a bunch variables are of the same kind and not generally unique, they go together into a **list**.  
+  3. Eg - multiple traces for a single plot go into a list
+3. If a bunch of variables are unique and/or require a unique identifier, they go together into a **dictionary** with a name or a key.  
+  4. Eg - styling variables like ```width``` and ```color``` go into a dictionary.
