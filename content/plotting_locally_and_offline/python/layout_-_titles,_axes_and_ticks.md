@@ -279,6 +279,7 @@ xax = go.XAxis(title='Year', nticks=30)
 <!--endsec-->
 
 
+<br>
 ### Set the interval for ticks
 
 A slightly more complex method is to define the interval between each tick.  With out plot, let's say 10 years.  We do this with ```dtick```, the 'd' probably standing for 'delta'.
