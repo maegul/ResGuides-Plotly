@@ -401,7 +401,20 @@ The color of the background of the plot is adjusted with two attributes.
 4. **Challenge** - The default scale for the axes is linear.  Can you change the scale to be logarithmic, and then still alter the range?  The [online reference](https://plot.ly/python/reference/) should help.
 
 
+<!--sec data-title="Exercise Data" data-id="ex1" data-show=true data-collapse=false ces-->
 
-manipulate axes ... logarithmic, reduce number of years, angle the labels.
+The data is the life expectancy and GDP per capita for a selection of nations in the year 1900.  A scatter plot is probably the more appropriate.
 
-change the range of years (focus on world war)
+```python
+
+life_expect = [ 46.32      ,  51.95      ,  48.288448  ,  49.92647059,
+        45.08      ,  43.915     ,  48.4       ,  41.66      ,
+        35.6       ,  35.        ,  33.5       ,  38.6       ,
+        18.35      ,  32.        ,  30.        ,  30.4       ,  21.77272727]
+
+
+gdp = [8013, 5566, 4858, 6688, 4314, 4596, 6063, 3528, 2412, 1985, 2802,
+       1840, 1194,  894, 1198, 1340,  995]
+```
+<!--endsec-->
+
