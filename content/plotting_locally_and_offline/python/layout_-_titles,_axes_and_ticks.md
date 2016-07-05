@@ -210,6 +210,7 @@ iplot(fig)
 <!--endsec-->
 
 
+<br>
 # Axes
 
 There a number of options for the way axes are formatted.  The major ones will be covered below, whilst the [online reference](https://plot.ly/python/reference/) should be consulted for all possible options.
@@ -218,6 +219,8 @@ All of these options are controlled through the attributes ```yaxis``` and ```xa
 
 These take dictionaries of parameters, as does practically everything in the ```layout``` dictionary.  ```go.XAxis()``` and ```go.YAxis``` can be used for convenience.
 
+
+<br>
 ## Axis Titles
 
 
@@ -244,6 +247,7 @@ layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
 <!--endsec-->
 
 
+<br>
 ## Tick locations and labels
 
 Probably the most important kind of control one wants over their axes - for what values there are ticks and what the labels are.
@@ -323,6 +327,9 @@ xax = go.XAxis(title='Year',
 <!--endsec-->
 
 
+<br>
+
+## Axis Range
 
 
 Number of axis options
