@@ -7,7 +7,7 @@
 * Revising and advancing how plotly graphs are made
 * Adjusting Graph and axis titles
 * Adjusting the axis and grid lines
-* Adjusting tick locations and labels
+* Adjusting tick locations, labels and axis ranges.
 
 <!--sec data-title="Summary" data-id="s1" data-show=true data-collapse=false ces-->
 
