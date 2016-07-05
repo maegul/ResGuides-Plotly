@@ -212,6 +212,8 @@ iplot(fig)
 
 # Axes
 
+There a number of options for the way axes are formatted.
+
 ## Axis Titles
 
 The parameters for each of the axes are defined in the attributed ```yaxis``` and ```xaxis```.
