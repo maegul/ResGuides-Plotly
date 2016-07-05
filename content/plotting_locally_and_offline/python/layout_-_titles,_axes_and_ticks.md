@@ -353,8 +353,30 @@ xax = go.XAxis(title='Year', dtick=5, tick0=1904, range=[1900, 1950])
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/58.embed" height="450" width="100%"></iframe>
 <!--endsec-->
 
+<br>
+## Styling ticks and grids
 
-## Styling ticks
+So far, none of our ticks have had any actual 'ticks' ... that is little lines indicating the location along the axis of that particular value.  Plotly, by default, relies on a faint gray grid.
+
+You may wish otherwise.  The following styling options are available:
+
+**Turn ticks on**
+To turn ticks on, the attribute ```ticks``` takes a string, either ```outside``` or ```inside``` depending on whether you want the ticks on the inside or outside of the plot.
+
+**Width, length and color of the ticks**
+The ticks themselves, that is the little lines, can be customised with:
+
+* ```ticklen```
+* ```tickwidth```
+* ```tickcolor```
+
+**Adding or removing the grid**
+```showgrid``` takes a boolean (```True``` or ```False```)
+
+**Grid color and width**
+
+* ```gridcolor```
+* ```gridwidth```
 
 
 
