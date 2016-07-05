@@ -292,7 +292,6 @@ As plotly's default is to cover all of the data, setting ```tick0``` to a year b
 ...
 xax = go.XAxis(title='Year', dtick=10, tick0=1903)
 ...
-,,,
 
 ```
 
