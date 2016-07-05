@@ -221,10 +221,7 @@ These take dictionaries of parameters, as does practically everything in the ```
 ## Axis Titles
 
 
-
----
-
-To add titles to the axes, the axis dictionaries take an immediate ```title``` attribute as was done above.
+To add titles to the axes, the axis dictionaries take a ```title``` attribute as was done for whole graph.
 
 ---
 
@@ -259,7 +256,13 @@ But, if you wish, you have complete control over the ticks, as well as some quic
 
 ### Change the number of ticks
 
+The easiest way to adjust the number of ticks on an axis.
 
+```nticks``` defines the maximum number of ticks, which plotly tries to get to within reason.
+
+---
+
+Let's say
 
 Number of axis options
 
