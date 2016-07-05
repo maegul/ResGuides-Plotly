@@ -51,6 +51,8 @@ Life expectancy from 1900 to 2015 for four countries:
 * Germany
 * Australia
 
+Copy and past and convert to numpy arrays if desired (shouldn't be necessary).
+
 ```python
 
 yrs = [1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910,
