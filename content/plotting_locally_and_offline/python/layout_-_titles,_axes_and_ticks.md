@@ -336,9 +336,9 @@ Plotly sets the range of the axes by default quite well.  In fact, it is constan
 
 Sometimes this auto-rangeing is not desirable.  Sometimes you may desire a particular range so that there is consistency between different plots for easy comparison.
 
-```range``` takes a list with the minimum and maximum values of the axis range.  The zooming and panning interactivity is still active.  But the auto-rangeing as traces are clicked on and off of the plot is disabled.
+```range``` takes a list of two values, first, the minimum value, and second, maximum value of the axis range.  The zooming and panning interactivity is still active.  But the auto-rangeing as traces are clicked on and off of the plot is disabled.
 
-If you wish for there to be no zooming along a particular axis, providing ```fixedrange``` a boolean (```True``` or ```False```) toggles this feature, for the particular axis.
+If you wish for there to be no zooming along a particular axis, providing ```fixedrange``` a boolean (```True``` or ```False```) toggles this feature, for the particular axis (eg, ```fixedrange=True```).
 
 ---
 
