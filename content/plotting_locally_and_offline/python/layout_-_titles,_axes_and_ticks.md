@@ -286,6 +286,7 @@ As plotly's default is to cover all of the data, setting ```tick0``` to a year b
 ```python
 ...
 xax = go.XAxis(title='Year', dtick=10, tick0=1903)
+...
 ,,,
 
 ```
@@ -296,6 +297,30 @@ xax = go.XAxis(title='Year', dtick=10, tick0=1903)
 
 
 ### Full Control
+
+For the whole axis, the exact set of values for which there are ticks can be specified.  Additionally, the label for each of these ticks can be specified too.
+
+```tickvals``` takes a list (or array) and defines the values for which there will be ticks.
+
+```ticktext```, which is necessary only if the defaults need to be changed, takes a list and defines the label for each of the tick values defined in ```tickvals```.  As these two lists go together, they must have the same number of elements.
+
+---
+
+For our graph, let's say that I wanted to highlight the years that World Wars 1 and 2 started, by having ticks for the years 1914 and 1939, and nothing else except for another tick in the 1960s just to highlight how awesome they were.
+
+
+```python
+...
+xax = go.XAxis(title='Year', 
+                tickvals = [1914, 1939, 1969],
+                ticktext = ['WW1', 'WW2', 'peace ... man']
+              )
+...
+```
+
+<!--sec data-title="Full Control" data-id="d6" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/56.embed" height="450" width="100%"></iframe>
+<!--endsec-->
 
 
 
