@@ -300,6 +300,7 @@ xax = go.XAxis(title='Year', dtick=10, tick0=1903)
 <!--endsec-->
 
 
+<br>
 ### Full Control
 
 For the whole axis, the exact set of values for which there are ticks can be specified.  Additionally, the label for each of these ticks can be specified too.
