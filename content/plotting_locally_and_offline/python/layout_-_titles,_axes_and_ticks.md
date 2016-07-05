@@ -354,6 +354,10 @@ xax = go.XAxis(title='Year', dtick=5, tick0=1904, range=[1900, 1950])
 <!--endsec-->
 
 
+## Styling ticks
+
+
+
 
 Number of axis options
 
