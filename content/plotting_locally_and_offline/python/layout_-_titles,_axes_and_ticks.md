@@ -378,6 +378,13 @@ The ticks themselves, that is the little lines, can be customised with:
 * ```gridcolor```
 * ```gridwidth```
 
+**Background colors**
+
+The color of the background of the plot is adjusted with two attributes.
+
+* ```plot_bgcolor``` - is for the plot area where the traces are grid lines are located
+* ```paper_bgcolor``` - is for the remainder of the graph
+
 
 
 
