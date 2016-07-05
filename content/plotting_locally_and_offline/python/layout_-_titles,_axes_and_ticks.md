@@ -332,7 +332,7 @@ xax = go.XAxis(title='Year',
 
 ## Axis Range
 
-Plotly sets the range of the axes by default quite well.  In fact, it is constantly ensuring that the axis ranges are appropriate for the data in the plot.  This means that when you click a trace in the legend to toggle its appearance, the axis ranges will adjust appropriately.
+Plotly sets the range of the axes by default quite well.  In fact, it is constantly ensuring that the axis ranges are appropriate for the data in the plot.  This means that when you click a trace in the legend to toggle its appearance, the axis ranges will adjust appropriately (click Germany in the plot above).
 
 Sometimes this auto-rangeing is not desirable.  Sometimes you may desire a particular range so that there is consistency between different plots for easy comparison.
 
