@@ -4,7 +4,6 @@
 
 # Layout - titles, axes and ticks
 
-* Revising and advancing how plotly graphs are made
 * Adjusting Graph and axis titles
 * Adjusting the axis and grid lines
 * Adjusting tick locations, labels and axis ranges.
