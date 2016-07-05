@@ -42,6 +42,9 @@ Moreover, from here on in, we will be adding our ```data``` and ```layout``` var
 The title of a graph is an attribute of its ```layout```.
 
 ---
+
+Let us move onto a real data set and manipulate the titles and axes.
+
 <!--sec data-title="Demo Data - Life expecancy" data-id="d1" data-show=true data-collapse=false ces-->
 
 Life expectancy from 1900 to 2015 for four countries:
@@ -170,9 +173,15 @@ au = [ 49.92647059,  50.45568627,  50.98490196,  51.51411765,
 
 
 ```
+<!--endsec-->
+
+
+<!--sec data-title="Graph Title" data-id="d2" data-show=true data-collapse=false ces-->
 
 
 <!--endsec-->
+
+https://plot.ly/~research.bazaar/48.embed
 
 
 gap minder data
