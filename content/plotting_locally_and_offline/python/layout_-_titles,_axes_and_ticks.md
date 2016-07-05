@@ -275,11 +275,26 @@ xax = go.XAxis(title='Year', nticks=30)
 <!--endsec-->
 
 
-### Set start and interval for ticks
+### Set the interval for ticks
 
 A slightly more complex method is to define the interval between each tick.  With out plot, let's say 10 years.  We do this with ```dtick```, the 'd' probably standing for 'delta'.
 
-A handy parameter that goes with this one is ```tick0```.  This defines which value the ticks start from.  In our case, where our years start at *1900* and end at *2014*, if ```dtick=10```, the first tick would be *1900*, second, *1910* and so on.  ```tick0``` lets us determine which of those first 10 years becomes the first tick.  We may, for instance, want to start on *1903* and go up in units of 10
+A handy parameter that goes with this one is ```tick0```.  This defines which value the ticks start from.  In our case, where our years start at *1900* and end at *2014*, if ```dtick=10```, the first tick would be *1900*, second, *1910* and so on.  ```tick0``` lets us determine which of those first 10 years becomes the first tick.  We may, for instance, want to start on *1903* and go up in units of 10.
+
+As plotly's default is to cover all of the data, setting ```tick0``` to a year beyond one of our intervals, say *1912*, doesn't prevent ticks appearing before that year.  The range of the axis, dealt with below, needs to be changed for that.  If ```dtick = 10``` and ```tick0 = 1912```, the ticks would be: *1902*, *1912*, ....  Plotly obeys, providing *1912* as a tick, but still covers the full data range.
+
+```python
+...
+xax = go.XAxis(title='Year', dtick=10, tick0=1903)
+,,,
+
+```
+
+<!--sec data-title="Tick intervals" data-id="d5" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/54.embed" height="450" width="100%"></iframe>
+<!--endsec-->
+
+
 
 
 
