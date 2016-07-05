@@ -45,7 +45,9 @@ The title of a graph is an attribute of its ```layout```.
 
 Let us move onto a real data set and manipulate the titles and axes.
 
-<!--sec data-title="Demo Data - Life expecancy" data-id="d1" data-show=true data-collapse=false ces-->
+The demo data if you want to replicate is in the section below and the code follows.
+
+<!--sec data-title="Demo Data - Life expecancy" data-id="d1" data-show=true data-collapse=true ces-->
 
 Life expectancy from 1900 to 2015 for four countries:
 
@@ -176,12 +178,39 @@ au = [ 49.92647059,  50.45568627,  50.98490196,  51.51411765,
 <!--endsec-->
 
 
+```python
+
+# preparing some styling that applies to all traces beforehand to reduce replication
+line_styl = go.Line(width=6) 
+op = 0.55
+
+data = go.Data([
+    
+    go.Scatter(x=years, y=uk, name='UK', opacity=op, line=line_styl),
+    go.Scatter(x=years, y=fr, name='France', opacity=op, line=line_styl),
+    go.Scatter(x=years, y=ge, name='Germany', opacity=op, line=line_styl),
+    go.Scatter(x=years, y=au, name='Aust', opacity=op, line=line_styl)
+    
+])
+
+# Creating the layout dictionary or graph object
+
+# Title is an immediate attribute of the layout
+layout = go.Layout(title='20th Cent Life Expectancy')
+
+# Using a complete figure object, with both data and layout
+fig = go.Figure(data=data, layout=layout)
+
+iplot(fig)
+
+```
+
+
+
 <!--sec data-title="Graph Title" data-id="d2" data-show=true data-collapse=false ces-->
-
-
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/48.embed" height="450" width="100%"></iframe>
 <!--endsec-->
 
-https://plot.ly/~research.bazaar/48.embed
 
 
 gap minder data
