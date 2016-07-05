@@ -212,7 +212,7 @@ iplot(fig)
 
 # Axes
 
-There a number of options for the way axes are formatted.
+There a number of options for the way axes are formatted.  The major ones will be covered below, whilst the [online reference](https://plot.ly/python/reference/) should be consulted for all possible options.
 
 ## Axis Titles
 
@@ -244,6 +244,8 @@ layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/50.embed" height="450" width="100%"></iframe>
 <!--endsec-->
 
+
+## Tick locations and labels
 
 
 Number of axis options
