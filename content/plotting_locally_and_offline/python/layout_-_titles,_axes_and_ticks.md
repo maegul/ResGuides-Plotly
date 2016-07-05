@@ -354,7 +354,7 @@ xax = go.XAxis(title='Year', dtick=5, tick0=1904, range=[1900, 1950])
 <!--endsec-->
 
 <br>
-## Styling ticks and grids
+## Further styling axes, ticks and grids
 
 So far, none of our ticks have had any actual 'ticks' ... that is little lines indicating the location along the axis of that particular value.  Plotly, by default, relies on a faint gray grid.
 
@@ -391,6 +391,12 @@ The color of the background of the plot is adjusted with two attributes.
 
 * ```plot_bgcolor``` - is for the plot area where the traces are grid lines are located
 * ```paper_bgcolor``` - is for the remainder of the graph
+
+<br>
+**Axis line**
+
+* ```showline``` (boolean) - toggle whether a line is always shown to mark where the axis is
+* ```zeroline``` (boolean) - toggle whether a line is always drawn at zero for that axis.
 
 
 <br>
