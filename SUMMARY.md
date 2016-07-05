@@ -12,7 +12,7 @@
        * [Graph objects - what are they good for ... again?](content/plotting_locally_and_offline/python/graph_objects_-_what_are_they_good_for__again.md)
        * [Layout - titles, axes and ticks](content/plotting_locally_and_offline/python/layout_-_titles,_axes_and_ticks.md)
        * [Methods for updating the figure or graph objects](content/plotting_locally_and_offline/python/methods_for_updating_the_figure_or_graph_objects.md)
-       * Multiple axes and subplots
+       * [Multiple axes and subplots](content/plotting_locally_and_offline/python/multiple_axes_and_subplots.md)
        * 3D Data - bubbles and heatmaps
        * Bars and Errors
        * Integration with the free plot.ly online service
