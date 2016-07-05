@@ -317,8 +317,8 @@ For our graph, let's say that I wanted to highlight the years that World Wars 1 
 ```python
 ...
 xax = go.XAxis(title='Year', 
-                tickvals = [1914, 1939, 1969],
-                ticktext = ['WW1', 'WW2', 'peace ... man']
+                tickvals = [1914, 1939, 1969],  # the years I want ticks for
+                ticktext = ['WW1', 'WW2', 'peace ... man']  # the labels I want for these ticks
               )
 ...
 ```
