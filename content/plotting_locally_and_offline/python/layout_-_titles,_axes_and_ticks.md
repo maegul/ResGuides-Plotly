@@ -224,7 +224,19 @@ To add titles to the axes, the axis dictionaries take an immediate ```title``` a
 
 ---
 
+Thus, to the above code, we can add the code below:
+```python
+...
 
+# Define axis dictionaries using a graph object function
+xax = go.XAxis(title='Year') # provide a title
+yax = go.YAxis(title='Life Exp (yrs)') # provide a title
+
+# Provide our axis objects to the layout
+layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
+
+...
+```
 
 gap minder data
 
