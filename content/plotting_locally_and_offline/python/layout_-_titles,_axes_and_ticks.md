@@ -238,6 +238,11 @@ layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
 ...
 ```
 
+<!--sec data-title="Axis Titles" data-id="d3" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/50.embed" height="450" width="100%"></iframe>
+<!--endsec-->
+
+
 gap minder data
 
 life expectancy over time for a few countries
