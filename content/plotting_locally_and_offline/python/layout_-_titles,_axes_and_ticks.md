@@ -53,7 +53,9 @@ Life expectancy from 1900 to 2015 for four countries:
 
 Copy and past and convert to numpy arrays if desired (shouldn't be necessary).
 
-If you are comfortable extracting data out of CSV files, download [this file](https://raw.githubusercontent.com/maegul/ResGuides-Plotly/master/data/reduced_life_exp_dat.csv) instead
+If you are comfortable extracting data out of CSV files, download <a href="https://raw.githubusercontent.com/maegul/ResGuides-Plotly/master/data/reduced_life_exp_dat.csv" download>this file instead</a>.
+
+[this file](https://raw.githubusercontent.com/maegul/ResGuides-Plotly/master/data/reduced_life_exp_dat.csv) instead
 ```python
 
 yrs = [1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910,
