@@ -393,6 +393,7 @@ The color of the background of the plot is adjusted with two attributes.
 * ```paper_bgcolor``` - is for the remainder of the graph
 
 
+<br>
 # Exercise
 
 1. Using the data provided below, make a scatter plot with appropriate axis titles an appropriate title for the whole graph.
