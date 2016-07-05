@@ -243,6 +243,10 @@ layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
 <!--endsec-->
 
 
+
+Number of axis options
+
+
 gap minder data
 
 life expectancy over time for a few countries
