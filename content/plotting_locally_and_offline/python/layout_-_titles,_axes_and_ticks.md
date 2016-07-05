@@ -331,6 +331,24 @@ xax = go.XAxis(title='Year',
 
 ## Axis Range
 
+Plotly sets the range of the axes by default quite well.  In fact, it is constantly ensuring that the axis ranges are appropriate for the data in the plot.  This means that when you click a trace in the legend to toggle its appearance, the axis ranges will adjust appropriately.
+
+Sometimes this auto-rangeing is not desirable.  Sometimes you may desire a particular range so that there is consistency between different plots for easy comparison.
+
+```range``` takes a list with the minimum and maximum values of the axis range.  The zooming and panning interactivity is still active.  But the auto-rangeing as traces are clicked on and off of the plot is disabled.
+
+If you wish for there to be no zooming along a particular axis, providing ```fixedrange``` a boolean (```True``` or ```False```) toggles this feature, for the particular axis.
+
+---
+
+Let's say we want to focus our plot on the world wars ...
+
+```python
+...
+xax = go.XAxis(title='Year', dtick=5, tick0=1904, range=[1900, 1950])
+...
+```
+
 
 
 
