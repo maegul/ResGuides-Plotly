@@ -258,11 +258,30 @@ But, if you wish, you have complete control over the ticks, as well as some quic
 
 The easiest way to adjust the number of ticks on an axis.
 
-```nticks``` defines the maximum number of ticks, which plotly tries to get to within reason.
+```nticks``` defines the maximum number of ticks, which plotly tries to get to within reason while it takes care of the rest.
 
 ---
 
-Let's say
+Let's say that we aren't happy with the amount of ```XAxis``` ticks and want more so that we have a great precision for the years.  We will increase ```nticks``` to 30
+
+```python
+...
+                            # maximum of 30 ticks
+xax = go.XAxis(title='Year', nticks=30)
+...
+```
+<!--sec data-title="More ticks" data-id="d4" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/52.embed" height="450" width="100%"></iframe>
+<!--endsec-->
+
+
+### Set start and interval for ticks
+
+A slightly more complex method is to define the interval between each tick.  With out plot, let's say 10 years.  We do this with ```dtick```, the 'd' probably standing for 'delta'.
+
+A handy parameter that goes with this one is ```tick0```.  This defines which value the ticks start from.  In our case, where our years start at *1900* and end at *2014*, if ```dtick=10```, the first tick would be *1900*, second, *1910* and so on.  ```tick0``` lets us determine which of those first 10 years becomes the first tick.  We may, for instance, want to start on *1903* and go up in units of 10
+
+
 
 Number of axis options
 
