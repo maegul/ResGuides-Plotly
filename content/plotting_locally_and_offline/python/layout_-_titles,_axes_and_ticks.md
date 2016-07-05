@@ -393,6 +393,13 @@ The color of the background of the plot is adjusted with two attributes.
 * ```paper_bgcolor``` - is for the remainder of the graph
 
 
+# Exercise
+
+1. Using the data provided below, make a scatter plot with appropriate axis titles an appropriate title for the whole graph.
+2. Adjust the range of the axes to focus in on one part of the data (you should see a decent spread in the data).
+3. Using any of the styling options mentioned above or in the [online reference](https://plot.ly/python/reference/), such as the background color, change the look and feel of your plot.  Perhaps inverting the plot, so that the background is black and all the lines white and traces are bright.
+4. **Challenge** - The default scale for the axes is linear.  Can you change the scale to be logarithmic, and then still alter the range?  The [online reference](https://plot.ly/python/reference/) should help.
+
 
 
 manipulate axes ... logarithmic, reduce number of years, angle the labels.
