@@ -256,8 +256,8 @@ Plotly, as you would have noticed by now, takes care of this automatically, and 
 
 But, if you wish, you have complete control over the ticks, as well as some quick options for slightly adjusting them from the defaults.
 
----
 
+<br>
 ### Change the number of ticks
 
 The easiest way to adjust the number of ticks on an axis.
