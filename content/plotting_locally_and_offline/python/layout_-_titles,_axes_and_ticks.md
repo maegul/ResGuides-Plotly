@@ -360,24 +360,31 @@ So far, none of our ticks have had any actual 'ticks' ... that is little lines i
 
 You may wish otherwise.  The following styling options are available:
 
+<br>
 **Turn ticks on**
+
 To turn ticks on, the attribute ```ticks``` takes a string, either ```outside``` or ```inside``` depending on whether you want the ticks on the inside or outside of the plot.
 
+<br>
 **Width, length and color of the ticks**
+
 The ticks themselves, that is the little lines, can be customised with:
 
 * ```ticklen```
 * ```tickwidth```
 * ```tickcolor```
 
+<br>
 **Adding or removing the grid**
 ```showgrid``` takes a boolean (```True``` or ```False```)
 
+<br>
 **Grid color and width**
 
 * ```gridcolor```
 * ```gridwidth```
 
+<br>
 **Background colors**
 
 The color of the background of the plot is adjusted with two attributes.
@@ -387,15 +394,6 @@ The color of the background of the plot is adjusted with two attributes.
 
 
 
-
-Number of axis options
-
-
-gap minder data
-
-life expectancy over time for a few countries
-
-titles, axis titles too
 
 manipulate axes ... logarithmic, reduce number of years, angle the labels.
 
