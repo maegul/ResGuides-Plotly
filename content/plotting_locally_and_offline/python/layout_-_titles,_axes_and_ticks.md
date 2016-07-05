@@ -210,6 +210,21 @@ iplot(fig)
 <!--endsec-->
 
 
+# Axes
+
+## Axis Titles
+
+The parameters for each of the axes are defined in the attributed ```yaxis``` and ```xaxis```.
+
+These take dictionaries of parameters, as does practically everything in the ```layout``` dictionary.  ```go.XAxis()``` and ```go.YAxis``` can be used for convenience.
+
+---
+
+To add titles to the axes, the axis dictionaries take an immediate ```title``` attribute as was done above.
+
+---
+
+
 
 gap minder data
 
