@@ -41,6 +41,16 @@ Moreover, from here on in, we will be adding our ```data``` and ```layout``` var
 
 The title of a graph is an attribute of its ```layout```.
 
+---
+<!--sec data-title="Demo Data - Life expecancy" data-id="d1" data-show=true data-collapse=false ces-->
+
+```python
+
+
+```
+
+
+<!--endsec-->
 
 
 gap minder data
