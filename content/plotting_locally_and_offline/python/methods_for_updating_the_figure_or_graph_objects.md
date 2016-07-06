@@ -1,4 +1,4 @@
-# Methods for updating the figure or graph objects
+# Nicer Methods for updating the figure
 
 # Using and editing the full description
 
