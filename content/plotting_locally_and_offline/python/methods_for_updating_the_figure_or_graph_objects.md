@@ -11,7 +11,7 @@ Here two general methods of dealing with and editing the code for a graph are ex
 
 Most of the attributes of a plotly graph are in dictionaries.  There are exceptions - the data is always in a list or array, as are tick values.  But any styling or formatting options are any dictionaries.  This includes individual plots - that is, any single scatter or line with ```x``` and ```y``` data - where each one is a single dictionary.
 
-Dictionaries have an ```update()``` function
+Dictionaries have an ```update()``` function.  This function takes whatever you have passed to it, and inserts it without overwriting anything else that is already in the dictionary.
 
 # Using and editing the full description
 
