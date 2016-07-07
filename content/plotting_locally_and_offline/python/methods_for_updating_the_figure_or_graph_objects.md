@@ -189,9 +189,19 @@ As nothing is overwritten, the original contents of each trace remains, and ever
 
 
 
+<!--sec data-title="Before and After Demo" data-id="d1" data-show=true data-collapse=false ces-->
+The results of the initial graph produced above and the updates demonstrated are below.
 
--before 
-https://plot.ly/~research.bazaar/60.embed
+**Before**
+
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/60.embed" height="450" width="100%"></iframe>
+
+
+**After**
+
+
+<!--endsec-->
+
 
 
 # Using and editing the full description
