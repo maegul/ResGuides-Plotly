@@ -306,10 +306,23 @@ Or, once the paraeter or attribute that is relevant to us has been identified, w
 
 This full description can be copied and pasted and edited.  We can assign it to a new variable or simply pass it directly into an iplot function once edited.
 
-
+<br>
 ### Note on copying and pasting the full description when using numpy
 
+You'll note that in the full figure description above the data is written not as a list but as: ```'x': array([ ... ])```.  This is because we provided numpy arrays to the traces, not lists.  This is a good thing.  Numpy arrays are useful.  **But**, if we were to copy and paste the figure description above into ```iplot()```, we would get an error ...
 
+```python
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-138-adacd319273c> in <module>()
+      1 iplot({'data': [{'mode': 'markers',
+      2    'type': 'scatter',
+----> 3    'x': array([ 0.        ,  0.21052632,  0.42105263,  0.63157895,  0.84210526,
+      4            1.05263158,  1.26315789,  1.47368421,  1.68421053,  1.89473684,
+      5            2.10526316,  2.31578947,  2.52631579,  2.73684211,  2.94736842,
+
+NameError: name 'array' is not defined
+```
 
 
 
