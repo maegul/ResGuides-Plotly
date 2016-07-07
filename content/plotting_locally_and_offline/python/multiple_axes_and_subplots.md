@@ -20,7 +20,7 @@ For adding an additional x or y axis, or adding subplots, however, there are qui
 Let's start with a simple plot of the number robbery crimes in Victoria (Australia) versus the unemployment rate over a decade.
 
 
-<!--sec data-title="Demo Data" data-id="d1" data-show=true data-collapse=True ces-->
+<!--sec data-title="Demo Data" data-id="d1" data-show=true data-collapse=true ces-->
 
 ```python
 
@@ -47,7 +47,7 @@ yrs = ['2004/05',
  1354.0,
  1311.0]
 
-# average employment rate 
+# average employment rate as a percentage
 emp = [71.0,
  71.5,
  72.299999999999997,
@@ -72,6 +72,29 @@ fig = go.Figure(data=data, layout=dict())
 
 iplot(fig)
 ```
+
+<!--sec data-title="Initial Plot" data-id="d2" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/64.embed" height="450" width="100%"></iframe>
+
+<!--endsec-->
+
+---
+
+As we can see, the data sets, the number of robberies and the employment rate require different scales.  On a single y axis, employment rate is inaccurately flat.
+
+---
+
+To add an additional y axis for the employment rate, there are two steps:
+
+* Add the y-axis
+* Bind the employment rate trace to the second y axis.
+
+
+## Adding an axis
+
+
+
+
 
 
 <br>
