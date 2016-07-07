@@ -23,12 +23,12 @@ Plotly is, by design, very explicit.  Each plot has it's *'DNA'*, which outlines
 Here two general methods of dealing with and editing the code for a graph are explained which may be useful in either making the coding more efficient or making the mental task of managing the graph easier.
 
 
-
+<br>
 # General python
 
 One advantage of the explicit design of plotly figures is that, being made up of dictionaries and lists, ordinary python methods for manipulating these objects work just fine.  Appending to lists, using for loops and conditionals, and whatever else is possible in python can all be used effectively to intelligently edit a plotly figure object.
 
-
+<br>
 # Updating a graph object.
 
 Most of the attributes of a plotly graph are in dictionaries.  There are exceptions - the data is always in a list or array, as are tick values.  But any styling or formatting options are in dictionaries.  This includes individual traces - that is, any single scatter or line with ```x``` and ```y``` data - where each one is a single dictionary.
@@ -227,7 +227,7 @@ The results of the initial graph produced above and the updates demonstrated are
 <!--endsec-->
 
 
-
+<br>
 # Using and editing the full figure description
 
 
@@ -235,7 +235,7 @@ Sometimes the easiest way to edit the parameters of a graph is to print out the 
 
 Sometimes it helps to see all the settings in a structured format.
 
-
+<br>
 ## Viewing or printing the full figure description
 
 As a plotly graph's DNA is made up of dictionaries and lists, it can be viewed simply by called it.
