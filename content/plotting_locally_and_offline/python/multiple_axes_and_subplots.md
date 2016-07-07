@@ -136,6 +136,13 @@ You'll notice though, that neither of the traces have been bound to the new axis
 <!--endsec-->
 
 
+## Binding a trace to a new axis
+
+As mentioned above, plotly is liberal with how the axes are arranged and how traces are bound to them.  Traces can be bound to any trace, technically.  By default, each trace is bound to the default or initial x and y axes.
+
+To change this, each trace has two attributes, ```yaxis``` and ```xaxis``` that determine which axis that trace is bound to.
+
+In our case, we want our second trace to be bound to the second y axis.  **Now this is oddly inconsistent**, but even though the second y axis must be called ```yaxis2```, the name we must give in the trace is not this but rather ```y2```.  It is shorter, but annoyingly inconsistent.
 
 
 
