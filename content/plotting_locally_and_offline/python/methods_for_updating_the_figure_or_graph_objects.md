@@ -74,7 +74,7 @@ fig = go.Figure(data=data, layout=dict())
 iplot(fig)
 
 ```
-
+<br>
 ### Update the layout
 
 We haven't formatted or styled anything so far, not even the traces.
