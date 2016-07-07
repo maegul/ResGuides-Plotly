@@ -92,7 +92,7 @@ To add an additional y axis for the employment rate, there are two steps:
 
 ## Adding an axis
 
-As described in [Layout - titles, axes and ticks](./)
+As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md)
 
 
 
