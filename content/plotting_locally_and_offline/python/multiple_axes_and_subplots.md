@@ -80,7 +80,7 @@ iplot(fig)
 
 ---
 
-As we can see, the data sets, the number of robberies and the employment rate require different scales.  On a single y axis, employment rate is inaccurately flat.
+As we can see, the data sets, the number of robberies and the employment rate, require different scales.  On a single y axis, employment rate is inaccurately flat.
 
 ---
 
@@ -92,7 +92,18 @@ To add an additional y axis for the employment rate, there are two steps:
 
 ## Adding an axis
 
-As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md), by default, the attribute or key for axes in the layout dictionary of a plot are: ```xaxis``` and ```yaxis``` 
+### Basics
+
+An axis is added to the layout dictionary of a figure.  Like the default ```xaxis``` and ```yaxis```, it takes a dictionary (see [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md)).  The graph objects ```go.XAxis``` and ```go.YAxis``` can be used.
+
+```python
+fig.layout.update(yaxis2 = go.YAxis(overlaying='y'))
+
+```
+
+As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md), by default, the attribute or key for axes in the layout dictionary of a plot are: ```xaxis``` and ```yaxis```.  That is, to modify the format an axis, one needs to modify ```fig.layout.xaxis``` or ```fig.layout.yaxis```.
+
+
 
 
 
