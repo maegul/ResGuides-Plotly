@@ -180,8 +180,9 @@ fig.data.update( dict(mode='markers') )
 The ```update()``` function will:
 
 * loop through each trace ...
-* call update on those traces ...
-* insert, without overwriting anything, 
+* update each trace, which is a dictionary, with the dictionary we have provided.
+
+As nothing is overwritten, the original contents of each trace remains, and everything new in the dictionary is inserted. 
 
 
 
