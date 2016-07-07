@@ -97,11 +97,15 @@ To add an additional y axis for the employment rate, there are two steps:
 An axis is added to the layout dictionary of a figure.  Like the default ```xaxis``` and ```yaxis```, it takes a dictionary (see [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md)).  The graph objects ```go.XAxis``` and ```go.YAxis``` can be used.
 
 ```python
-fig.layout.update(yaxis2 = go.YAxis(overlaying='y'))
+fig.layout.update(yaxis2 = go.YAxis())
 
 ```
 
 As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md), by default, the attribute or key for axes in the layout dictionary of a plot are: ```xaxis``` and ```yaxis```.  That is, to modify the format an axis, one needs to modify ```fig.layout.xaxis``` or ```fig.layout.yaxis```.
+
+Whenever additional axes are to be added, **plotly requires** that the same attributes be used (ie, ```yaxis``` and ```xaxis```) but with the number ```2```, or ```3``` etc, for the second or third axis of that kind.  For this reason, our second yaxis has to be given to the key ```yaxis2``` in the layout dictionary.
+
+
 
 
 
