@@ -300,6 +300,15 @@ Calling ```fig``` returns ...
 
 ## Using the full description
 
+This full description has everything that makes up the plot, including the data.  In this sense, it can be a useful means of checking what's going on with the plot.  
+
+Or, once the paraeter or attribute that is relevant to us has been identified, we can then use the ```update``` function or redo our original code accordingly. 
+
+This full description can be copied and pasted and edited.  We can assign it to a new variable or simply pass it directly into an iplot function once edited.
+
+
+### Note on copying and pasting the full description when using numpy
+
 
 
 
