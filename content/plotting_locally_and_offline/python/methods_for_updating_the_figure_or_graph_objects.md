@@ -165,7 +165,7 @@ This is the most efficient way, but also less intuitive.
 
 **Note** - *If you're comfortable with loops in python, but find this a bit odd, sticking with the loops is perfectly fine and probably produces more readable code.*
 
-
+---
 
 You can call the ```update``` function directly on ```fig.data```.  You don't need to loop through each trace within ```fig.data``` and use the update function on them individually.  The ```update``` function does that for us.  
 
@@ -190,7 +190,9 @@ To style the traces how we want them ...
 fig.data.update(dict(opacity=0.7, mode='markers', line=go.Line(width=10)))
 ```
 
-The result is the same as when we ran a loop above. 
+The result is the same as when we ran a loop above ... every trace is updated.
+
+For any formatting that is identical for each trace, this is the fastest way to code it.
 
 
 <!--sec data-title="Before and After Demo" data-id="d1" data-show=true data-collapse=false ces-->
