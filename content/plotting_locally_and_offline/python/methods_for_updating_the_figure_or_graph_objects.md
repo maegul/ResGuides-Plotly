@@ -1,3 +1,5 @@
+
+
 # Nicer Methods for updating the figure
 
 As you've probably thought to yourself, editing and customising plotly graphs can be relatively verbose and cumbersome.
@@ -468,6 +470,7 @@ from pylab import *
 ```
 
 
+<br>
 # Exercise
 
 1. Copy and paste the full figure description in the collapsed section below into your own notebook or environment
