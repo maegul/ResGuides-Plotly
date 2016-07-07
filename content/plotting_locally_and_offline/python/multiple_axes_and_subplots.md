@@ -62,6 +62,17 @@ emp = [71.0,
 <!--endsec-->
 
 
+```python
+data = [
+    go.Scatter(x = yrs, y=robs, name='Robberies'),
+    go.Scatter(x = yrs, y = emp, name='Empl Rate')
+]
+
+fig = go.Figure(data=data, layout=dict())
+
+iplot(fig)
+```
+
 
 <br>
 
