@@ -90,13 +90,13 @@ If we were to look at the figure dictionary, without the data, it would be:
     'layout': {   }}
 ```
 
-Let's say we wanted the x axis to have a larger range (plotly's auto-ranging is a bit deceptive for this graph).
+Let's say we wanted the height and width of the whole graph to be the same (plotly's auto-sizing is a bit deceptive for this graph).
 
 A single line that updates the xaxis will do the job.  **Note**, that the code below also takes advantage of the ```dict.key``` method of accessing the elements of a dictionary.  This is specific to plotly.
 
 
 ```python
-fig.layout.xaxis.update(range=[0,30])
+fig.layout.update(height=500, width=500)
 ```
 
 Now the figure dictionary looks like:
@@ -106,7 +106,7 @@ Now the figure dictionary looks like:
                 {   'type': 'scatter'},
                 {   'type': 'scatter'},
                 {   'type': 'scatter'}],
-    'layout': {   'xaxis': {   'range': [0, 30]}}}
+    'layout': {   'height': 500, 'width': 500}}
 ```
 
 <br>
