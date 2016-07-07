@@ -163,11 +163,13 @@ our figure dictionary now looks like:
 
 This is the most efficient way, but also less intuitive.  
 
-**Note** - *If you're comfortable with loops in python, but find this a bit odd, sticking with the loops is perfectly fine and probably more readable code.*
+**Note** - *If you're comfortable with loops in python, but find this a bit odd, sticking with the loops is perfectly fine and probably produces more readable code.*
 
-You can call the ```update``` function directly on ```fig.data```.  You don't need to loop through each trace within ```fig.data``` and use the update function on them individually.
 
-Recall, as said above, that ```update()``` "overwrites the particular element being updated, ***without overwriting anything else that is already in the dictionary***".
+
+You can call the ```update``` function directly on ```fig.data```.  You don't need to loop through each trace within ```fig.data``` and use the update function on them individually.  The ```update``` function does that for us.  
+
+Also, recall that the update function *overwrites the particular element being updated, without overwriting anything else that is already in the dictionary*.
 
 So, if we were to run:
 
@@ -175,6 +177,11 @@ So, if we were to run:
 fig.data.update( dict(mode='markers') )
 ```
 
+The ```update()``` function will:
+
+* loop through each trace ...
+* call update on those traces ...
+* insert, without overwriting anything, 
 
 
 
