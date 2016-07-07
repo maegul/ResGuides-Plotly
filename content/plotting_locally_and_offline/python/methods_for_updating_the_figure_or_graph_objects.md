@@ -224,11 +224,11 @@ Sometimes it helps to see all the settings in a structured format.
 
 As a plotly graph's DNA is made up of dictionaries and lists, it can be viewed simply by called it.
 
-Having made again the simple plot from above ...
+Having made again the simple plot from above, but with fewer data points for brevity ...
 
 ```python
 
-x = np.linspace(0, 4, 50)
+x = np.linspace(0, 4, 20)
 
 # various linear traces ... no styling
 data = [
