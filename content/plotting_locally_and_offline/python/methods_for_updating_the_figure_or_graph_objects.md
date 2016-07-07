@@ -468,4 +468,10 @@ from pylab import *
 ```
 
 
+# Exercise
+1. Copy and paste any of the full figure descriptions in this chapter into your own notebook or environment
+2. Replicate the plot by passing it into ```iplot()``` or ```plot()``` (you may need to import array from numpy, on which see the section above).
+3. Update the layout to have a title using the ```update``` function
+4. Update each of the traces to have whatever style you'd like using the ```update``` function.
+
 
