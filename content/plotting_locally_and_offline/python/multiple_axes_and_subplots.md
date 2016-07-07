@@ -178,10 +178,51 @@ fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
 iplot(fig)
 ```
 
-<!--sec data-title="Initial Plot" data-id="d2" data-show=true data-collapse=false ces-->
+<!--sec data-title="Positioned and bound" data-id="d3" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/68.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
+
+---
+
+<br>
+
+Adding some color to the axes to make it clearer which is for which trace is often helpful.
+
+```python
+
+data = [
+    go.Scatter(x = yrs, y=robs, name='Robberies'),
+    go.Scatter(x = yrs, y = emp, name='Empl Rate', yaxis='y2')
+]
+
+# Add titles and color the font of the titles to match that of the traces
+# 'SteelBlue' and 'DarkOrange' are the defaults of the first two colors.
+
+y1 = go.YAxis(title='Robberies per yr', titlefont=go.Font(color='SteelBlue'))
+y2 = go.YAxis(title= 'Employment Rate', titlefont=go.Font(color='DarkOrange'))
+
+# update second y axis to be position appropriately
+y2.update(overlaying='y', side='right')
+             
+# Add the pre-defined formatting for both y axes 
+layout = go.Layout(yaxis1 = y1, yaxis2 = y2)
+
+fig = go.Figure(data=data, layout=layout)
+
+iplot(fig)
+
+```
+
+<!--sec data-title="Final two Axes" data-id="d4" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/70.embed" height="450" width="100%"></iframe>
+
+<!--endsec-->
+
+
+
+
+
 
 <br>
 
