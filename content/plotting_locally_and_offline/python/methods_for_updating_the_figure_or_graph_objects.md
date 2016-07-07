@@ -42,6 +42,10 @@ myDict
 
 ---
 
+<br>
+
+## Plotly update function
+
 In plotly, this update function can be applied to any plotly attribute or graph object, including the ```data``` list which has each of the traces of a graph.
 
 This can make your code neater when you are customising a plot.  Each modification can be a small single line of code, so you can keep track of what you've done more easily.
@@ -71,7 +75,13 @@ iplot(fig)
 
 ```
 
-We haven't formatted or styled anything so far, not even the traces.  And let's say that we wanted
+We haven't formatted or styled anything so far, not even the traces.  
+
+Let's say we wanted the x axis to have a larger range (the auto-ranging is a bit deceptive here).
+
+```python
+fig.layout.xaxis.update(range=[0,30])
+```
 
 
 # Using and editing the full description
