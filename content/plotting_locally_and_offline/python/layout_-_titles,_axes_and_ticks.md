@@ -359,15 +359,17 @@ xax = go.XAxis(title='Year', dtick=5, tick0=1904, range=[1900, 1950])
 
 So far, none of our ticks have had any actual 'ticks' ... that is little lines indicating the location along the axis of that particular value.  Plotly, by default, relies on a faint gray grid.
 
-You may wish otherwise.  The following styling options are available:
+You may wish otherwise.  The following styling options are available, for the ticks and beyond:
 
+
+### Ticks
 <br>
-**Turn ticks on**
+#### **Turn ticks on**
 
 To turn ticks on, the attribute ```ticks``` takes a string, either ```outside``` or ```inside``` depending on whether you want the ticks on the inside or outside of the plot.
 
 <br>
-**Width, length and color of the ticks**
+#### **Width, length and color of the ticks**
 
 The ticks themselves, that is the little lines, can be customised with:
 
@@ -375,18 +377,29 @@ The ticks themselves, that is the little lines, can be customised with:
 * ```tickwidth```
 * ```tickcolor```
 
+
+### Grid
 <br>
-**Adding or removing the grid**
+#### **Adding or removing the grid**
 ```showgrid``` takes a boolean (```True``` or ```False```)
 
 <br>
-**Grid color and width**
+#### **Grid color and width**
 
 * ```gridcolor```
 * ```gridwidth```
 
+
+### Axis location
+
+```side```:
+
+* ```top``` / ```bottom```
+* ```left``` / ```right```
+
+
 <br>
-**Background colors**
+### **Background colors**
 
 The color of the background of the plot is adjusted with two attributes.
 
@@ -394,7 +407,7 @@ The color of the background of the plot is adjusted with two attributes.
 * ```paper_bgcolor``` - is for the remainder of the graph
 
 <br>
-**Axis line**
+### **Axis line**
 
 * ```showline``` (boolean) - toggle whether a line is always shown to mark where the axis is
 * ```zeroline``` (boolean) - toggle whether a line is always drawn at zero for that axis.
