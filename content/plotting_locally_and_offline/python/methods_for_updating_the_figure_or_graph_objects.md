@@ -325,4 +325,24 @@ NameError: name 'array' is not defined
 ```
 
 
+We have imported ```numpy``` as ```np```, but the array function is ```np.array()```.  ```array()``` is not a global function.  Python is usually programmed this way to keep all the function names neat and tidy.
+
+If we wished to copy and paste these figure descriptions, we would need to make the ```array()``` function a global variable, like so:
+
+```python
+import numpy as np
+from numpy import array
+```
+
+After this, plotly won't have any problems understanding ```'x': array([...])```.
+
+---
+
+An alternative, which some of you may already be employing, is to use ```pylab```, which is a convenience library full of many of the useful functions for using python for research.  It's purpose is to make these useful functions global.
+
+```python
+from pylab import *
+```
+
+
 
