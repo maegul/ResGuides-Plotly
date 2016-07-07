@@ -130,7 +130,7 @@ fig.layout.update(yaxis2 = go.YAxis(overlaying='y', side='right'))
 
 You'll notice though, that neither of the traces have been bound to the new axis.  Try panning and zooming - the new axis remains unchanged ...
 
-<!--sec data-title="Initial Plot" data-id="d2" data-show=true data-collapse=false ces-->
+<!--sec data-title="Initial Plot" data-id="d3" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/66.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
@@ -178,7 +178,7 @@ fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
 iplot(fig)
 ```
 
-<!--sec data-title="Positioned and bound" data-id="d3" data-show=true data-collapse=false ces-->
+<!--sec data-title="Positioned and bound" data-id="d4" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/68.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
@@ -214,7 +214,7 @@ iplot(fig)
 
 ```
 
-<!--sec data-title="Final two Axes" data-id="d4" data-show=true data-collapse=false ces-->
+<!--sec data-title="Final two Axes" data-id="d5" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/70.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
@@ -222,6 +222,24 @@ iplot(fig)
 
 <br>
 # Two subplots
+
+If the two traces were in their separate subplots, then we wouldn't need to worry about accommodating two scales.
+
+---
+
+
+There is a helper function that does the heavy lifting for generating subplots for us.  (It's useful to remember though that you could do it all yourself just by manipulating the positioning and binding of various axes.)
+
+
+<br>
+## make_subplots() functions
+
+We will need to import the helper function from ```plotly.tools```.
+
+```python
+from plotly.tools import make_subplots
+```
+
 
 
 
