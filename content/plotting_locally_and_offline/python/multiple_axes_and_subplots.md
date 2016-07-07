@@ -1,3 +1,7 @@
+**Table of Contents**
+<!-- toc -->
+---
+
 # Multiple axes and subplots
 
 demo theft and employment data
