@@ -296,6 +296,14 @@ Calling ```fig``` returns ...
  'layout': {'height': 450, 'width': 550}}
 ```
 
+
+<br>
+
+## Viewing or printing the description better
+
+
+
+
 <br>
 
 ## Using the full description
