@@ -182,10 +182,16 @@ The ```update()``` function will:
 * loop through each trace ...
 * update each trace, which is a dictionary, with the dictionary we have provided.
 
-As nothing is overwritten, the original contents of each trace remains, and everything new in the dictionary is inserted. 
+As nothing is overwritten, the original contents of each trace remains, and everything new in the dictionary is inserted.  The result is the same as when we ran a for loop above. 
 
 
 
+
+
+
+
+-before 
+https://plot.ly/~research.bazaar/60.embed
 
 
 # Using and editing the full description
