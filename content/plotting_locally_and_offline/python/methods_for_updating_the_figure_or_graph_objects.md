@@ -212,15 +212,14 @@ The results of the initial graph produced above and the updates demonstrated are
 
 
 
-# Using and editing the full description
+# Using and editing the full figure description
 
-## Copying and Pasting
 
-Sometimes the best or easiest way to edit a particular parameter of a graph is to print out the full figure dictionary, edit as desired, and copy and paste it into an ```iplot``` function.
+Sometimes the easiest way to edit the parameters of a graph is to print out the full figure dictionary, edit it as desired, and copy and paste it into an ```iplot``` function.  
 
-To copy the current description, call the figure or data or trace variable as needed.
-
+Sometimes it helps to see all the settings in a structured format.
 
 
 
-## Update Function and looping
+
+
