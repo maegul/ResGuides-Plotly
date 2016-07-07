@@ -477,8 +477,8 @@ from pylab import *
 3. Update the layout to have a title using the ```update``` function
 4. Update each of the traces to have whatever style you'd like using the ```update``` function.
 
-<!--sec data-title="Exercise Data" data-id="d2" data-show=true data-collapse=true ces-->
 
+<!--sec data-title="Exercise Data" data-id="d2" data-show=true data-collapse=true ces-->
 
 Use this raw figure description for the exercise.
 
