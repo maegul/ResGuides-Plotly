@@ -299,8 +299,47 @@ Calling ```fig``` returns ...
 
 <br>
 
-## Viewing or printing the description better
+## Viewing or printing the description better - pply()
 
+When you call the figure description, ```fig```, it has two potential problems:
+
+* isn't in the most readable format
+* It has all the data, which can get in the way of reading the formatting parameters.
+
+An alternative is filter out the data and use a standard python library called ```pprint``` which stands for *pretty printer*.
+
+Below, a function is defined that uses ```pprint``` for us.  
+
+* All we have to do is pass in our figure dictionary.  
+* There's also the option of printing our data too (set the key word arg ```data=True```).
+* it's called ```pply``` for *pprint* + *plotly* = *pply*.
+
+**Please copy the function code, use it and change it as you see fit**
+
+
+```python
+import pprint
+
+# initialises a pretty printer
+pp = pprint.PrettyPrinter(indent=4)
+
+# We can now print with pp.pprint()
+
+# use copy to make sure we don't break the original figure dictionary
+import copy
+
+# the function we'll use to print figure dictionaries
+def pply(plyfig, data=False):
+    
+    # the data option allows us to control whether the data is printed or not
+    if not data:
+        po = copy.deepcopy(plyfig)
+        po['data'] = [{i:trace[i] for i in trace if i not in ['x', 'y', 'z']} for trace in po['data']]
+
+        pp.pprint(po)
+    else:
+        pp.pprint(plyfig)
+```
 
 
 
