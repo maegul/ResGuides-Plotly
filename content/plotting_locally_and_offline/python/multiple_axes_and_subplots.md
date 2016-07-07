@@ -171,14 +171,17 @@ data = [
 y2 = go.YAxis(overlaying='y', side='right')
 
 # adding the second y axis
-layout = go.Layout(yaxis2=y2
+layout = go.Layout(yaxis2=y2)
 
 fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
 
 iplot(fig)
 ```
 
+<!--sec data-title="Initial Plot" data-id="d2" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/68.embed" height="450" width="100%"></iframe>
 
+<!--endsec-->
 
 <br>
 
