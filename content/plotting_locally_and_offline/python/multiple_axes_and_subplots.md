@@ -170,6 +170,9 @@ data = [
 # settings for the new y axis
 y2 = go.YAxis(overlaying='y', side='right')
 
+# adding the second y axis
+layout = go.Layout(yaxis2=y2
+
 fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
 
 iplot(fig)
