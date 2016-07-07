@@ -155,6 +155,26 @@ go.Scatter(x = yrs, y = emp, name='Empl Rate',
 ```
 
 
+## Final
+
+The final code for a second y axis would look something like
+
+```python
+data = [
+    go.Scatter(x = yrs, y=robs, name='Robberies'),
+    
+    go.Scatter(x = yrs, y = emp, name='Empl Rate', 
+                yaxis='y2') # binding to the second y axis
+]
+
+# settings for the new y axis
+y2 = go.YAxis(overlaying='y', side='right')
+
+fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
+
+iplot(fig)
+```
+
 
 
 <br>
