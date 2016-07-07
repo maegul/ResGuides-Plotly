@@ -108,8 +108,12 @@ Now the figure dictionary looks like:
     'layout': {   'xaxis': {   'range': [0, 30]}}}
 ```
 
-
+<br>
 ### Update the traces
+
+Updating the traces works a little differently, as they are dictionaries in a list (ie each trace is a dictionary, and all the traces are stored in the list ```data```.
+
+
 
 # Using and editing the full description
 
