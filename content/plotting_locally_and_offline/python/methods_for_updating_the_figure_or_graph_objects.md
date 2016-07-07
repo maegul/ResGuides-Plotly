@@ -224,7 +224,7 @@ Sometimes it helps to see all the settings in a structured format.
 
 As a plotly graph's DNA is made up of dictionaries and lists, it can be viewed simply by called it.
 
-Having made again the simple plot from above, but with fewer data points for brevity ...
+We have made again a simple plot, but with some formatting and fewer data points for brevity ...
 
 ```python
 
@@ -232,13 +232,13 @@ x = np.linspace(0, 4, 20)
 
 # various linear traces ... no styling
 data = [
-    go.Scatter(x=x, y=x),
-    go.Scatter(x=x, y=x*2),
-    go.Scatter(x=x, y=x*4),
+    go.Scatter(x=x, y=x, mode='markers'),
+    go.Scatter(x=x, y=x*2, mode='markers+lines'),
+    go.Scatter(x=x, y=x*4, line=go.Line(width=12)),
     go.Scatter(x=x, y=x*8)
 ]
 
-fig = go.Figure(data=data, layout=dict())
+fig = go.Figure(data=data, layout=dict(height=450, width=550))
 
 
 # call fig
