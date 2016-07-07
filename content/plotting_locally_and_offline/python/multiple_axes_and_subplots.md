@@ -106,6 +106,29 @@ As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ti
 Whenever additional axes are to be added, **plotly requires** that the same attributes be used (ie, ```yaxis``` and ```xaxis```) but with the number ```2```, or ```3``` etc, for the second or third axis of that kind.  For this reason, our second yaxis has to be given to the key ```yaxis2``` in the layout dictionary.
 
 
+### Positioning the new axis
+
+The above code is incomplete and won't work.  We need to tell the new axis two things:
+
+* Whether it is free floating or to overlap with the pre-existing axis;
+* Which side of the current plot is it to be (top, bottom, left or right).
+
+In our case, we want the new axis to be overlapping.  Like mentioned above, plotly lets axes do what ever you want, essentially, so the default is that an axis is free.  We have to tell it to be sort of 'connect' with the pre-existing yaxis.  The attribute used for this setting is ```overlaying```.  Its default is ```free```.  To connect it to a pre-existing axis, pass the kind of axis it needs to connect to.  If it needs to connect to a y axis, ```overlaying='y'```; if it needs to connect to an x axis, ```overlaying='x'```.
+
+The default side for a y axis, is the left, whilst for an x axis, it is the left.  Thus, for our new y axis, by default it will literally be placed on top of the pre-existing one, which doesn't work well.  For it to be placed on the other side, we must use the attribute ```side``` and set it to the opposite of the pre-existing one, which for us, by default is on the left side.
+
+If you'd like, try adding a new axis without these attributes set appropriately to get a an intuitive feeling for what they do.
+
+---
+
+So, to appropriately position our axis, we must add it with the following attributes:
+
+```python
+fig.layout.update(yaxis2 = go.YAxis(overlaying='y', side='right'))
+
+```
+
+
 
 
 
