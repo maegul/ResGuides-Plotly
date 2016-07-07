@@ -220,14 +220,12 @@ iplot(fig)
 <!--endsec-->
 
 
-
+<br>
+# Two subplots
 
 
 
 <br>
-
-demo theft and employment data
-two axes then two subplots with a shared axis
 
 life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
 
