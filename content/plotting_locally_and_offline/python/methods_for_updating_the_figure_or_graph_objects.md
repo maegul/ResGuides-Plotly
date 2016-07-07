@@ -74,6 +74,7 @@ fig = go.Figure(data=data, layout=dict())
 iplot(fig)
 
 ```
+
 <br>
 ### Update the layout
 
@@ -112,6 +113,50 @@ Now the figure dictionary looks like:
 ### Update the traces
 
 Updating the traces works a little differently, as they are dictionaries in a list (ie each trace is a dictionary, and all the traces are stored in the list ```data```.
+
+
+Let's say that we wanted all of the traces to be styled so that they had ```opacity=0.7```, ```width=10``` and ```mode='markers'```.  
+
+We could just go and add those attributes to the code for every trace, or we could update all at once.  There are two ways to do this.
+
+
+<br>
+
+#### Use a for loop
+
+As ```fig.data``` is a list (prove it by called ```fig.data[0]```), we can loop through each trace.  For each trace, we use the ```update()``` function as we did above.
+
+```python
+
+# loop through each trace in the data list, which is an element of the figure dict
+for trace in fig.data:
+  
+  # update each trace using the update function
+  trace.update(opacity=0.7, mode='markers', line=go.Line(width=10))
+
+```
+
+our figure dictionary now looks like:
+
+```python
+{   'data': [   {   'line': {   'width': 10},
+                    'mode': 'markers',
+                    'opacity': 0.7,
+                    'type': 'scatter'},
+                {   'line': {   'width': 10},
+                    'mode': 'markers',
+                    'opacity': 0.7,
+                    'type': 'scatter'},
+                {   'line': {   'width': 10},
+                    'mode': 'markers',
+                    'opacity': 0.7,
+                    'type': 'scatter'},
+                {   'line': {   'width': 10},
+                    'mode': 'markers',
+                    'opacity': 0.7,
+                    'type': 'scatter'}],
+    'layout': {   'xaxis': {   'range': [0, 30]}}}
+```
 
 
 
