@@ -44,10 +44,34 @@ myDict
 
 In plotly, this update function can be applied to any plotly attribute or graph object, including the ```data``` list which has each of the traces of a graph.
 
-This can make your code neater when you are customising a plot.
+This can make your code neater when you are customising a plot.  Each modification can be a small single line of code, so you can keep track of what you've done more easily.
 
-In combination with for loops (or when dealing with the ```data``` list, as we'll cover below), it can also make editing the plot faster.
+*More significantly*, though, in combination with for loops (or when dealing with the ```data``` list, as we'll cover below), it can also make editing the plot faster.
 
+
+<br>
+
+Let's make a simple plot ...
+
+```python
+
+x = np.linspace(0, 4, 50)
+
+# various linear traces ... no styling
+data = [
+    go.Scatter(x=x, y=x),
+    go.Scatter(x=x, y=x*2),
+    go.Scatter(x=x, y=x*4),
+    go.Scatter(x=x, y=x*8)
+]
+
+fig = go.Figure(data=data, layout=dict())
+
+iplot(fig)
+
+```
+
+We haven't formatted or styled anything so far, not even the traces.  And let's say that we wanted
 
 
 # Using and editing the full description
