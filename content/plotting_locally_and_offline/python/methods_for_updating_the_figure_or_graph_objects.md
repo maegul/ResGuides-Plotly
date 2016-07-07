@@ -12,6 +12,8 @@
 
 <!--endsec-->
 
+<br>
+
 # Nicer Methods for updating the figure
 
 As you've probably thought to yourself, editing and customising plotly graphs can be relatively verbose and cumbersome.
