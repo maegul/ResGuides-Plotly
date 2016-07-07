@@ -182,11 +182,15 @@ The ```update()``` function will:
 * loop through each trace ...
 * update each trace, which is a dictionary, with the dictionary we have provided.
 
-As nothing is overwritten, the original contents of each trace remains, and everything new in the dictionary is inserted.  The result is the same as when we ran a for loop above. 
+As nothing is overwritten, the original contents of each trace remains, and everything new in the dictionary is inserted.  
 
+To style the traces how we want them ...
 
+```python
+fig.data.update(dict(opacity=0.7, mode='markers', line=go.Line(width=10)))
+```
 
-
+The result is the same as when we ran a loop above. 
 
 
 <!--sec data-title="Before and After Demo" data-id="d1" data-show=true data-collapse=false ces-->
@@ -198,6 +202,8 @@ The results of the initial graph produced above and the updates demonstrated are
 
 
 **After**
+
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/62.embed" height="450" width="100%"></iframe>
 
 
 <!--endsec-->
