@@ -75,17 +75,41 @@ iplot(fig)
 
 ```
 
-We haven't formatted or styled anything so far, not even the traces.  
+### Update the layout
+
+We haven't formatted or styled anything so far, not even the traces.
+
+If we were to look at the figure dictionary, without the data, it would be:
+
+```python
+{   'data': [   {   'type': 'scatter'},
+                {   'type': 'scatter'},
+                {   'type': 'scatter'},
+                {   'type': 'scatter'}],
+    'layout': {   }}
+```
 
 Let's say we wanted the x axis to have a larger range (plotly's auto-ranging is a bit deceptive for this graph).
 
-A single line that updates the xaxis will do the job.  **Note**, that the code also takes advantage of the ```dict.key``` method of accessing the elements of a dictionary.  This is specific to plotly.
+A single line that updates the xaxis will do the job.  **Note**, that the code below also takes advantage of the ```dict.key``` method of accessing the elements of a dictionary.  This is specific to plotly.
 
 
 ```python
 fig.layout.xaxis.update(range=[0,30])
 ```
 
+Now the figure dictionary looks like:
+
+```python
+{   'data': [   {   'type': 'scatter'},
+                {   'type': 'scatter'},
+                {   'type': 'scatter'},
+                {   'type': 'scatter'}],
+    'layout': {   'xaxis': {   'range': [0, 30]}}}
+```
+
+
+### Update the traces
 
 # Using and editing the full description
 
