@@ -1,4 +1,6 @@
-
+**Table of Contents**
+<!-- toc -->
+---
 
 # Nicer Methods for updating the figure
 
