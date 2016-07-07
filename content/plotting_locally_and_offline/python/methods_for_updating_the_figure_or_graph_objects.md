@@ -77,7 +77,10 @@ iplot(fig)
 
 We haven't formatted or styled anything so far, not even the traces.  
 
-Let's say we wanted the x axis to have a larger range (the auto-ranging is a bit deceptive here).
+Let's say we wanted the x axis to have a larger range (plotly's auto-ranging is a bit deceptive for this graph).
+
+A single line that updates the xaxis will do the job.  **Note**, that the code also takes advantage of the ```dict.key``` method of accessing the elements of a dictionary.  This is specific to plotly.
+
 
 ```python
 fig.layout.xaxis.update(range=[0,30])
