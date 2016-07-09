@@ -299,6 +299,7 @@ It's worthwhile at this point to see what our figure dictionary looks like, keep
 pply(fig)
 ```
 (see [Methods for updating the figure ...](./methods_for_updating_the_figure_or_graph_objects.md) for using ```pply()```)
+
 *returns ...*
 
 ```python
