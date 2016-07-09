@@ -156,6 +156,9 @@ So, our code for the second trace needs to be ...
 ```python
 
 go.Scatter(x = yrs, y = emp, name='Empl Rate', 
+
+            # bind this trace to the second y axis, 
+            # or the y axis defined by the attrbite "yaxis2"
             yaxis='y2')
 ```
 
