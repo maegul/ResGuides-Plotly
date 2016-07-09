@@ -204,6 +204,11 @@ data = go.Data([
 
 # Creating the layout dictionary or graph object
 
+
+#####################
+###   Add Title   ###
+#####################
+
 # Title is an immediate attribute of the layout
 layout = go.Layout(title='20th Cent Life Expectancy')
 
