@@ -271,6 +271,13 @@ For our case, we will only have two subplots.  Let's arrange them in a single ro
 fig = make_subplots(rows=1, cols=2)
 ```
 
+**Note** - ```make_subplots``` returns a handy summary of the grid of subplots we've just initialised ...
+
+```python
+This is the format of your plot grid:
+[ (1,1) x1,y1 ]  [ (1,2) x2,y2 ]
+```
+
 
 <br>
 
