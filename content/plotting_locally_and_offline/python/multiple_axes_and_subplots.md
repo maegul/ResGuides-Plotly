@@ -335,7 +335,11 @@ For us, we'll append the robberies trace to the first subplot ```(1, 1)```, and 
 
 
 ```python
+fig.append_trace(go.Scatter(x = yrs, y=robs, name='Robberies'), 
+                  1, 1) # first row, first column
 
+fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 
+                  1, 2) # first row, second column
 
 ```
 <br>
