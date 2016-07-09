@@ -343,6 +343,8 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'),
 
 ```
 
+With the subplot helper functions, this is easier than adding a new axis.
+
 ---
 
 <!--sec data-title="Two subplots" data-id="d6" data-show=true data-collapse=false ces-->
