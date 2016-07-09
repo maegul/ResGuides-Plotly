@@ -379,6 +379,26 @@ pply(fig)
 
 You'll notice that all '*appending*' involved was binding the trace to the appropriate axes in the same way we were binding a trace to a new y axis above.
 
+---
+
+<br>
+
+## Share Axes
+
+With our two data sets, one axis is identical for them - *time*.  This is how we did the first plot with two y axes ... both y axes shared the same x axis.  
+
+We do this by using the ```shared_xaxes=True``` and/or ```shared_yaxes=True``` option or key-word argument of the ```make_subplots()``` function.
+
+```python
+fig = make_suplots(rows=r, cols=c, shared_xaxes=True)
+```
+
+For our two subplots, and any subplots for that matter, x or y axes can be shared also.
+
+So, for us, we'll rearrange our subplots into a single column, so that they can share an x axis of time.
+
+
+
 
 <br>
 
