@@ -251,7 +251,8 @@ xax = go.XAxis(title='Year') # provide a title
 yax = go.YAxis(title='Life Exp (yrs)') # provide a title
 
 # Provide our axis objects to the layout
-layout = go.Layout(title='20th Cent Life Expectancy', xaxis=xax, yaxis=yax)
+layout = go.Layout(title='20th Cent Life Expectancy', 
+                    xaxis=xax, yaxis=yax)
 
 ...
 ```
