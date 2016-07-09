@@ -420,6 +420,17 @@ This is the format of your plot grid:
 **Note** - there are two y axes (```y1``` and ```y2```) but only one x axis, that is bound to both suplots.
 
 
+<br>
+### Append traces
+
+Just as before, but with the rows and cols swapped.
+
+```python
+fig.append_trace(go.Scatter(x = yrs, y=robs, name='Robberies'), 1,1)
+fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 2, 1)
+```
+
+
 
 
 <br>
