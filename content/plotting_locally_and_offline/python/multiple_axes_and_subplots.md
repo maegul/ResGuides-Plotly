@@ -471,8 +471,9 @@ What was done differently to share an axis:
 * No second x axis was defined
 * The first y axis, which is for the top subplot, was not bound to any x axis, but left free (```'anchor': 'free'```).
 
+
 <br>
 
-life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
+# Exercise
 
-note that can customise quite a bit with idea of domain
+1. 
