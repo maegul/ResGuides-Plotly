@@ -263,6 +263,7 @@ Thus, it's main options or key-word arguments are:
 * ```rows``` - number of rows of subplots
 * ```cols``` - number of columns of subplots
 
+---
 
 For our case, we will only have two subplots.  Let's arrange them in a single row, with two columns for each of the subplots.
 
