@@ -329,7 +329,15 @@ To add a particular trace to a particular subplot, use ```fig.append_trace(trace
 This is a function built into figure graph objects.  You pass into the function the trace you want append, and then the row and column *coordinates* of the subplot you want to add the trace to.  This is what the *guide output* of the ```make_subplots()``` function is really useful for.
 
 
+___
 
+For us, we'll append the robberies trace to the first subplot ```(1, 1)```, and the employment rate trace to the second subplot ```(1, 2)```.
+
+
+```python
+
+
+```
 <br>
 
 life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
