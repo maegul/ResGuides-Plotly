@@ -377,7 +377,7 @@ pply(fig)
                   'yaxis2': {   'anchor': 'x2', 'domain': [0.0, 1.0]}}}
 ```
 
-You'll notice that all '*appending*' involved was binding the trace to the appropriate axes in the same way we were binding a trace to a new y axis above.
+You'll notice that all '*appending*' involved was binding the trace to the appropriate axes in the same way we were binding a trace to a new y axis above.  Also notice that the appropriate axes for each subplot are those that were listed in the guide ouput of the ```make_subplots()``` function.
 
 ---
 
@@ -415,8 +415,11 @@ fig = make_subplots(rows=2, cols=1,
 This is the format of your plot grid:
 [ (1,1) x1,y1 ]
 [ (2,1) x1,y2 ]
-
 ```
+
+**Note** - there are two y axes (```y1``` and ```y2```) but only one x axis, that is bound to both suplots.
+
+
 
 
 <br>
