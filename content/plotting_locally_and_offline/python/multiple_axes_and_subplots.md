@@ -15,6 +15,7 @@ Plotly is quite liberal with its axes.  We can add as many axes as we wish and p
 
 For adding an additional x or y axis, or adding subplots, however, there are quicker ways or helper functions.  The fact that plotly gives us freedom though helps explain some of the parameters we need to set below.
 
+<br>
 # Two y Axes
 
 Let's start with a simple plot of the number robbery crimes in Victoria (Australia) versus the unemployment rate over a decade.
@@ -89,9 +90,10 @@ To add an additional y axis for the employment rate, there are two steps:
 * Add the y-axis
 * Bind the employment rate trace to the second y axis.
 
-
+<br>
 ## Adding an axis
 
+<br>
 ### Basics
 
 An axis is added to the layout dictionary of a figure.  Like the default ```xaxis``` and ```yaxis```, it takes a dictionary (see [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ticks.md)).  The graph objects ```go.XAxis``` and ```go.YAxis``` can be used.
@@ -106,6 +108,7 @@ As described in [Layout - titles, axes and ticks](./layout_-_titles,_axes_and_ti
 Whenever additional axes are to be added, **plotly requires** that the same attributes be used (ie, ```yaxis``` and ```xaxis```) but with the number ```2```, or ```3``` etc, for the second or third axis of that kind.  For this reason, our second yaxis has to be given to the key ```yaxis2``` in the layout dictionary.
 
 
+<br>
 ### Positioning the new axis
 
 The above code is incomplete and won't work.  We need to tell the new axis two things:
@@ -136,6 +139,7 @@ You'll notice though, that neither of the traces have been bound to the new axis
 <!--endsec-->
 
 
+<br>
 ## Binding a trace to a new axis
 
 As mentioned above, plotly is liberal with how the axes are arranged and how traces are bound to them.  Traces can be bound to any trace, technically.  By default, each trace is bound to the default or initial x and y axes.
@@ -163,6 +167,7 @@ go.Scatter(x = yrs, y = emp, name='Empl Rate',
 ```
 
 
+<br>
 ## Final
 
 The final code for a second y axis would look something like
@@ -250,6 +255,7 @@ We will need to import the helper function from ```plotly.tools```.
 from plotly.tools import make_subplots
 ```
 
+<br>
 ### Initialising the figure for subplots
 
 ```make_subplots``` prepares a figure dictionary that is set up to have subplots.  
@@ -400,6 +406,7 @@ So, for us, we'll rearrange our subplots into a single column, so that they can 
 
 ---
 
+<br>
 ### Initialise the figure
 
 ```python
@@ -434,7 +441,6 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 2, 1)
 
 <!--sec data-title="Two subplots sharing an x axis" data-id="d7" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/72.embed" height="450" width="100%"></iframe>
-
 <!--endsec-->
 
 
