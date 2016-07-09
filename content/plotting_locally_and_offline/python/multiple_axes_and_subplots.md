@@ -283,6 +283,8 @@ This is the format of your plot grid:
 * The ```x1, y1``` tells us which of the axes are bound to each subplot.  Recall from above that ```yaxis2``` is referred to as ```y2```, ```yaxis3``` as ```y3```, etc.  These references are what we see here.  You'll notice that there are new axes for each subplot.  Ie, the second subplot has ```x2, y2```You don't really need to change these unless you're doing some serious customising.  But it is helpful to see that all this function is doing is doing is the same sort of stuff we were doing above.
 
 
+
+
 <br>
 
 life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
