@@ -298,7 +298,7 @@ It's worthwhile at this point to see what our figure dictionary looks like, keep
 ```python
 pply(fig)
 ```
-
+(see 
 *returns ...*
 
 ```python
