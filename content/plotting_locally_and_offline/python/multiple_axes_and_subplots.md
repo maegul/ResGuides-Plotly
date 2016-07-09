@@ -444,6 +444,32 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 2, 1)
 <!--endsec-->
 
 
+### Figure dictionary
+
+It's worthwhile looking at the figure dictionary again.
+
+```python
+{   'data': [   {   'name': 'Robberies',
+                    'type': 'scatter',
+                    'xaxis': 'x1',
+                    'yaxis': 'y1'},
+                {   'name': 'Empl Rate',
+                    'type': 'scatter',
+                    'xaxis': 'x1',
+                    'yaxis': 'y2'}],
+    'layout': {   'xaxis1': {   'anchor': 'y2', 'domain': [0.0, 1.0]},
+                  'yaxis1': {   'anchor': 'free',
+                                'domain': [0.575, 1.0],
+                                'position': 0.0},
+                  'yaxis2': {   'anchor': 'x1', 'domain': [0.0, 0.425]}}}
+```
+
+
+What was done differently to share an axis:
+
+* Both traces were bound to the same x axis
+* No second x axis was defined
+* The first y axis, which is for the top subplot, was not bound to any x axis, but left free (```'anchor': 'free'```).
 
 <br>
 
