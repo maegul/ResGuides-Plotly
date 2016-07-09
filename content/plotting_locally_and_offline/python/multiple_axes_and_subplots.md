@@ -345,16 +345,39 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'),
 
 With the subplot helper functions, this is easier than adding a new axis.
 
----
 
 <!--sec data-title="Two subplots" data-id="d6" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/72.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
 
+---
+
+It's worthwhile looking at the figure dictionary again, to see how the traces were '*appended*' to their subplots
 
 
+```python
+pply(fig)
+```
 
+*returns ...*
+
+```python
+{   'data': [   {   'name': 'Robberies',
+                    'type': 'scatter',
+                    'xaxis': 'x1',
+                    'yaxis': 'y1'},
+                {   'name': 'Empl Rate',
+                    'type': 'scatter',
+                    'xaxis': 'x2',
+                    'yaxis': 'y2'}],
+    'layout': {   'xaxis1': {   'anchor': 'y1', 'domain': [0.0, 0.45]},
+                  'xaxis2': {   'anchor': 'y2', 'domain': [0.55, 1.0]},
+                  'yaxis1': {   'anchor': 'x1', 'domain': [0.0, 1.0]},
+                  'yaxis2': {   'anchor': 'x2', 'domain': [0.0, 1.0]}}}
+```
+
+You'll notice that all '*appending*' involved was binding the trace to the appropriate axes in the same way we were binding a trace to a new y axis above.
 
 
 <br>
