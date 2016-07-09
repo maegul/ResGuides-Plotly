@@ -186,7 +186,7 @@ fig = go.Figure(data=data, layout=go.Layout(yaxis2=y2))
 iplot(fig)
 ```
 
-<!--sec data-title="Positioned and bound" data-id="d4" data-show=true data-collapse=false ces-->
+<!--sec data-title="Finally, positioned and bound" data-id="d4" data-show=true data-collapse=false ces-->
 <iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/68.embed" height="450" width="100%"></iframe>
 
 <!--endsec-->
