@@ -278,6 +278,10 @@ This is the format of your plot grid:
 [ (1,1) x1,y1 ]  [ (1,2) x2,y2 ]
 ```
 
+* Each square brack - ```[]``` - represents a single subplot
+* the numbers in round brackets - ```(1, 2)``` - represents which row and column the subplot belongs to.  Ie ```(row, col)```.
+* The ```x1, y1``` tells us which of the axes are bound to each subplot.  Recall from above that ```yaxis2``` is referred to as ```y2```, ```yaxis3``` as ```y3```, etc.  These references are what we see here.  You don't really need to change these unless you're doing some serious customising.  But it is helpful to see that all this function is doing is doing is the same sort of stuff we were doing above.
+
 
 <br>
 
