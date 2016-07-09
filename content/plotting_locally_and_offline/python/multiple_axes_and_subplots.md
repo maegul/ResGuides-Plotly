@@ -264,6 +264,9 @@ Thus, it's main options or key-word arguments are:
 
 For our case, we will only have two subplots.  Let's arrange them in a single row, with two columns for each of the subplots.
 
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
 
 
 <br>
