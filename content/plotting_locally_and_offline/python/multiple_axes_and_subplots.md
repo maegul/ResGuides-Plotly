@@ -341,6 +341,7 @@ fig.append_trace(go.Scatter(x = yrs, y=robs, name='Robberies'),
 fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 
                   1, 2) # first row, second column
 
+iplot(fig)
 ```
 
 With the subplot helper functions, this is easier than adding a new axis.
