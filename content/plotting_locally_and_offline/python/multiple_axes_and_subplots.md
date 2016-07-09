@@ -144,7 +144,10 @@ To change this, each trace has two attributes, ```yaxis``` and ```xaxis``` that 
 
 To repeat, these are attributes of each **trace** and are different from the attributes of the layout dictionary.  In the definition of a trace, ```xaxis``` defines **which x axis the trace will be bound to**.  In the definition of the layout ```xaxis``` defines the formatting and styling of the x axis for that figure.
 
-In our case, we want our second trace to be bound to the second y axis.  **Now this is oddly inconsistent**, but even though the second y axis must be called ```yaxis2```, the name we must give in the trace is not this but rather ```y2```.  It is shorter, but annoyingly inconsistent.  The same, of course, applies to any new x axes.
+In our case, we want our second trace to be bound to the second y axis.  
+
+** Annoying Convention!!**
+**Now this is oddly inconsistent**, but even though the second y axis must be called ```yaxis2```, the name we must give in the trace is not this but rather ```y2```.  It is shorter, but annoyingly inconsistent.  The same, of course, applies to any new x axes.
 
 ---
 
