@@ -293,8 +293,21 @@ This is the format of your plot grid:
 
 #### The figure object
 
+It's worthwhile at this point to see what our figure dictionary looks like, keeping in mind that all ```make_subplots()``` has done is write out this particular figure dictionary for us.
 
+```python
+pply(fig)
+```
 
+*returns ...*
+
+```python
+{   'data': [],
+    'layout': {   'xaxis1': {   'anchor': 'y1', 'domain': [0.0, 0.45]},
+                  'xaxis2': {   'anchor': 'y2', 'domain': [0.55, 1.0]},
+                  'yaxis1': {   'anchor': 'x1', 'domain': [0.0, 1.0]},
+                  'yaxis2': {   'anchor': 'x2', 'domain': [0.0, 1.0]}}}
+```
 
 <br>
 
