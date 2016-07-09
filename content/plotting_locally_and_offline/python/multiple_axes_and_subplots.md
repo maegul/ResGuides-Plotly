@@ -440,7 +440,7 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'), 2, 1)
 
 
 <!--sec data-title="Two subplots sharing an x axis" data-id="d7" data-show=true data-collapse=false ces-->
-<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/72.embed" height="450" width="100%"></iframe>
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/74.embed" height="450" width="100%"></iframe>
 <!--endsec-->
 
 
