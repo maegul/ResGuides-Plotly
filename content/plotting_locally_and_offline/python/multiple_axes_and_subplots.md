@@ -310,6 +310,17 @@ pply(fig)
                   'yaxis2': {   'anchor': 'x2', 'domain': [0.0, 1.0]}}}
 ```
 
+What has been done:
+
+* separate x and y axes were added to the layout for each subplot
+* The two pairs of axes were *bound* to each other using ```'anchor': 'y1'```.
+* Each axis was given a portion of the whole figure using ```'domain': [0.0, 0.45]```.  This means that the axis spans, in this example, from the bottom left to 45% of the way to the right.  FOr y axes, ```0.0``` corresponds to the top left.
+
+**Note** - after using ```make_subplots()```, we can change these default settings to customise the spatial arrangement of our plot.
+
+
+
+
 <br>
 
 life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
