@@ -252,9 +252,11 @@ from plotly.tools import make_subplots
 
 ### Initialising the figure for subplots
 
-```make_subplots``` prepares a figure dictionary that is set up to have subplots.
+```make_subplots``` prepares a figure dictionary that is set up to have subplots.  
 
-It expects the subplots to be arranged in a grid or table, with a certain amount of rows and columns which you have to specify.
+So, unlike for previous plots, if you want subplots, you will tend to *start* by defining your figure graph object or dictionary and then define your traces etc.
+
+```make_subplots``` expects the subplots to be arranged in a grid or table, with a certain amount of rows and columns, which you have to specify.
 
 Thus, it's main options or key-word arguments are:
 
@@ -264,9 +266,9 @@ Thus, it's main options or key-word arguments are:
 
 For our case, we will only have two subplots.  Let's arrange them in a single row, with two columns for each of the subplots.
 
-| 0:0 | 1:0 |
-| -- | -- |
-| 0:2 | 1:2 |
+```python
+fig = make_subplots(rows=1, cols=2)
+```
 
 
 <br>
