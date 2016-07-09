@@ -227,7 +227,7 @@ iplot(fig)
 <br>
 # Axes
 
-There a number of options for the way axes are formatted.  The major ones will be covered below, whilst the [online reference](https://plot.ly/python/reference/) should be consulted for all possible options.
+There are a number of options for the way axes are formatted.  The major ones will be covered below, whilst the [online reference](https://plot.ly/python/reference/) should be consulted for all possible options.
 
 All of these options are controlled through the attributes ```yaxis``` and ```xaxis```, which are provided to the ```layout``` dictionary.
 
@@ -238,7 +238,7 @@ These take dictionaries of parameters, as does practically everything in the ```
 ## Axis Titles
 
 
-To add titles to the axes, the axis dictionaries take a ```title``` attribute as was done for whole graph.
+To add titles to the axes, the axis dictionaries take a ```title``` attribute as was done for the whole graph.
 
 ---
 
