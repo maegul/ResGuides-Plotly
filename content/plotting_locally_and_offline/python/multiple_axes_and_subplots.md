@@ -365,12 +365,12 @@ pply(fig)
 ```python
 {   'data': [   {   'name': 'Robberies',
                     'type': 'scatter',
-                    'xaxis': 'x1',
-                    'yaxis': 'y1'},
+                    'xaxis': 'x1',        # This how the trace is bound
+                    'yaxis': 'y1'},       # This how the trace is bound
                 {   'name': 'Empl Rate',
                     'type': 'scatter',
-                    'xaxis': 'x2',
-                    'yaxis': 'y2'}],
+                    'xaxis': 'x2',        # This how the trace is bound   
+                    'yaxis': 'y2'}],      # This how the trace is bound
     'layout': {   'xaxis1': {   'anchor': 'y1', 'domain': [0.0, 0.45]},
                   'xaxis2': {   'anchor': 'y2', 'domain': [0.55, 1.0]},
                   'yaxis1': {   'anchor': 'x1', 'domain': [0.0, 1.0]},
