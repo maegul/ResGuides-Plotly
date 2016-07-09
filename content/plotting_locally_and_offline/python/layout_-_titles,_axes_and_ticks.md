@@ -41,6 +41,15 @@ Moreover, from here on in, we will be adding our ```data``` and ```layout``` var
 
 The title of a graph is an attribute of its ```layout```.
 
+```python
+...
+
+layout = go.Layout(title = 'My Plot Title')
+
+fig = go.Figure(data=data, layout=layout)
+...
+```
+
 ---
 
 Let us move onto a real data set and manipulate the titles and axes.
