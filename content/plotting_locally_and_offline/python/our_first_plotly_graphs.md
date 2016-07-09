@@ -199,7 +199,7 @@ y = [ -4.77230983,  -5.22659968,  -6.10912627,   2.62439273,
 * In the section *Exercise Data* below, two more bits of data have been provided — the results of trying to fit two curves to the raw data given above.  
 * The first curve fit was for a linear curve, and the second for a quadratic or parabola curve.
 * Add these two data sets to your previous plot
-* Give each of the trace appropriate names for the legend.
+* Give each of the traces appropriate names for the legend.
 * Select an appropriate '*mode*' (ie ```markers``` or ```lines```) for each of the traces.
 
 
