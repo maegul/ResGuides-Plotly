@@ -240,7 +240,9 @@ There is a helper function that does the heavy lifting for generating subplots f
 
 
 <br>
-## make_subplots() functions
+## make_subplots() function
+
+### Import
 
 We will need to import the helper function from ```plotly.tools```.
 
@@ -248,6 +250,19 @@ We will need to import the helper function from ```plotly.tools```.
 from plotly.tools import make_subplots
 ```
 
+### Initialising the figure for subplots
+
+```make_subplots``` prepares a figure dictionary that is set up to have subplots.
+
+It expects the subplots to be arranged in a grid or table, with a certain amount of rows and columns which you have to specify.
+
+Thus, it's main options or key-word arguments are:
+
+* ```rows``` - number of rows of subplots
+* ```cols``` - number of columns of subplots
+
+
+For our case, we will only have two subplots.  Let's arrange them in a single row, with two columns for each of the subplots.
 
 
 
