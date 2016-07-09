@@ -342,6 +342,19 @@ fig.append_trace(go.Scatter(x = yrs, y = emp, name='Empl Rate'),
                   1, 2) # first row, second column
 
 ```
+
+---
+
+<!--sec data-title="Two subplots" data-id="d6" data-show=true data-collapse=false ces-->
+<iframe scrolling="no" style="border:none;" seamless="seamless" frameborder='0' src="https://plot.ly/~research.bazaar/72.embed" height="450" width="100%"></iframe>
+
+<!--endsec-->
+
+
+
+
+
+
 <br>
 
 life expect and GDP over time (+population) - two axes, then two subplots with a shared axis
