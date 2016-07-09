@@ -320,6 +320,15 @@ What has been done:
 
 
 
+<br>
+
+## Append traces
+
+To add a particular trace to a particular subplot, use ```fig.append_trace(trace, row, col)```.
+
+This is a function built into figure graph objects.  You pass into the function the trace you want append, and then the row and column *coordinates* of the subplot you want to add the trace to.  This is what the *guide output* of the ```make_subplots()``` function is really useful for.
+
+
 
 <br>
 
