@@ -397,7 +397,26 @@ For our two subplots, and any subplots for that matter, x or y axes can be share
 
 So, for us, we'll rearrange our subplots into a single column, so that they can share an x axis of time.
 
+---
 
+### Initialise the figure
+
+```python
+
+# two subplots, each in a row, forming one column
+fig = make_subplots(rows=2, cols=1, 
+                    shared_xaxes=True) # sharing the x axis.
+
+```
+
+*returns ...*
+
+```python
+This is the format of your plot grid:
+[ (1,1) x1,y1 ]
+[ (2,1) x1,y2 ]
+
+```
 
 
 <br>
