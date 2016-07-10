@@ -484,7 +484,7 @@ In the data below, you have both the life expectancy and GDP per capita for Germ
   4. As both data sets share a dimension - time - share an axis between the two subplots.
 
 
-
+<!--sec data-title="Ex1 Data" data-id="ex1" data-show=true data-collapse=true ces-->
 ```python
 
 years = [1900, 1901, 1902, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910,
@@ -546,6 +546,7 @@ gdp_ge = [ 4596,  4422,  4457,  4634,  4751,  4783,  4858,  5002,  5017,
        41199, 38975, 40632, 42080, 42959, 42887, 43444, 44053]
 
 ```
+<!--endsec-->
 
 ---
 
@@ -562,6 +563,7 @@ Below is the same data as for exercise 1, but for France.
   5.  ```showlegend``` - boolean (```True```/```False```).  For each trace, determines whether there is a legend item appearing.
 
 
+<!--sec data-title="Ex 2 Data" data-id="ex2" data-show=true data-collapse=true ces-->
 ```python
 
 le_fr = [ 45.08  ,  47.01  ,  48.01  ,  48.43  ,  48.08  ,  48.36  ,
@@ -601,5 +603,5 @@ gdp_fr = [ 4314,  4100,  4048,  4181,  4261,  4367,  4304,  4648,  4629,
        37505, 36215, 36745, 37328, 37227, 37309, 37218, 37599]
 
 ```
-
+<!--endsec-->
 
