@@ -25,9 +25,11 @@ Three dimensional plots are often overused and redundant.
 # Heatmaps
 
 ## For what kind of data
+**Note** - if you're comfortable with two dimensional arrays in python, feel free to move onto the next section.
+
 Heatmaps are for when you have a full table of data.  That is, when you have a data point for every point along both the x and y axes, and that data point is a value along another third axis.
 
-For instance, lets say you have your own wakefulness for every hour for every day.  Your x axis is the day of the week, your y axis the time of the day, and your third dimension of data is how wakeful you are, on a scale between zero and one.
+For instance, lets say you have your own wakefulness for every hour for every day.  Your x axis is the day of the week, your y axis the time of the day, and your third dimension of data is how wakeful you are, on a scale between zero and one.  Your data would be structured like this ...
 
 |  | Mond | Tue | Wed | Thur | Fri |
 | -- | -- | -- | -- | -- | -- |
@@ -35,6 +37,26 @@ For instance, lets say you have your own wakefulness for every hour for every da
 | Midday |  |  |  |  |  |
 | Afternoon |  |  |  |  |  |
 
+
+<br>
+## Feeding the data into plotly
+
+ 
+
+This table like format above is the way in which plotly like to receive its data.
+
+For python, this means that want our data to stored as a list of lists, or, an array of arrays in a 2D numpy array.  Usually, each of rows of the table is one of the second lists within the list.
+
+For instance:
+
+```python
+
+data = [      # opening the first list that contains the other lists
+          [1, 0.5, 0.7, ...],  # morning data for each day
+          [0.5, 0.3, 0.2, ...], # MIdday data for each day
+          [0.6, 0.3, 0.8, ...]  # Afternoon data for each day
+]
+```
 
 
 
