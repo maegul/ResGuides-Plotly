@@ -476,7 +476,12 @@ What was done differently to share an axis:
 
 # Exercise
 
-1. ...
+In the data below, you have both the life expectancy and GDP per capita for Germany from 1900 to the present.  
+
+1. Plot both of these data sets on one plot with two axes, one for each data set.
+  2. Label and style the axes in a way that makes them distinguishable.
+3. Plot both of the data sets on two subplots.
+  4. As both data sets share a dimension - time - share an axis between the two subplots.
 
 
 
