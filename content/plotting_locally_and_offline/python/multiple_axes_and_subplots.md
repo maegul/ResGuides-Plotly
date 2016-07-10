@@ -297,9 +297,9 @@ This is the format of your plot grid:
 
 <br>
 
-#### The figure object
+#### DIGGING DEEPER - The figure object
 
-It's worthwhile at this point to see what our figure dictionary looks like, keeping in mind that all ```make_subplots()``` has done is write out this particular figure dictionary for us.
+It's worthwhile, if you're interested, at this point to see what our figure dictionary looks like, keeping in mind that all ```make_subplots()``` has done is write out this particular figure dictionary for us.
 
 ```python
 pply(fig)
@@ -360,7 +360,7 @@ With the subplot helper functions, this is easier than adding a new axis.
 
 ---
 
-It's worthwhile looking at the figure dictionary again, to see how the traces were '*appended*' to their subplots
+It's worthwhile, again, if you're interested, looking at the figure dictionary again, to see how the traces were '*appended*' to their subplots
 
 
 ```python
