@@ -1,6 +1,9 @@
 # 3D Data - bubbles and heatmaps
 
 
+
+
+
 life+gdp + pop as color
 
 life+gdp+pop in a bubble
