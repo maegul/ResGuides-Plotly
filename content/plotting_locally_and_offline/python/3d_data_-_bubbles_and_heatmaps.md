@@ -29,10 +29,12 @@ Heatmaps are for when you have a full table of data.  That is, when you have a d
 
 For instance, lets say you have your own wakefulness for every hour for every day.  Your x axis is the day of the week, your y axis the time of the day, and your third dimension of data is how wakeful you are, on a scale between zero and one.
 
-| 0:0 | 1:0 | 2:0 | 3:0 | 4:0 |
-| -- | -- | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 | 3:2 | 4:2 |
-| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 |
+|  | Mond | Tue | Wed | Thur | Fri |
+| -- | -- | -- | -- | -- | -- |
+| Morning |  |  |  |  |  |
+| Midday |  |  |  |  |  |
+| Afternoon |  |  |  |  |  |
+
 
 
 
