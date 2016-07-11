@@ -39,18 +39,17 @@ For instance, lets say you have your own wakefulness for every hour for every da
 
 
 <br>
-## Feeding the data into plotly
-
- 
+## Structuring the data for plotly
 
 This table like format above is the way in which plotly like to receive its data.
 
-For python, this means that want our data to stored as a list of lists, or, an array of arrays in a 2D numpy array.  Usually, each of rows of the table is one of the second lists within the list.
+For python, this means that we want our data to be stored as a list of lists, or, an array of arrays in a 2D numpy array.  The rows of the table is one of the second lists within the first main list.  
+
+Essentially, plotly expects of list of rows.  And this is the way plotly will will plot your data.  The first row/list in your list of lists will be the top most row of the plot, the second list will the second from the top row in the plot etc. 
 
 For instance:
 
 ```python
-
 data = [      # opening the first list that contains the other lists
           [1, 0.5, 0.7, ...],  # morning data for each day
           [0.5, 0.3, 0.2, ...], # MIdday data for each day
@@ -58,6 +57,7 @@ data = [      # opening the first list that contains the other lists
 ]
 ```
 
+If your data is arranged in the wrong way - let's say you have lists of wakefulness for each day - plotly lets you easily transpose your data.
 
 
 life+gdp + pop as color
