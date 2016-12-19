@@ -35,8 +35,8 @@ Plotly is designed so that every plot can be described with a simple text file t
 ```JSON
 layout:
 {
-  yaxis:{type:"linear", range:[-1.415939217588103,38.415939217588104]},
-  xaxis:{type:"linear",range:[0.695666029318037,6.304333970681963]},
+  yaxis:{type:"linear", range:[-1, 38]},
+  xaxis:{type:"linear",range:[0.6, 6.3]},
 height:532,
 width:1040
 }
