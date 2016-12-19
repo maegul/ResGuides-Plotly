@@ -63,19 +63,19 @@ Basic cloud based services are free.
 
 Additional cloud based features are available through a paid subscription.
 
-How to use this course
+# How to use this course
 
 This course is modular. Each section is independent. You can pick and choose from them.
 
-Section 1 — Plotting Online
+## Section 1 — Plotting Online
 
 Plotly's online plotting tool and hosting service.
 
-Section 2 - Plotting Offline
+## Section 2 - Plotting Offline
 
 Plotly's offline plotting with Matlab, Python or R. Also includes using these languages to interact with Plotly's online services.
 
-Section 3 - Advanced interactivity and hosting yourself
+## Section 3 - Advanced interactivity and hosting yourself
 
 More powerful interactivity and hosting plots on your own webpage or blog. Involves learning fundamental website building tools.
 
