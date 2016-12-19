@@ -1,2 +1,7 @@
 # HTML
 
+## Basic Introduction — what is an HTML?
+
+HTML stands for *HyperText Markup language*.  A nearly meaningless acronym that you can never use again ... saying 'HTML' is fine.
+
+What it really means is that instead of clicking a bold button in MS Word to make text boldfaced, or clicking *insert > picture* from the menus to add a picture, you use some text to describe what you want.  It's not programming.  It's formatting a document not with clicks but with descriptive text.
