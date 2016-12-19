@@ -10,7 +10,9 @@ Sooo ... why would you make things hard for yourself?  When you can python away 
 ![](/images/darth_squirrel.jpg)
 
 
-## How much power?
+## At what cost?
+
+**Not much.**
 
 **First, Plotly is universal.**  
 Before diving in, recall the [universality of Plotly](README.md). The Plotly side of things is essentially the same as what you would have learnt using Plotly with python/Matlab/R.  Plotly works the same way and with the same logic using javascript as with the other programming languages.
