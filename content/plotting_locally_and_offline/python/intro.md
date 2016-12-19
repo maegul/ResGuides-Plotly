@@ -10,6 +10,7 @@ from plotly.offline import iplot, init_notebook_mode
 
 iplot([go.Scatter(x=[1,2,3], y=[1,4,9])])
 ```
+--> picture of plot
 
 * These visualisations may be viewed in any one of three ways:
   * As a web-page, viewed through your web-browser, but stored locally and privately on your personal computer.
