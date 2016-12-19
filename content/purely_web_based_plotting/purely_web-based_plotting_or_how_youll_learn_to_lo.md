@@ -18,4 +18,4 @@ Before diving in, recall the [universality of Plotly](README.md). The Plotly sid
 **Second, making your own web page is much more within your grasp than you realise.**
 The basics of make a web page with some text, pictures and getting it online, is really quite easy and straight forward.  When it comes to getting some advanced interatcivity going, the required programming skill is the same as what you have for your data analysis in python/R/Matlab.  What you need is to learn some new tools and concepts.
 
-
+**What you get is the ability to make **
