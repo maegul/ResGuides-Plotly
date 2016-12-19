@@ -22,7 +22,7 @@
    * Matlab
    * R
 * Hosting Plots on Your Own
-* [Purely Web-based plotting (or how you'll learn to love making websites!)](content/purely_web_based_plotting/purely_web-based_plotting_or_how_youll_learn_to_lo.md)
+* [Purely Web-based plotting (or how you'll learn to love making websites!)](content/purely_web_based_plotting/intro.md)
    * [HTML](content/purely_web_based_plotting/html.md) (your first webpage)
    * Getting Online (with Github Pages)
    * Javascript (getting interactive)
