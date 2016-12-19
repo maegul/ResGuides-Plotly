@@ -16,6 +16,6 @@ Sooo ... why would you make things hard for yourself?  When you can python away 
 Before diving in, recall the [universality of Plotly](README.md). The Plotly side of things is essentially the same as what you would have learnt using Plotly with python/Matlab/R.  Plotly works the same way and with the same logic using javascript as with the other programming languages.
 
 **Second, making your own web page is much more within your grasp than you realise.**
-The basics of make a web page with some text, pictures and getting it online, is really quite easy and straight forward.  When it comes to getting some advanced interatcivity going, the required programming skill is the same as what you have for your data analysis in python/R/Matlab.
+The basics of make a web page with some text, pictures and getting it online, is really quite easy and straight forward.  When it comes to getting some advanced interatcivity going, the required programming skill is the same as what you have for your data analysis in python/R/Matlab.  What you need is to learn some new tools and concepts.
 
 
