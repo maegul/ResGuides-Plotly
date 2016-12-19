@@ -23,8 +23,8 @@
    * R
 * Hosting Plots on Your Own
 * [Purely Web-based plotting (or how you'll learn to love making websites!)](content/purely_web_based_plotting/intro.md)
-   * [HTML](content/purely_web_based_plotting/html.md) (your first webpage)
-   * Getting Online (with Github Pages)
+   * [HTML](content/purely_web_based_plotting/html.md)
+   * [Getting Online (with Github Pages)](content/purely_web_based_plotting/Getting Online (with Github Pages))
    * Javascript (getting interactive)
 * [follow-this-guide](gitbooksintro.md)
 * [section1](content/section1.md)
