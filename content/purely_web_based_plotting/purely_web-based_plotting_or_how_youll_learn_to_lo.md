@@ -29,3 +29,12 @@ You can learn to make dynamic and interactive data exploration apps.  That anyon
 Once you're making a web page, you can set up buttons and sliders that trigger whatever you need to do to your data or your plots.
 
 You can allow users to click or hover over your plots, clicking a specific data point, for instance, which then trigger meaningfull changes to the data or create new plots to further explot the data.
+
+## What's involved
+
+**HTML**
+
+This is the easy stuff.  It's not real programming.  With this you set up your text and pictures and titles and fonts and colours.  I like to think of it as lego.
+
+**Javascript**
+This is the magic.
